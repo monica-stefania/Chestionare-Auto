@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Presenter\\Presenter.csproj": {}
+    "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Presenter\\Presenter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Presenter\\Presenter.csproj": {
+    "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Presenter\\Presenter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Presenter\\Presenter.csproj",
+        "projectUniqueName": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Presenter\\Presenter.csproj",
         "projectName": "Presenter",
-        "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Presenter\\Presenter.csproj",
-        "packagesPath": "C:\\Users\\lucam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Presenter\\obj\\",
+        "projectPath": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Presenter\\Presenter.csproj",
+        "packagesPath": "C:\\Users\\Utilizator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Presenter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Utilizator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
