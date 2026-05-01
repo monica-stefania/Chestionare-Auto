@@ -1,0 +1,20 @@
+# Visual Studio temporaries
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+packages/
+*.nuget.props
+*.nuget.targets
+project.assets.json
+project.nuget.cache
+
+# Build outputs
+*.exe
+*.dll
+*.pdb
+*.log
