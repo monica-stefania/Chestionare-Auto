@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\commons\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|solutionrelative:commons\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\commons\\ievaluationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|solutionrelative:commons\\ievaluationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{956095C8-D555-4FDC-8175-F18008922D23}|Presenter\\Presenter.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\presenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{956095C8-D555-4FDC-8175-F18008922D23}|Presenter\\Presenter.csproj|solutionrelative:presenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\model\\practicestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|solutionrelative:model\\practicestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\model\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|solutionrelative:model\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\model\\examenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|solutionrelative:model\\examenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\commons\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|solutionrelative:commons\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\model\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|solutionrelative:model\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\model\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|solutionrelative:model\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\commons\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|solutionrelative:commons\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\commons\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|solutionrelative:commons\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|c:\\users\\lucam\\desktop\\chestionare auto\\chestionare-auto\\chestionareauto\\commons\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|solutionrelative:commons\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Program.cs",
-              "RelativeDocumentMoniker": "Commons\\Program.cs",
-              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Program.cs",
-              "RelativeToolTip": "Commons\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T08:26:08.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Presenter\\Program.cs",
-              "RelativeDocumentMoniker": "Presenter\\Program.cs",
-              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Presenter\\Program.cs",
-              "RelativeToolTip": "Presenter\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PracticeStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\PracticeStrategy.cs",
+              "RelativeDocumentMoniker": "Model\\PracticeStrategy.cs",
+              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\PracticeStrategy.cs",
+              "RelativeToolTip": "Model\\PracticeStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T08:25:33.678Z",
+              "WhenOpened": "2026-05-01T10:23:31.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Program.cs",
-              "RelativeDocumentMoniker": "Model\\Program.cs",
-              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Program.cs",
-              "RelativeToolTip": "Model\\Program.cs",
+              "Title": "ExamenStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\ExamenStrategy.cs",
+              "RelativeDocumentMoniker": "Model\\ExamenStrategy.cs",
+              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\ExamenStrategy.cs",
+              "RelativeToolTip": "Model\\ExamenStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T08:25:12.338Z",
+              "WhenOpened": "2026-05-01T10:21:21.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IEvaluationStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\IEvaluationStrategy.cs",
+              "RelativeDocumentMoniker": "Commons\\IEvaluationStrategy.cs",
+              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\IEvaluationStrategy.cs",
+              "RelativeToolTip": "Commons\\IEvaluationStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T10:06:05.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Model\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\UserRepository.cs",
+              "RelativeToolTip": "Model\\UserRepository.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAgwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:54:41.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\QuestionRepository.cs",
+              "RelativeDocumentMoniker": "Model\\QuestionRepository.cs",
+              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\QuestionRepository.cs",
+              "RelativeToolTip": "Model\\QuestionRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:25:30.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Commons\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\IUserRepository.cs",
+              "RelativeToolTip": "Commons\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:51:47.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\IQuestionRepository.cs",
+              "RelativeDocumentMoniker": "Commons\\IQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\IQuestionRepository.cs",
+              "RelativeToolTip": "Commons\\IQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:15:47.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\User.cs",
+              "RelativeDocumentMoniker": "Commons\\User.cs",
+              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\User.cs",
+              "RelativeToolTip": "Commons\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:00:42.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Question.cs",
+              "RelativeDocumentMoniker": "Commons\\Question.cs",
+              "ToolTip": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Question.cs",
+              "RelativeToolTip": "Commons\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:50:39.282Z",
               "EditorCaption": ""
             }
           ]
