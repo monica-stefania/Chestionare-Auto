@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lucam\\.nuget\\packages\\": {}
+    "C:\\Users\\Utilizator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\View\\View.csproj",
+      "projectUniqueName": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\View.csproj",
       "projectName": "View",
-      "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\View\\View.csproj",
-      "packagesPath": "C:\\Users\\lucam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\View\\obj\\",
+      "projectPath": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\View.csproj",
+      "packagesPath": "C:\\Users\\Utilizator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lucam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Utilizator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
