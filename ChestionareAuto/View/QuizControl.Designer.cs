@@ -44,6 +44,7 @@
             // 
             // checkBoxAnswer1
             // 
+            checkBoxAnswer1.Anchor = AnchorStyles.None;
             checkBoxAnswer1.Font = new Font("Segoe UI", 12F);
             checkBoxAnswer1.Location = new Point(29, 342);
             checkBoxAnswer1.Name = "checkBoxAnswer1";
@@ -54,6 +55,7 @@
             // 
             // checkBoxAnswer3
             // 
+            checkBoxAnswer3.Anchor = AnchorStyles.None;
             checkBoxAnswer3.Font = new Font("Segoe UI", 12F);
             checkBoxAnswer3.Location = new Point(29, 474);
             checkBoxAnswer3.Name = "checkBoxAnswer3";
@@ -64,6 +66,7 @@
             // 
             // checkBoxAnswer2
             // 
+            checkBoxAnswer2.Anchor = AnchorStyles.None;
             checkBoxAnswer2.Font = new Font("Segoe UI", 12F);
             checkBoxAnswer2.Location = new Point(29, 408);
             checkBoxAnswer2.Name = "checkBoxAnswer2";
@@ -74,6 +77,7 @@
             // 
             // labelQuestion
             // 
+            labelQuestion.Anchor = AnchorStyles.None;
             labelQuestion.Font = new Font("Segoe UI", 14F);
             labelQuestion.Location = new Point(29, 283);
             labelQuestion.Name = "labelQuestion";
@@ -83,6 +87,7 @@
             // 
             // pictureBoxQuestion
             // 
+            pictureBoxQuestion.Anchor = AnchorStyles.None;
             pictureBoxQuestion.Location = new Point(29, 14);
             pictureBoxQuestion.Name = "pictureBoxQuestion";
             pictureBoxQuestion.Size = new Size(637, 251);
@@ -91,6 +96,7 @@
             // 
             // labelGoodAnswersCount
             // 
+            labelGoodAnswersCount.Anchor = AnchorStyles.None;
             labelGoodAnswersCount.Font = new Font("Segoe UI", 13F);
             labelGoodAnswersCount.ForeColor = Color.FromArgb(0, 192, 0);
             labelGoodAnswersCount.Location = new Point(695, 75);
@@ -101,6 +107,7 @@
             // 
             // labelBadAnswerCount
             // 
+            labelBadAnswerCount.Anchor = AnchorStyles.None;
             labelBadAnswerCount.Font = new Font("Segoe UI", 13F);
             labelBadAnswerCount.ForeColor = Color.Red;
             labelBadAnswerCount.Location = new Point(695, 122);
@@ -111,6 +118,7 @@
             // 
             // labelTimeRemained
             // 
+            labelTimeRemained.Anchor = AnchorStyles.None;
             labelTimeRemained.Font = new Font("Segoe UI", 13F);
             labelTimeRemained.ForeColor = Color.Black;
             labelTimeRemained.Location = new Point(695, 168);
@@ -121,6 +129,7 @@
             // 
             // buttonNext
             // 
+            buttonNext.Anchor = AnchorStyles.None;
             buttonNext.Font = new Font("Segoe UI", 12F);
             buttonNext.Location = new Point(798, 362);
             buttonNext.Name = "buttonNext";
@@ -131,6 +140,7 @@
             // 
             // buttonHelp
             // 
+            buttonHelp.Anchor = AnchorStyles.None;
             buttonHelp.Font = new Font("Segoe UI", 12F);
             buttonHelp.Location = new Point(798, 417);
             buttonHelp.Name = "buttonHelp";
@@ -141,6 +151,7 @@
             // 
             // buttonAbort
             // 
+            buttonAbort.Anchor = AnchorStyles.None;
             buttonAbort.Font = new Font("Segoe UI", 12F);
             buttonAbort.Location = new Point(798, 474);
             buttonAbort.Name = "buttonAbort";

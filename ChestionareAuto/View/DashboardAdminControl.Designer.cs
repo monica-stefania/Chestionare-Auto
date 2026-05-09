@@ -42,6 +42,7 @@
             // 
             // listView1
             // 
+            listView1.Anchor = AnchorStyles.None;
             listView1.Location = new Point(59, 105);
             listView1.Name = "listView1";
             listView1.Size = new Size(373, 323);
@@ -50,6 +51,7 @@
             // 
             // listView2
             // 
+            listView2.Anchor = AnchorStyles.None;
             listView2.Location = new Point(552, 106);
             listView2.Name = "listView2";
             listView2.Size = new Size(396, 322);
@@ -58,6 +60,7 @@
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.None;
             button1.Font = new Font("Segoe UI", 12F);
             button1.Location = new Point(59, 446);
             button1.Name = "button1";
@@ -68,6 +71,7 @@
             // 
             // button2
             // 
+            button2.Anchor = AnchorStyles.None;
             button2.Font = new Font("Segoe UI", 12F);
             button2.Location = new Point(283, 446);
             button2.Name = "button2";
@@ -78,6 +82,7 @@
             // 
             // button3
             // 
+            button3.Anchor = AnchorStyles.None;
             button3.Font = new Font("Segoe UI", 12F);
             button3.Location = new Point(59, 517);
             button3.Name = "button3";
@@ -88,6 +93,7 @@
             // 
             // button4
             // 
+            button4.Anchor = AnchorStyles.None;
             button4.Font = new Font("Segoe UI", 13F);
             button4.Location = new Point(283, 517);
             button4.Name = "button4";
@@ -98,6 +104,7 @@
             // 
             // button5
             // 
+            button5.Anchor = AnchorStyles.None;
             button5.Font = new Font("Segoe UI", 12F);
             button5.Location = new Point(552, 446);
             button5.Name = "button5";
@@ -108,6 +115,7 @@
             // 
             // button6
             // 
+            button6.Anchor = AnchorStyles.None;
             button6.Font = new Font("Segoe UI", 13F);
             button6.Location = new Point(799, 446);
             button6.Name = "button6";
@@ -118,6 +126,7 @@
             // 
             // button7
             // 
+            button7.Anchor = AnchorStyles.None;
             button7.Font = new Font("Segoe UI", 13F);
             button7.Location = new Point(799, 527);
             button7.Name = "button7";
@@ -128,6 +137,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 25F, FontStyle.Bold);
             label1.Location = new Point(58, 32);

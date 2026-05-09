@@ -19,3 +19,37 @@ C:\Users\macov\ProiectIP\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-
 C:\Users\macov\ProiectIP\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.pdb
 C:\Users\macov\ProiectIP\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.genruntimeconfig.cache
 C:\Users\macov\ProiectIP\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\ref\View.dll
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\View.exe
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\View.deps.json
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\View.runtimeconfig.json
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\View.dll
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\View.pdb
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.DashboardAdminControl.resources
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.DashboardUserControl.resources
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.MainForm.resources
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.LoginUserControl.resources
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.QuizControl.resources
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.ResultsForm.resources
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.SignUpUserControl.resources
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.csproj.GenerateResource.cache
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.AssemblyInfoInputs.cache
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.AssemblyInfo.cs
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.csproj.CoreCompileInputs.cache
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.sourcelink.json
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.dll
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\refint\View.dll
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.pdb
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.genruntimeconfig.cache
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\ref\View.dll
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\Logic.dll
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\Model.dll
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\Repositories.dll
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\Model.pdb
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\Repositories.pdb
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\Logic.pdb
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.csproj.AssemblyReference.cache
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\obj\Debug\net8.0-windows\View.csproj.Up2Date
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\data\questions.json
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\data\results.json
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\data\users.json

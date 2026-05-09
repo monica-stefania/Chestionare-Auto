@@ -8,4 +8,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Commons\Model.csproj" />
+    <ProjectReference Include="..\Model\Repositories.csproj" />
+    <ProjectReference Include="..\Patterns\Logic.csproj" />
+  </ItemGroup>
+
 </Project>

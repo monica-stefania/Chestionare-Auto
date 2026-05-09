@@ -1,16 +1,19 @@
-﻿using System;
+﻿using Entities;
+using Repositories;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.IO;
 using System.Text.Json; 
-using Commons;
-namespace Model
+using System.Threading.Tasks;
+namespace Repositories
 {
-    public class QuestionRepository : IQuestionRepository
+    public class QuestionRepository : IRepository<Question>
     {
-        private readonly string _filePath = "questions.json";
+        // Adaugă sus: using System.IO;
+
+        private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "questions.json");
         private List<Question> _questions;
         public QuestionRepository()
         {
@@ -51,8 +54,7 @@ namespace Model
             }
         }
 
-        //implementare interfata IQuestionRepository
-        public List<Question> GetAllQuestions()
+        public List<Question> GetAll()
         {
             return _questions;
         }
@@ -72,37 +74,41 @@ namespace Model
         {
             return _questions.FirstOrDefault(q => q.Id == id);
         }
-
-        public void AddQuestion(Question question)
+        public void Add(Question entity)
         {
-            if(_questions.Any(q => q.Id == question.Id))
+            // O mica logica sa ii dam un ID automat daca nu are
+            if (!_questions.Any(q => q.Id == entity.Id))
             {
-                throw new ArgumentException($"A question with Id {question.Id} already exists.");
+                entity.Id = _questions.Any() ? _questions.Max(q => q.Id) + 1 : 1;
             }
-            _questions.Add(question);
+
+            _questions.Add(entity);
             SaveData();
         }
 
-        public void UpdateQuestion(Question question)
+        public void Update(Question entity)
         {
-            int index = _questions.FindIndex(q => q.Id == question.Id);
-            if (index == -1)
+            var existingQuestion = _questions.FirstOrDefault(q => q.Id == entity.Id);
+            if (existingQuestion != null)
             {
-                throw new ArgumentException($"No question found with Id {question.Id}.");
+                existingQuestion.Text = entity.Text;
+                existingQuestion.Options = entity.Options;
+                existingQuestion.CorrectOptionsIndex = entity.CorrectOptionsIndex;
+                existingQuestion.Image = entity.Image;
+                existingQuestion.Category = entity.Category;
+
+                SaveData();
             }
-            _questions[index] = question;
-            SaveData();
         }
 
-        public void DeleteQuestion(int id)
+        public void Delete(Question entity)
         {
-            Question removeQuestion = GetQuestionById(id);
-            if (removeQuestion == null)
+            var existingQuestion = _questions.FirstOrDefault(q => q.Id == entity.Id);
+            if (existingQuestion != null)
             {
-                throw new ArgumentException($"No question found with Id {id}.");
+                _questions.Remove(existingQuestion);
+                SaveData();
             }
-            _questions.Remove(removeQuestion);
-             SaveData();
         }
     }
 }

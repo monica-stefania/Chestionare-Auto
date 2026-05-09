@@ -28,52 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
+            textBoxUsername = new TextBox();
+            textBoxPassword = new TextBox();
+            buttonLogin = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            linkLabel1 = new LinkLabel();
+            linkLabelSignUp = new LinkLabel();
             label4 = new Label();
             SuspendLayout();
             // 
-            // textBox1
+            // textBoxUsername
             // 
-            textBox1.Location = new Point(404, 224);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(221, 27);
-            textBox1.TabIndex = 0;
+            textBoxUsername.Anchor = AnchorStyles.None;
+            textBoxUsername.Location = new Point(404, 224);
+            textBoxUsername.Name = "textBoxUsername";
+            textBoxUsername.Size = new Size(221, 27);
+            textBoxUsername.TabIndex = 0;
             // 
-            // textBox2
+            // textBoxPassword
             // 
-            textBox2.Location = new Point(404, 313);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(221, 27);
-            textBox2.TabIndex = 1;
+            textBoxPassword.Anchor = AnchorStyles.None;
+            textBoxPassword.Location = new Point(404, 313);
+            textBoxPassword.Name = "textBoxPassword";
+            textBoxPassword.Size = new Size(221, 27);
+            textBoxPassword.TabIndex = 1;
             // 
-            // button1
+            // buttonLogin
             // 
-            button1.Font = new Font("Segoe UI", 15F);
-            button1.Location = new Point(446, 452);
-            button1.Name = "button1";
-            button1.Size = new Size(130, 44);
-            button1.TabIndex = 2;
-            button1.Text = "Login";
-            button1.UseVisualStyleBackColor = true;
+            buttonLogin.Anchor = AnchorStyles.None;
+            buttonLogin.Font = new Font("Segoe UI", 15F);
+            buttonLogin.Location = new Point(446, 452);
+            buttonLogin.Name = "buttonLogin";
+            buttonLogin.Size = new Size(130, 44);
+            buttonLogin.TabIndex = 2;
+            buttonLogin.Text = "Login";
+            buttonLogin.UseVisualStyleBackColor = true;
+            buttonLogin.Click += buttonLogin_Click;
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             label1.Location = new Point(446, 71);
             label1.Name = "label1";
             label1.Size = new Size(130, 53);
             label1.TabIndex = 6;
             label1.Text = "LOGIN";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15F);
             label2.Location = new Point(458, 186);
@@ -84,6 +89,7 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 15F);
             label3.Location = new Point(456, 275);
@@ -92,19 +98,22 @@
             label3.TabIndex = 8;
             label3.Text = "Password";
             // 
-            // linkLabel1
+            // linkLabelSignUp
             // 
-            linkLabel1.Font = new Font("Segoe UI", 13F);
-            linkLabel1.Location = new Point(404, 406);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(221, 43);
-            linkLabel1.TabIndex = 9;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Create an account";
-            linkLabel1.TextAlign = ContentAlignment.TopCenter;
+            linkLabelSignUp.Anchor = AnchorStyles.None;
+            linkLabelSignUp.Font = new Font("Segoe UI", 13F);
+            linkLabelSignUp.Location = new Point(404, 406);
+            linkLabelSignUp.Name = "linkLabelSignUp";
+            linkLabelSignUp.Size = new Size(221, 43);
+            linkLabelSignUp.TabIndex = 9;
+            linkLabelSignUp.TabStop = true;
+            linkLabelSignUp.Text = "Create an account";
+            linkLabelSignUp.TextAlign = ContentAlignment.TopCenter;
+            linkLabelSignUp.LinkClicked += linkLabelSignUp_LinkClicked;
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.None;
             label4.AutoSize = true;
             label4.ForeColor = Color.Red;
             label4.Location = new Point(423, 343);
@@ -118,13 +127,13 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(label4);
-            Controls.Add(linkLabel1);
+            Controls.Add(linkLabelSignUp);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(buttonLogin);
+            Controls.Add(textBoxPassword);
+            Controls.Add(textBoxUsername);
             Name = "LoginUserControl";
             Size = new Size(1000, 600);
             ResumeLayout(false);
@@ -133,13 +142,13 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
+        private TextBox textBoxUsername;
+        private TextBox textBoxPassword;
+        private Button buttonLogin;
         private Label label1;
         private Label label2;
         private Label label3;
-        private LinkLabel linkLabel1;
+        private LinkLabel linkLabelSignUp;
         private Label label4;
     }
 }
