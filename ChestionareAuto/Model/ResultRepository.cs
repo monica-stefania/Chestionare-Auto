@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+using Entities;
+
+namespace Repositories
+{
+    public class ResultRepository : IRepository<TestResult>
+    {
+        // Adaugă sus: using System.IO;
+
+        private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "results.json");
+        private List<TestResult> _results;
+
+        public ResultRepository()
+        {
+            _results = LoadData();
+        }
+
+        public List<TestResult> LoadData()
+        {
+            if (!File.Exists(_filePath))
+            {
+                return new List<TestResult>();
+            }
+
+            string json = File.ReadAllText(_filePath);
+            return JsonSerializer.Deserialize<List<TestResult>>(json) ?? new List<TestResult>();
+        }
+
+        public void SaveData()
+        {
+            string json = JsonSerializer.Serialize(_results, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(_filePath, json);
+        }
+
+        public List<TestResult> GetAll()
+        {
+            return _results;
+        }
+
+        public void Add(TestResult entity)
+        {
+            _results.Add(entity);
+            SaveData();
+        }
+
+        public void Update(TestResult entity)
+        {
+            var existingResult = _results.FirstOrDefault(r => r.Id == entity.Id);
+            if (existingResult != null)
+            {
+                existingResult.UserId = entity.UserId;
+                existingResult.Date = entity.Date;
+                existingResult.Score = entity.Score;
+                existingResult.SessionType = entity.SessionType;
+                existingResult.State = entity.State;
+                existingResult.DateSalvate = entity.DateSalvate; // Asta e "cutia" Memento care se actualizeaza!
+
+                SaveData();
+            }
+        }
+
+        public void Delete(TestResult entity)
+        {
+            var existingResult = _results.FirstOrDefault(r => r.Id == entity.Id);
+            if (existingResult != null)
+            {
+                _results.Remove(existingResult);
+                SaveData();
+            }
+        }
+    }
+}

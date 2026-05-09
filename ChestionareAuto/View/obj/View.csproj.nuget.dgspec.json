@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\View.csproj": {}
+    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\View\\View.csproj": {}
   },
   "projects": {
-    "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\View.csproj": {
+    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\View.csproj",
-        "projectName": "View",
-        "projectPath": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\View.csproj",
-        "packagesPath": "C:\\Users\\macov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\obj\\",
+        "projectUniqueName": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj",
+        "packagesPath": "C:\\Users\\lucam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\macov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -39,7 +39,209 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\lucam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj": {
+                "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Patterns\\Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Patterns\\Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Patterns\\Logic.csproj",
+        "packagesPath": "C:\\Users\\lucam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Patterns\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj": {
+                "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\View\\View.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\View\\View.csproj",
+        "projectName": "View",
+        "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\View\\View.csproj",
+        "packagesPath": "C:\\Users\\lucam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\View\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj": {
+                "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj"
+              },
+              "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Repositories.csproj"
+              },
+              "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Patterns\\Logic.csproj": {
+                "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Patterns\\Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -63,7 +265,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": 1,
+    "Name": "Administrator Principal",
+    "Username": "admin",
+    "Email": "admin@chestionare.ro",
+    "Password": "admin",
+    "Role": 0
+  }
+]

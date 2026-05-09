@@ -39,6 +39,7 @@
             // 
             // startQuizButton
             // 
+            startQuizButton.Anchor = AnchorStyles.None;
             startQuizButton.Font = new Font("Segoe UI", 15F);
             startQuizButton.Location = new Point(756, 134);
             startQuizButton.Name = "startQuizButton";
@@ -49,6 +50,7 @@
             // 
             // button2
             // 
+            button2.Anchor = AnchorStyles.None;
             button2.Font = new Font("Segoe UI", 15F);
             button2.Location = new Point(756, 232);
             button2.Name = "button2";
@@ -59,6 +61,7 @@
             // 
             // button3
             // 
+            button3.Anchor = AnchorStyles.None;
             button3.Font = new Font("Segoe UI", 15F);
             button3.Location = new Point(756, 320);
             button3.Name = "button3";
@@ -69,6 +72,7 @@
             // 
             // button4
             // 
+            button4.Anchor = AnchorStyles.None;
             button4.Font = new Font("Segoe UI", 15F);
             button4.Location = new Point(756, 406);
             button4.Name = "button4";
@@ -79,6 +83,7 @@
             // 
             // button5
             // 
+            button5.Anchor = AnchorStyles.None;
             button5.Font = new Font("Segoe UI", 15F);
             button5.Location = new Point(756, 492);
             button5.Name = "button5";
@@ -89,6 +94,7 @@
             // 
             // listView1
             // 
+            listView1.Anchor = AnchorStyles.None;
             listView1.Location = new Point(30, 136);
             listView1.Name = "listView1";
             listView1.Size = new Size(695, 425);
@@ -97,6 +103,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             label1.Location = new Point(30, 61);

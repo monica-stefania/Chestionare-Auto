@@ -5,15 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Text.Json; 
-using Commons;
 using System.Diagnostics;
 using System.Net.Http.Headers;
+using Entities;
 
-namespace Model
+namespace Repositories
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : IRepository<User>
     {
-        private readonly string _filePath = "users.json";
+        // Adaugă sus: using System.IO;
+
+        private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "users.json");
         private List<User> _users;
 
         public UserRepository()
@@ -55,7 +57,7 @@ namespace Model
             }
         }
 
-        public List<User> GetAllUsers()
+        public List<User> GetAll()
         {
             return _users;
         }
@@ -70,57 +72,35 @@ namespace Model
             return _users.FirstOrDefault(u => u.Username.Equals(username, StringComparison.OrdinalIgnoreCase));
         }
 
-        public void AddUser(User user)
+        public void Add(User entity)
         {
-            if (GetUserByUsername(user.Username) != null)
-            {
-                throw new Exception("Username already exists.");
-            }
-
-            if (user.Id == 0)
-            {
-                user.Id = _users.Count > 0 ? _users.Max(u => u.Id) + 1 : 1;
-            }
-
-            _users.Add(user);
+            _users.Add(entity);
             SaveData();
         }
 
-        public void DeleteUser(int id)
+        public void Delete(User entity)
         {
-            var user = GetUserById(id);
-            if (user != null)
+            var userExistent = _users.FirstOrDefault(u => u.Id == entity.Id);
+            if (userExistent != null)
             {
-                _users.Remove(user);
+                _users.Remove(userExistent);
                 SaveData();
-            }
-            else
-            {
-                throw new Exception("User not found.");
             }
         }
 
-        public void UpdateUser(User user)
+        public void Update(User entity)
         {
-            var existingUser = GetUserById(user.Id);
-            if (existingUser != null)
+            var userExistent = _users.FirstOrDefault(u => u.Id == entity.Id);
+            if (userExistent != null)
             {
-                existingUser.Name = user.Name;
-                existingUser.Username = user.Username;
-                existingUser.Email = user.Email;
-                existingUser.Password = user.Password;
+                userExistent.Name = entity.Name;
+                userExistent.Username = entity.Username;
+                userExistent.Email = entity.Email;
+                userExistent.Password = entity.Password;
+                userExistent.Role = entity.Role;
+
                 SaveData();
             }
-            else
-            {
-                throw new Exception("User not found.");
-            }
-        }
-
-        public bool ValidateUser(string username, string password)
-        {
-            var user = GetUserByUsername(username);
-            return user != null && user.Password == password;
         }
     }
 

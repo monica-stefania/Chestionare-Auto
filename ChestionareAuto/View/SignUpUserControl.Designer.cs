@@ -28,51 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            textBoxUsername = new TextBox();
+            textBoxName = new TextBox();
+            textBoxEmail = new TextBox();
+            textBoxPassword = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
-            button1 = new Button();
+            buttonSignUp = new Button();
             label6 = new Label();
-            linkLabel1 = new LinkLabel();
+            linkLabelLogIn = new LinkLabel();
             SuspendLayout();
             // 
-            // textBox1
+            // textBoxUsername
             // 
-            textBox1.Location = new Point(385, 187);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(265, 27);
-            textBox1.TabIndex = 0;
+            textBoxUsername.Anchor = AnchorStyles.None;
+            textBoxUsername.Location = new Point(385, 187);
+            textBoxUsername.Name = "textBoxUsername";
+            textBoxUsername.Size = new Size(265, 27);
+            textBoxUsername.TabIndex = 0;
             // 
-            // textBox2
+            // textBoxName
             // 
-            textBox2.Location = new Point(385, 266);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(265, 27);
-            textBox2.TabIndex = 1;
+            textBoxName.Anchor = AnchorStyles.None;
+            textBoxName.Location = new Point(385, 266);
+            textBoxName.Name = "textBoxName";
+            textBoxName.Size = new Size(265, 27);
+            textBoxName.TabIndex = 1;
             // 
-            // textBox3
+            // textBoxEmail
             // 
-            textBox3.Location = new Point(385, 343);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(265, 27);
-            textBox3.TabIndex = 2;
+            textBoxEmail.Anchor = AnchorStyles.None;
+            textBoxEmail.Location = new Point(385, 343);
+            textBoxEmail.Name = "textBoxEmail";
+            textBoxEmail.Size = new Size(265, 27);
+            textBoxEmail.TabIndex = 2;
             // 
-            // textBox4
+            // textBoxPassword
             // 
-            textBox4.Location = new Point(385, 410);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(265, 27);
-            textBox4.TabIndex = 3;
-            textBox4.TextChanged += textBox4_TextChanged;
+            textBoxPassword.Anchor = AnchorStyles.None;
+            textBoxPassword.Location = new Point(385, 410);
+            textBoxPassword.Name = "textBoxPassword";
+            textBoxPassword.Size = new Size(265, 27);
+            textBoxPassword.TabIndex = 3;
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             label1.Location = new Point(444, 87);
@@ -83,6 +87,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 13F);
             label2.Location = new Point(470, 154);
@@ -93,6 +98,7 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 13F);
             label3.Location = new Point(484, 233);
@@ -103,6 +109,7 @@
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.None;
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 13F);
             label4.Location = new Point(491, 310);
@@ -113,6 +120,7 @@
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.None;
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 13F);
             label5.Location = new Point(470, 377);
@@ -121,18 +129,21 @@
             label5.TabIndex = 8;
             label5.Text = "Password";
             // 
-            // button1
+            // buttonSignUp
             // 
-            button1.Font = new Font("Segoe UI", 13F);
-            button1.Location = new Point(470, 443);
-            button1.Name = "button1";
-            button1.Size = new Size(103, 53);
-            button1.TabIndex = 9;
-            button1.Text = "Signup";
-            button1.UseVisualStyleBackColor = true;
+            buttonSignUp.Anchor = AnchorStyles.None;
+            buttonSignUp.Font = new Font("Segoe UI", 13F);
+            buttonSignUp.Location = new Point(470, 443);
+            buttonSignUp.Name = "buttonSignUp";
+            buttonSignUp.Size = new Size(103, 53);
+            buttonSignUp.TabIndex = 9;
+            buttonSignUp.Text = "Signup";
+            buttonSignUp.UseVisualStyleBackColor = true;
+            buttonSignUp.Click += buttonSignUp_Click;
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.None;
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F);
             label6.ForeColor = Color.Red;
@@ -142,53 +153,54 @@
             label6.TabIndex = 10;
             label6.Text = "Error: wrong sign up credentials!";
             // 
-            // linkLabel1
+            // linkLabelLogIn
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Segoe UI", 13F);
-            linkLabel1.Location = new Point(333, 535);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(378, 30);
-            linkLabel1.TabIndex = 11;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Already have an account? Then log in.";
+            linkLabelLogIn.Anchor = AnchorStyles.None;
+            linkLabelLogIn.AutoSize = true;
+            linkLabelLogIn.Font = new Font("Segoe UI", 13F);
+            linkLabelLogIn.Location = new Point(333, 535);
+            linkLabelLogIn.Name = "linkLabelLogIn";
+            linkLabelLogIn.Size = new Size(378, 30);
+            linkLabelLogIn.TabIndex = 11;
+            linkLabelLogIn.TabStop = true;
+            linkLabelLogIn.Text = "Already have an account? Then log in.";
+            linkLabelLogIn.LinkClicked += linkLabelLogIn_LinkClicked;
             // 
             // SignUpUserControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(linkLabel1);
+            Controls.Add(linkLabelLogIn);
             Controls.Add(label6);
-            Controls.Add(button1);
+            Controls.Add(buttonSignUp);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(textBoxPassword);
+            Controls.Add(textBoxEmail);
+            Controls.Add(textBoxName);
+            Controls.Add(textBoxUsername);
             Name = "SignUpUserControl";
             Size = new Size(1000, 600);
-            Load += SignUpUserControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox textBoxUsername;
+        private TextBox textBoxName;
+        private TextBox textBoxEmail;
+        private TextBox textBoxPassword;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
-        private Button button1;
+        private Button buttonSignUp;
         private Label label6;
-        private LinkLabel linkLabel1;
+        private LinkLabel linkLabelLogIn;
     }
 }
