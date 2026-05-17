@@ -29,6 +29,10 @@ namespace Patterns
             _timeRemained = TimeSpan.FromSeconds(strategy.GetTimeLimit());
         }
 
+        public Quiz(QuizMemento memento)
+        {
+            RestoreState(memento);
+        }
         public Question GetCurrentQuestion()
         {
             if (_currentIndex < _questions.Count)

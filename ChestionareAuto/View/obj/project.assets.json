@@ -43,18 +43,18 @@
   "libraries": {
     "Logic/1.0.0": {
       "type": "project",
-      "path": "../Patterns/Logic.csproj",
-      "msbuildProject": "../Patterns/Logic.csproj"
+      "path": "../Logic/Logic.csproj",
+      "msbuildProject": "../Logic/Logic.csproj"
     },
     "Model/1.0.0": {
       "type": "project",
-      "path": "../Commons/Model.csproj",
-      "msbuildProject": "../Commons/Model.csproj"
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
     },
     "Repositories/1.0.0": {
       "type": "project",
-      "path": "../Model/Repositories.csproj",
-      "msbuildProject": "../Model/Repositories.csproj"
+      "path": "../Repositories/Repositories.csproj",
+      "msbuildProject": "../Repositories/Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -91,14 +91,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj": {
-              "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj"
+            "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Logic\\Logic.csproj": {
+              "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Logic\\Logic.csproj"
             },
-            "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Repositories.csproj"
+            "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Model.csproj"
             },
-            "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Patterns\\Logic.csproj": {
-              "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Patterns\\Logic.csproj"
+            "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Repositories\\Repositories.csproj"
             }
           }
         }

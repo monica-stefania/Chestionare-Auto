@@ -28,116 +28,163 @@
         /// </summary>
         private void InitializeComponent()
         {
-            startQuizButton = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            listView1 = new ListView();
-            label1 = new Label();
+            buttonStartExamen = new Button();
+            buttonHelp = new Button();
+            buttonLogOut = new Button();
+            labelWelcome = new Label();
+            dataGridViewHistory = new DataGridView();
+            dataTest = new DataGridViewTextBoxColumn();
+            tipTest = new DataGridViewTextBoxColumn();
+            punctaj = new DataGridViewTextBoxColumn();
+            stare = new DataGridViewTextBoxColumn();
+            colReluare = new DataGridViewButtonColumn();
+            buttonStartInvatare = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewHistory).BeginInit();
             SuspendLayout();
             // 
-            // startQuizButton
+            // buttonStartExamen
             // 
-            startQuizButton.Anchor = AnchorStyles.None;
-            startQuizButton.Font = new Font("Segoe UI", 15F);
-            startQuizButton.Location = new Point(756, 134);
-            startQuizButton.Name = "startQuizButton";
-            startQuizButton.Size = new Size(207, 69);
-            startQuizButton.TabIndex = 0;
-            startQuizButton.Text = "Start Quiz";
-            startQuizButton.UseVisualStyleBackColor = true;
+            buttonStartExamen.Anchor = AnchorStyles.None;
+            buttonStartExamen.Font = new Font("Segoe UI", 13F);
+            buttonStartExamen.Location = new Point(871, 221);
+            buttonStartExamen.Name = "buttonStartExamen";
+            buttonStartExamen.Size = new Size(149, 51);
+            buttonStartExamen.TabIndex = 0;
+            buttonStartExamen.Text = "Start Examen";
+            buttonStartExamen.UseVisualStyleBackColor = true;
+            buttonStartExamen.Click += buttonStartExamen_Click;
             // 
-            // button2
+            // buttonHelp
             // 
-            button2.Anchor = AnchorStyles.None;
-            button2.Font = new Font("Segoe UI", 15F);
-            button2.Location = new Point(756, 232);
-            button2.Name = "button2";
-            button2.Size = new Size(207, 69);
-            button2.TabIndex = 1;
-            button2.Text = "Help";
-            button2.UseVisualStyleBackColor = true;
+            buttonHelp.Anchor = AnchorStyles.None;
+            buttonHelp.Font = new Font("Segoe UI", 12F);
+            buttonHelp.Location = new Point(964, 527);
+            buttonHelp.Name = "buttonHelp";
+            buttonHelp.Size = new Size(91, 38);
+            buttonHelp.TabIndex = 1;
+            buttonHelp.Text = "Help";
+            buttonHelp.UseVisualStyleBackColor = true;
+            buttonHelp.Click += buttonHelp_Click;
             // 
-            // button3
+            // buttonLogOut
             // 
-            button3.Anchor = AnchorStyles.None;
-            button3.Font = new Font("Segoe UI", 15F);
-            button3.Location = new Point(756, 320);
-            button3.Name = "button3";
-            button3.Size = new Size(207, 69);
-            button3.TabIndex = 2;
-            button3.Text = "Admin";
-            button3.UseVisualStyleBackColor = true;
+            buttonLogOut.Anchor = AnchorStyles.None;
+            buttonLogOut.Font = new Font("Segoe UI", 12F);
+            buttonLogOut.Location = new Point(964, 591);
+            buttonLogOut.Name = "buttonLogOut";
+            buttonLogOut.Size = new Size(93, 40);
+            buttonLogOut.TabIndex = 4;
+            buttonLogOut.Text = "Log Out";
+            buttonLogOut.UseVisualStyleBackColor = true;
+            buttonLogOut.Click += buttonLogOut_Click;
             // 
-            // button4
+            // labelWelcome
             // 
-            button4.Anchor = AnchorStyles.None;
-            button4.Font = new Font("Segoe UI", 15F);
-            button4.Location = new Point(756, 406);
-            button4.Name = "button4";
-            button4.Size = new Size(207, 69);
-            button4.TabIndex = 3;
-            button4.Text = "Admin Help";
-            button4.UseVisualStyleBackColor = true;
+            labelWelcome.Anchor = AnchorStyles.None;
+            labelWelcome.AutoSize = true;
+            labelWelcome.Font = new Font("Verdana", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelWelcome.ForeColor = Color.Navy;
+            labelWelcome.Location = new Point(345, 36);
+            labelWelcome.Name = "labelWelcome";
+            labelWelcome.Size = new Size(113, 28);
+            labelWelcome.TabIndex = 6;
+            labelWelcome.Text = "welcome";
             // 
-            // button5
+            // dataGridViewHistory
             // 
-            button5.Anchor = AnchorStyles.None;
-            button5.Font = new Font("Segoe UI", 15F);
-            button5.Location = new Point(756, 492);
-            button5.Name = "button5";
-            button5.Size = new Size(207, 69);
-            button5.TabIndex = 4;
-            button5.Text = "Log Out";
-            button5.UseVisualStyleBackColor = true;
+            dataGridViewHistory.AllowUserToAddRows = false;
+            dataGridViewHistory.AllowUserToDeleteRows = false;
+            dataGridViewHistory.Anchor = AnchorStyles.None;
+            dataGridViewHistory.BackgroundColor = Color.Azure;
+            dataGridViewHistory.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewHistory.Columns.AddRange(new DataGridViewColumn[] { dataTest, tipTest, punctaj, stare, colReluare });
+            dataGridViewHistory.Location = new Point(43, 123);
+            dataGridViewHistory.Name = "dataGridViewHistory";
+            dataGridViewHistory.RowHeadersWidth = 51;
+            dataGridViewHistory.Size = new Size(809, 486);
+            dataGridViewHistory.TabIndex = 7;
+            dataGridViewHistory.CellContentClick += dataGridViewHistory_CellContentClick;
             // 
-            // listView1
+            // dataTest
             // 
-            listView1.Anchor = AnchorStyles.None;
-            listView1.Location = new Point(30, 136);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(695, 425);
-            listView1.TabIndex = 5;
-            listView1.UseCompatibleStateImageBehavior = false;
+            dataTest.HeaderText = "Data";
+            dataTest.MinimumWidth = 6;
+            dataTest.Name = "dataTest";
+            dataTest.Width = 125;
             // 
-            // label1
+            // tipTest
             // 
-            label1.Anchor = AnchorStyles.None;
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label1.Location = new Point(30, 61);
-            label1.Name = "label1";
-            label1.Size = new Size(204, 46);
-            label1.TabIndex = 6;
-            label1.Text = "Main Menu";
+            tipTest.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            tipTest.HeaderText = "Tipul Testului";
+            tipTest.MinimumWidth = 6;
+            tipTest.Name = "tipTest";
+            // 
+            // punctaj
+            // 
+            punctaj.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            punctaj.HeaderText = "Punctaj";
+            punctaj.MinimumWidth = 6;
+            punctaj.Name = "punctaj";
+            // 
+            // stare
+            // 
+            stare.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            stare.HeaderText = "Stare";
+            stare.MinimumWidth = 6;
+            stare.Name = "stare";
+            // 
+            // colReluare
+            // 
+            colReluare.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            colReluare.HeaderText = "Acțiune";
+            colReluare.MinimumWidth = 6;
+            colReluare.Name = "colReluare";
+            colReluare.Text = "Reluare";
+            colReluare.UseColumnTextForButtonValue = true;
+            // 
+            // buttonStartInvatare
+            // 
+            buttonStartInvatare.Anchor = AnchorStyles.None;
+            buttonStartInvatare.Font = new Font("Segoe UI", 13F);
+            buttonStartInvatare.Location = new Point(871, 350);
+            buttonStartInvatare.Name = "buttonStartInvatare";
+            buttonStartInvatare.Size = new Size(149, 51);
+            buttonStartInvatare.TabIndex = 8;
+            buttonStartInvatare.Text = "Start Învățare";
+            buttonStartInvatare.UseVisualStyleBackColor = true;
+            buttonStartInvatare.Click += buttonStartInvatare_Click;
             // 
             // DashboardUserControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(label1);
-            Controls.Add(listView1);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(startQuizButton);
+            BackColor = SystemColors.InactiveCaption;
+            Controls.Add(buttonStartInvatare);
+            Controls.Add(dataGridViewHistory);
+            Controls.Add(labelWelcome);
+            Controls.Add(buttonLogOut);
+            Controls.Add(buttonHelp);
+            Controls.Add(buttonStartExamen);
             Name = "DashboardUserControl";
-            Size = new Size(1000, 600);
+            Size = new Size(1075, 643);
             Load += DashboardUserControl_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridViewHistory).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button startQuizButton;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private ListView listView1;
-        private Label label1;
+        private Button buttonStartExamen;
+        private Button buttonHelp;
+        private Button buttonLogOut;
+        private Label labelWelcome;
+        private DataGridView dataGridViewHistory;
+        private Button buttonStartInvatare;
+        private DataGridViewTextBoxColumn dataTest;
+        private DataGridViewTextBoxColumn tipTest;
+        private DataGridViewTextBoxColumn punctaj;
+        private DataGridViewTextBoxColumn stare;
+        private DataGridViewButtonColumn colReluare;
     }
 }

@@ -12,6 +12,7 @@ namespace Patterns
         private static QuizManager _instance;
         public User CurrentUser { get; set; }
         public Quiz ActiveQuiz { get; set; }
+        public int ActiveResultId { get; set; } = 0;
         private QuizManager()
         {
         }

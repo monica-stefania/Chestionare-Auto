@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj": {}
+    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj": {
+    "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\Model.csproj",
+        "projectPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\lucam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Commons\\obj\\",
+        "outputPath": "C:\\Users\\lucam\\Desktop\\Chestionare Auto\\Chestionare-Auto\\ChestionareAuto\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucam\\AppData\\Roaming\\NuGet\\NuGet.Config",

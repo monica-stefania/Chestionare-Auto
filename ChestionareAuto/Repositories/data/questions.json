@@ -1,0 +1,3044 @@
+﻿[
+  {
+    "Id": 1,
+    "Text": "Pe autostrăzi este interzisă:",
+    "Options": [
+      "circulația autovehiculelor cu o viteză mai mare de 130 km/h",
+      "învățarea conducerii unui vehicul",
+      "executarea manevrei de întoarcere sau de mers înapoi"
+    ],
+    "CorrectOptionsIndex": [
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 2,
+    "Text": "Viteza maximă admisă în afara localităților, pe drumurile expres sau pe cele naționale europene (E), pentru autovehiculele din categoria B este:",
+    "Options": [
+      "90 km/h",
+      "100 km/h",
+      "110 km/h"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 3,
+    "Text": "Depășirea vehiculelor este interzisă:",
+    "Options": [
+      "în intersecțiile cu circulație nedirijată",
+      "pe drumurile cu o singură bandă pe sens",
+      "în apropierea vârfurilor de rampă, când vizibilitatea este sub 50 m"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 4,
+    "Text": "Întoarcerea unui autovehicul este interzisă:",
+    "Options": [
+      "pe poduri și sub poduri",
+      "pe drumurile cu sens unic",
+      "la o distanță mai mică de 50 m de trecerea pentru pietoni"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 5,
+    "Text": "Sunteți obligat să folosiți luminile de întâlnire pe timpul zilei:",
+    "Options": [
+      "pe autostrăzi",
+      "pe drumurile naționale europene (E)",
+      "pe drumurile județene"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 6,
+    "Text": "Oprirea voluntară a vehiculelor este interzisă:",
+    "Options": [
+      "la o distanță mai mică de 25 m înainte și după indicatorul stației pentru mijloacele de transport public de persoane",
+      "în dreptul căilor de acces care deservesc proprietățile alăturate drumurilor publice",
+      "pe sectoarele de drum unde este instalat indicatorul „Depășirea interzisă”"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 7,
+    "Text": "Cum procedați la apropierea de o trecere la nivel cu calea ferată curentă fără bariere, prevăzută cu semnalizare luminoasă?",
+    "Options": [
+      "reduceți viteza, vă asigurați și treceți dacă nu se apropie trenul",
+      "opriți la aprinderea semnalelor cu lumină roșie",
+      "treceți rapid dacă luminile albe intermitente sunt aprinse"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 8,
+    "Text": "Permisul de conducere se anulează dacă:",
+    "Options": [
+      "titularul a fost condamnat definitiv pentru o infracțiune la regimul circulației",
+      "conducătorul a săvârșit un accident din care au rezultat doar pagube materiale",
+      "titularul a condus sub influența băuturilor alcoolice"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 9,
+    "Text": "Conducătorii de autovehicule pot folosi telefonul mobil la volan:",
+    "Options": [
+      "dacă se află în afara localităților",
+      "dacă folosesc un dispozitiv de tip „mâini libere”",
+      "dacă vehiculul este staționat"
+    ],
+    "CorrectOptionsIndex": [
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 10,
+    "Text": "Ce obligații aveți în intersecțiile cu circulație nedirijată?",
+    "Options": [
+      "să acordați prioritate vehiculelor care circulă din partea stângă",
+      "să acordați prioritate de dreapta",
+      "să circulați cu o viteză maximă de 30 km/h în localități"
+    ],
+    "CorrectOptionsIndex": [
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 11,
+    "Text": "Ce obligații aveți la întâlnirea indicatorului din imagine?",
+    "Options": [
+      "să reduceți viteza și să vă asigurați",
+      "să opriți în locul în care aveți vizibilitate maximă asupra drumului intersectat",
+      "să acordați prioritate doar vehiculelor care circulă din partea dreaptă"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "indicator_stop.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 12,
+    "Text": "Ce semnifică indicatorul alăturat?",
+    "Options": [
+      "Prioritate față de circulația din sens invers",
+      "Prioritate pentru circulația din sens invers",
+      "Drum cu prioritate"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "prioritate_fata_de_sens_invers.jpeg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 13,
+    "Text": "Ce trebuie să faceți la întâlnirea indicatorului „Cedează trecerea”?",
+    "Options": [
+      "să opriți obligatoriu pentru a vă asigura",
+      "să reduceți viteza și, la nevoie, să opriți pentru a acorda prioritate",
+      "să acordați prioritate tuturor vehiculelor care circulă pe drumul prioritar"
+    ],
+    "CorrectOptionsIndex": [
+      1,
+      2
+    ],
+    "Image": "cedeaza_trecerea.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 14,
+    "Text": "Indicatorul din imagine vă avertizează că urmează:",
+    "Options": [
+      "un drum cu denivelări",
+      "o curbă la stânga",
+      "un sector de drum îngustat"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "curba_la_stanga.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 15,
+    "Text": "Care este semnificația indicatorului „Sens unic”?",
+    "Options": [
+      "este interzisă întoarcerea",
+      "este permisă oprirea și staționarea pe ambele părți ale drumului, dacă rămâne o bandă liberă",
+      "sunteți obligat să circulați cu viteza minimă înscrisă pe indicator"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "sens_unic.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 16,
+    "Text": "Indicatorul din imagine interzice:",
+    "Options": [
+      "circulația autovehiculelor",
+      "depășirea tuturor autovehiculelor, cu excepția motocicletelor fără ataș",
+      "oprirea voluntară"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "depasirea_interzisa.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 17,
+    "Text": "Semaforul care clipește cu lumină galbenă intermitentă:",
+    "Options": [
+      "vă obligă să opriți",
+      "vă permite trecerea cu respectarea semnalizării rutiere și a regulilor de circulație",
+      "arată că intersecția este blocată"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "galben_intermitent.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 18,
+    "Text": "Indicatorul semnifică:",
+    "Options": [
+      "accesul interzis tuturor autovehiculelor",
+      "circulație interzisă în ambele sensuri",
+      "sfârșitul interdicțiilor"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "circulatie_interzisa.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 19,
+    "Text": "Într-un sens giratoriu semnalizat ca atare, au prioritate de trecere:",
+    "Options": [
+      "vehiculele care circulă în interiorul sensului față de cele care urmează să pătrundă",
+      "vehiculele de mare tonaj",
+      "vehiculele care vin din dreapta"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "sens_giratoriu.jpeg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 20,
+    "Text": "Ce măsuri trebuie să luați atunci când conduceți pe ceață densă?",
+    "Options": [
+      "să folosiți luminile de drum pentru a vedea mai bine",
+      "să măriți distanța de siguranță față de vehiculul din față",
+      "să folosiți luminile de întâlnire și farurile de ceață"
+    ],
+    "CorrectOptionsIndex": [
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 21,
+    "Text": "Fenomenul de acvaplanare apare atunci când:",
+    "Options": [
+      "pelicula de apă de pe carosabil împiedică contactul anvelopei cu drumul",
+      "pneurile sunt uzate peste limita legală și rulați cu viteză mare",
+      "frânați brusc pe carosabil uscat"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 22,
+    "Text": "În cazul în care simțiți o stare de oboseală accentuată la volan, conduita preventivă recomandă:",
+    "Options": [
+      "să măriți viteza pentru a ajunge mai repede la destinație",
+      "să beți cafea sau energizante și să continuați drumul",
+      "să trageți pe dreapta în prima parcare și să vă odihniți"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 23,
+    "Text": "Ce atitudine trebuie să adoptați față de un pieton care traversează neregulamentar în fața dumneavoastră?",
+    "Options": [
+      "reduceți viteza și, la nevoie, opriți vehiculul",
+      "folosiți avertizorul sonor și continuați deplasarea",
+      "îl ocoliți prin stânga dacă spațiul vă permite"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 24,
+    "Text": "Pe timpul nopții, la întâlnirea cu un vehicul care circulă din sens opus, sunteți obligat:",
+    "Options": [
+      "să aprindeți luminile de ceață",
+      "să treceți de pe luminile de drum pe cele de întâlnire de la o distanță de cel puțin 200 metri",
+      "să priviți fix în farurile autovehiculului pentru a vă asigura traiectoria"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 25,
+    "Text": "Care este rolul uleiului în funcționarea motorului?",
+    "Options": [
+      "asigură răcirea parțială a componentelor",
+      "unge piesele aflate în mișcare de frecare",
+      "împiedică înghețarea lichidului de răcire"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 26,
+    "Text": "Aprinderea martorului luminos de culoare roșie de la presiunea uleiului în timpul mersului indică:",
+    "Options": [
+      "nivelul ridicat al uleiului în baie",
+      "o defecțiune la sistemul de ungere",
+      "necesitatea schimbării lichidului de frână"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "martor_ulei.png",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 27,
+    "Text": "Rolul principal al sistemului ABS (Anti-lock Braking System) este:",
+    "Options": [
+      "de a opri autovehiculul într-un spațiu de 2 ori mai scurt",
+      "de a menține controlul direcției pe timpul frânărilor de urgență",
+      "de a împiedica blocarea roților la frânare"
+    ],
+    "CorrectOptionsIndex": [
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 28,
+    "Text": "O anvelopă care are o presiune mai mică decât cea recomandată de producător:",
+    "Options": [
+      "mărește consumul de carburant al autovehiculului",
+      "uzează excesiv partea centrală a benzii de rulare",
+      "crește distanța de frânare"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 29,
+    "Text": "Cum se oprește o hemoragie arterială masivă la unul dintre membre?",
+    "Options": [
+      "prin aplicarea unui pansament steril pe rană",
+      "prin spălarea rănii cu apă rece",
+      "prin aplicarea unui garou deasupra rănii"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 30,
+    "Text": "Ce poziție se recomandă în așteptarea ambulanței pentru o victimă aflată în stare de inconștiență, care respiră și are puls?",
+    "Options": [
+      "poziția laterală de siguranță",
+      "așezat pe spate, cu picioarele ridicate",
+      "în șezut, rezemat de un suport fix"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 31,
+    "Text": "Unde este interzisă oprirea voluntară a vehiculelor?",
+    "Options": [
+      "pe trecerile pentru pietoni",
+      "la o distanță mai mică de 50 m de trecerile pentru pietoni",
+      "în intersecțiile cu sens giratoriu"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 32,
+    "Text": "Care este limita maximă de viteză în localități, în lipsa altor indicatoare de restricție?",
+    "Options": [
+      "50 km/h",
+      "60 km/h",
+      "70 km/h"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 33,
+    "Text": "Ce semnifică indicatorul din imagine?",
+    "Options": [
+      "Drum îngustat pe ambele părți",
+      "Prioritate pentru circulația din sens invers",
+      "Curbă deosebit de periculoasă"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "drum_ingustat.jpeg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 34,
+    "Text": "Termostatul din sistemul de răcire are rolul de a:",
+    "Options": [
+      "menține temperatura optimă de funcționare a motorului",
+      "răci antigelul din radiator",
+      "încălzi habitaclul pe timp de iarnă"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 35,
+    "Text": "Cum trebuie să procedați la circulația pe timp de ploaie torențială?",
+    "Options": [
+      "măriți distanța față de vehiculul precedent",
+      "folosiți luminile de avarie în mers",
+      "reduceți viteza și folosiți luminile de întâlnire"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 36,
+    "Text": "În cazul unui accidentat cu hemoragie masivă, prima măsură de prim ajutor este:",
+    "Options": [
+      "oprirea hemoragiei prin compresiune sau garou",
+      "transportul imediat la spital, indiferent de stare",
+      "imobilizarea eventualelor fracturi"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 37,
+    "Text": "Depășirea bicicletelor se face:",
+    "Options": [
+      "păstrând o distanță laterală de minim 1,5 metri",
+      "doar dacă nu vin vehicule din sens opus",
+      "claxonând scurt și depășind cât mai aproape de ele pentru a nu stânjeni contrasensul"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 38,
+    "Text": "Care dintre următorii factori duce la uzura prematură a anvelopelor?",
+    "Options": [
+      "presiunea incorectă (prea mare sau prea mică)",
+      "dezechilibrul roților",
+      "folosirea anvelopelor de iarnă în sezonul cald"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 39,
+    "Text": "Ce documente sunteți obligat să aveți asupra dumneavoastră când conduceți un autovehicul?",
+    "Options": [
+      "cartea de identitate a vehiculului (CIV)",
+      "permisul de conducere, documentul de identitate și certificatul de înmatriculare",
+      "contractul de vânzare-cumpărare al mașinii"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 40,
+    "Text": "Ce obligații aveți la întâlnirea indicatorului „Trecere pentru pietoni”?",
+    "Options": [
+      "să acordați prioritate pietonilor care traversează pe sensul dumneavoastră de mers",
+      "să reduceți viteza la maxim 30 km/h în localități, dacă sunt pietoni în apropiere",
+      "să opriți indiferent dacă pe trecere se află sau nu pietoni"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "trecere_pietoni.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 41,
+    "Text": "Extragerea victimelor din autovehiculele grav accidentate se face:",
+    "Options": [
+      "de către oricine, pentru a nu le lăsa să intre în șoc",
+      "doar dacă există pericol iminent de incendiu, explozie sau asfixiere",
+      "după ce li s-a administrat o pastilă pentru calmarea durerii"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 42,
+    "Text": "Folosirea claxonului în localități este permisă:",
+    "Options": [
+      "pentru a atenționa un pieton neatent",
+      "doar pentru evitarea unui pericol iminent",
+      "în intervalul orar 06:00 - 22:00, dacă traficul este blocat"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 43,
+    "Text": "Oprirea autovehiculelor pe trotuar este permisă:",
+    "Options": [
+      "dacă rămâne un spațiu liber de cel puțin 1 metru pentru pietoni, iar panoul adițional permite acest lucru",
+      "în orice condiții, pe timp de noapte",
+      "pentru maxim 5 minute, cu luminile de avarie pornite"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 44,
+    "Text": "Bateria de acumulatori are rolul de a:",
+    "Options": [
+      "alimenta consumatorii electrici când motorul este oprit",
+      "asigura energia necesară pentru pornirea motorului",
+      "reduce consumul de carburant la mersul în gol"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 45,
+    "Text": "Semnalul polițistului rutier care ridică brațul vertical semnifică:",
+    "Options": [
+      "atenție, oprire pentru toți participanții la trafic care se apropie",
+      "reducerea vitezei",
+      "oprire doar pentru vehiculele care vin din fața acestuia"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "politist_brat_vertical.png",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 46,
+    "Text": "Ce vă este interzis pe autostradă?",
+    "Options": [
+      "să circulați cu o viteză inferioară celei de 50 km/h",
+      "să folosiți banda de urgență, excepție făcând cazurile justificate",
+      "să remorcați un alt autovehicul avariat"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 47,
+    "Text": "La întâlnirea indicatorului „Oprirea interzisă”, aveți voie să staționați?",
+    "Options": [
+      "da, dacă sunteți la mai puțin de 50 m de indicator",
+      "nu, deoarece interzicerea opririi atrage de la sine și interzicerea staționării",
+      "da, dacă aprindeți luminile de avarie"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "oprirea_interzisa.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 48,
+    "Text": "Când se folosesc luminile de avarie?",
+    "Options": [
+      "când vehiculul este imobilizat involuntar pe partea carosabilă",
+      "când vă deplasați foarte încet din cauza unei defecțiuni",
+      "când parcați vehiculul pe trotuar"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 49,
+    "Text": "Care dintre autovehicule pot fi depășite în intersecțiile cu circulație nedirijată?",
+    "Options": [
+      "niciun autovehicul",
+      "bicicletele și mopedele",
+      "motocicletele fără ataș"
+    ],
+    "CorrectOptionsIndex": [
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 50,
+    "Text": "La ce distanță se instalează triunghiurile reflectorizante în cazul imobilizării unui autovehicul pe carosabil?",
+    "Options": [
+      "la cel puțin 30 m de vehicul",
+      "la o distanță de cel puțin 50 m",
+      "la o distanță mai mare, în condiții de vizibilitate redusă, pentru a putea fi observate din timp"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 51,
+    "Text": "Viteza se va reduce obligatoriu:",
+    "Options": [
+      "la trecerile pentru pietoni nesemaforizate",
+      "la trecerile la nivel cu calea ferată curentă",
+      "la schimbarea benzii de circulație"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 52,
+    "Text": "Indicatorul din imagine semnifică:",
+    "Options": [
+      "Intersecție cu un drum fără prioritate",
+      "Trecere la nivel cu calea ferată fără bariere",
+      "Atenție, drum cu prioritate"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "intersectie_drum_fara_prioritate.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 53,
+    "Text": "Distanța de frânare a autovehiculului depinde de:",
+    "Options": [
+      "viteza de deplasare",
+      "starea carosabilului",
+      "experiența conducătorului auto"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 54,
+    "Text": "Cum acordați primul ajutor unei persoane care a suferit o arsură?",
+    "Options": [
+      "aplicați un unguent pe zona afectată",
+      "spălați zona cu apă rece, apoi o acoperiți cu un pansament steril",
+      "spargeți flictenele (bășicile) pentru a grăbi vindecarea"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 55,
+    "Text": "Amortizoarele defecte ale autovehiculului au ca efect:",
+    "Options": [
+      "creșterea distanței de frânare",
+      "uzura neuniformă a anvelopelor",
+      "scăderea consumului de combustibil"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 56,
+    "Text": "Dacă tramvaiul se află oprit într-o stație fără refugiu pentru pietoni, conducătorul auto trebuie:",
+    "Options": [
+      "să oprească în spatele tramvaiului",
+      "să reducă viteza și să depășească tramvaiul cu prudență",
+      "să oprească la cel puțin 5 m în spatele ultimului vagon"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 57,
+    "Text": "Indicatorul din imagine vă obligă:",
+    "Options": [
+      "să circulați cu o viteză minimă de 40 km/h",
+      "să circulați cu o viteză de cel mult 40 km/h",
+      "să păstrați o distanță de 30 m față de vehiculul din față"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "viteza_minima_obligatorie.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 58,
+    "Text": "Ce reprezintă distanța de reacție?",
+    "Options": [
+      "distanța parcursă din momentul observării pericolului până în momentul acționării frânei",
+      "distanța parcursă din momentul frânării până la oprirea completă",
+      "timpul scurs între apariția obstacolului și evitarea acestuia"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 59,
+    "Text": "Uzura anormală a anvelopelor pe una dintre margini este cauzată de:",
+    "Options": [
+      "presiunea prea mică în anvelope",
+      "nereglarea geometriei direcției",
+      "frânarea excesivă pe carosabil uscat"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 60,
+    "Text": "Se consideră depășire:",
+    "Options": [
+      "trecerea unui vehicul pe lângă un altul, aflat pe o bandă alăturată, care se deplasează mai încet",
+      "trecerea unui vehicul înaintea altuia, pe același sens, prin ieșirea de pe banda inițială",
+      "trecerea pe lângă un obstacol aflat pe banda de circulație"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 61,
+    "Text": "Pentru care dintre următoarele fapte se reține permisul de conducere?",
+    "Options": [
+      "neacordarea priorității de trecere pietonilor angajați regulamentar în traversare",
+      "folosirea telefonului mobil fără hands-free",
+      "depășirea cu mai mult de 50 km/h a vitezei maxime admise"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 62,
+    "Text": "Cum se execută corect resuscitarea cardio-respiratorie?",
+    "Options": [
+      "30 de compresiuni toracice urmate de 2 insuflări",
+      "15 compresiuni toracice urmate de 5 insuflări",
+      "5 compresiuni toracice urmate de o insuflare"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 63,
+    "Text": "Când sunteți obligat să folosiți luminile de întâlnire, pe timp de zi, pe drumurile naționale (altele decât cele europene - E)?",
+    "Options": [
+      "când tractați o remorcă",
+      "când plouă torențial sau ninge abundent",
+      "în orice situație, la fel ca pe autostrăzi sau drumuri naționale europene"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 64,
+    "Text": "Indicatorul vă avertizează că urmează:",
+    "Options": [
+      "o trecere la nivel cu calea ferată prevăzută cu bariere",
+      "o intersecție cu un drum fără prioritate",
+      "o trecere la nivel cu calea ferată fără bariere"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "trecere_cale_ferata_cu_bariere.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 65,
+    "Text": "Culoarea verde a semaforului electric vă permite trecerea:",
+    "Options": [
+      "doar dacă virați la dreapta",
+      "în orice direcție, cu condiția să nu stânjeniți pietonii sau vehiculele care au acest drept",
+      "doar pe direcția înainte"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 66,
+    "Text": "Unui autovehicul cu tracțiune pe spate îi derapează spatele spre stânga. Ce faceți?",
+    "Options": [
+      "frânați brusc pentru a opri mașina",
+      "virați ușor volanul spre stânga, fără să frânați",
+      "virați dreapta și accelerați puternic"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 67,
+    "Text": "La ce trebuie să fiți atent când circulați în spatele unui autobuz oprit în stație?",
+    "Options": [
+      "la pietonii care ar putea traversa prin fața autobuzului",
+      "la vehiculele care vin din sens opus",
+      "autobuzul vă protejează de orice pericol"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 68,
+    "Text": "Ce rol are catalizatorul la un autovehicul?",
+    "Options": [
+      "reduce consumul de ulei al motorului",
+      "diminuează emisiile de gaze poluante din eșapament",
+      "crește puterea motorului la turații mari"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 69,
+    "Text": "Conduceți pe un drum național. Ce viteză maximă aveți voie să dezvoltați dacă vă aflați la volanul unui autoturism (categoria B) și sunteți începător (aveți permis de mai puțin de un an)?",
+    "Options": [
+      "70 km/h",
+      "80 km/h",
+      "90 km/h"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 70,
+    "Text": "Ce obligativitate aveți la întâlnirea indicatorului „Drum cu prioritate”?",
+    "Options": [
+      "să acordați prioritate vehiculelor care vin din dreapta",
+      "să circulați cu prudență",
+      "niciuna, aveți prioritate de trecere în intersecțiile în care este instalat"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "drum_cu_prioritate.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 71,
+    "Text": "Manevra de mers înapoi este interzisă:",
+    "Options": [
+      "pe drumurile naționale",
+      "la mai puțin de 50 m de trecerile pentru pietoni",
+      "în intersecțiile în care este interzis virajul la stânga"
+    ],
+    "CorrectOptionsIndex": [
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 72,
+    "Text": "Punctele de penalizare se anulează la:",
+    "Options": [
+      "3 luni de la data constatării contravenției",
+      "6 luni de la data constatării contravenției",
+      "un an de la data constatării contravenției"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 73,
+    "Text": "Ce este obligatoriu să faceți înainte de a începe depășirea?",
+    "Options": [
+      "să vă asigurați că vehiculul din spate sau din față nu a semnalizat aceeași manevră",
+      "să semnalizați intenția și să vă asigurați din ambele sensuri",
+      "să măriți imediat viteza"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 74,
+    "Text": "În ce situație se reține certificatul de înmatriculare?",
+    "Options": [
+      "dacă anvelopele au alte dimensiuni decât cele trecute în cartea de identitate",
+      "dacă lipsește triunghiul reflectorizant",
+      "dacă ITP-ul (Inspecția Tehnică Periodică) este expirat"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 75,
+    "Text": "Sistemul de servodirecție are rolul de a:",
+    "Options": [
+      "menține traiectoria rectilinie a autovehiculului pe drum",
+      "reduce efortul conducătorului auto la manevrarea volanului",
+      "bloca volanul la parcarea vehiculului"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 76,
+    "Text": "Cum acționați dacă victima unui accident este blocată în mașină dar nu este în pericol imediat (incendiu/explozie)?",
+    "Options": [
+      "o trageți afară cât mai repede pentru a evita șocul",
+      "nu o mișcați și așteptați echipajele specializate de descarcerare",
+      "o așezați în poziția laterală de siguranță chiar în interiorul mașinii"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 77,
+    "Text": "Ce semnifică marcajul longitudinal format dintr-o linie continuă lipită de o linie discontinuă?",
+    "Options": [
+      "conducătorii auto trebuie să respecte semnificația liniei celei mai apropiate în sensul de mers",
+      "este interzisă încălcarea acestuia din ambele sensuri",
+      "permite depășirea doar pe timpul zilei"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 78,
+    "Text": "Acvaplanarea reprezintă un pericol major pentru că:",
+    "Options": [
+      "crește brusc consumul de combustibil",
+      "anvelopele pierd contactul cu partea carosabilă, ducând la pierderea direcției și a frânelor",
+      "se defectează sistemul ABS"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 79,
+    "Text": "La trecerea la nivel cu o cale ferată industrială:",
+    "Options": [
+      "sunteți obligat să opriți",
+      "respectați semnalele agentului de cale ferată",
+      "circulați cu atenție, nu există restricții"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 80,
+    "Text": "Indicatorul semnifică:",
+    "Options": [
+      "Drum cu prioritate",
+      "Atenție, cade pietriș",
+      "Sfârșitul drumului cu prioritate"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "sfarsit_drum_prioritate.jpeg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 81,
+    "Text": "Dacă plouă și începeți să derapați la frânare pe un autovehicul fără ABS:",
+    "Options": [
+      "eliberați complet frâna și o acționați intermitent (pompând)",
+      "apăsați frâna la podea până opriți",
+      "trageți frâna de mână"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 82,
+    "Text": "Pentru care dintre abaterile de mai jos se aplică măsura imobilizării vehiculului?",
+    "Options": [
+      "conducerea unui vehicul neînmatriculat",
+      "lipsa roții de rezervă",
+      "conducerea sub influența băuturilor alcoolice"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 83,
+    "Text": "Care din următoarele situații determină aprinderea martorului „Check Engine” (Verificare motor)?",
+    "Options": [
+      "arderea unui bec la far",
+      "o funcționare incorectă a sistemului de injecție sau a senzorilor motorului",
+      "uzura plăcuțelor de frână"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "check_engine.jpg",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 84,
+    "Text": "Care este timpul recomandat pentru a face o pauză în cazul unei călătorii lungi?",
+    "Options": [
+      "după maxim 6 ore de condus",
+      "după fiecare 2 ore de condus, pentru cel puțin 15 minute",
+      "nu este necesară pauza dacă consumați cafea"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 85,
+    "Text": "La ieșirea dintr-o intersecție cu sens giratoriu, conducătorul auto este obligat:",
+    "Options": [
+      "să semnalizeze intenția de a schimba direcția de mers spre dreapta",
+      "să semnalizeze cu faza lungă pentru a fi observat",
+      "nu are nicio obligație de semnalizare"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 86,
+    "Text": "Indicatorul „Cedează trecerea” are forma:",
+    "Options": [
+      "unui octogon roșu",
+      "unui triunghi echilateral cu vârful în jos",
+      "unui cerc roșu cu interiorul alb"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 87,
+    "Text": "Care dintre următoarele simptome indică o defecțiune la sistemul de frânare?",
+    "Options": [
+      "cursa pedalei de frână este foarte scurtă",
+      "pedala de frână este moale (elastică) la apăsare",
+      "motorul se oprește la frânare"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 88,
+    "Text": "Ce factori pot accentua starea de oboseală la volan?",
+    "Options": [
+      "conducerea pe o autostradă aglomerată",
+      "căldura excesivă din habitaclu și lipsa ventilației",
+      "consumul de băuturi energizante în exces"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 89,
+    "Text": "Cum se imobilizează o fractură a brațului în faza de prim ajutor?",
+    "Options": [
+      "se încearcă punerea osului la loc înainte de imobilizare",
+      "se imobilizează brațul folosind atele, prinzând articulația de deasupra și cea de dedesubtul focarului de fractură",
+      "se masează zona pentru a reduce durerea"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 90,
+    "Text": "Cum trebuie să procedați dacă la volanul mașinii din față observați un conducător auto care conduce sinuos?",
+    "Options": [
+      "îl depășiți imediat, claxonând prelung",
+      "păstrați o distanță mai mare față de el și circulați cu maximă prudență",
+      "îi faceți semne cu farurile să tragă pe dreapta"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 91,
+    "Text": "Pe un drum cu sens unic este interzisă:",
+    "Options": [
+      "manevra de întoarcere",
+      "mersul înapoi pe o distanță mai mare de 50 de metri",
+      "oprirea pe partea stângă"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 92,
+    "Text": "Fumul de culoare albastră scos de eșapament indică:",
+    "Options": [
+      "consumul exagerat de ulei al motorului",
+      "amestecul carburant este prea bogat",
+      "defecțiuni la instalația de răcire"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 93,
+    "Text": "În ce situație conducătorul auto este obligat să acorde prioritate de trecere vehiculelor cu regim de circulație prioritar care au în funcțiune semnalele luminoase albastre și pe cele sonore?",
+    "Options": [
+      "când acestea se apropie din sens opus",
+      "în orice situație, eliberând banda, trăgând pe dreapta sau oprind, după caz",
+      "doar în intersecții"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 94,
+    "Text": "În cazul unui accidentat suspect de fractură a coloanei vertebrale, mutarea acestuia se face:",
+    "Options": [
+      "prinzându-l de brațe și picioare",
+      "așezându-l în șezut pentru a respira mai bine",
+      "doar de către personalul medical specializat, excepție făcând cazurile de pericol iminent"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 95,
+    "Text": "La întâlnirea autovehiculelor cu semnalele luminoase de culoare roșie în funcțiune sunteți obligat:",
+    "Options": [
+      "să reduceți viteza și să vă continuați deplasarea",
+      "să circulați în spatele acestora la o distanță de siguranță",
+      "să opriți imediat autovehiculul în afara părții carosabile sau cât mai aproape de bordură"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 96,
+    "Text": "Indicatorul alăturat vă anunță:",
+    "Options": [
+      "sfârșitul tuturor restricțiilor",
+      "sfârșitul zonei cu viteză limitată",
+      "sfârșitul interzicerii de a depăși"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "sfarsit_interzicere_depasire.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 97,
+    "Text": "Pietonii care circulă pe partea carosabilă pe timp de noapte prezintă un pericol deoarece:",
+    "Options": [
+      "sunt foarte greu de observat din cauza vizibilității reduse și a îmbrăcăminții deseori închise la culoare",
+      "au tendința de a traversa în fugă",
+      "farurile vehiculului dumneavoastră îi pot orbi"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 98,
+    "Text": "Primul lucru care trebuie evaluat la o victimă inconștientă este:",
+    "Options": [
+      "existența pulsului și a respirației",
+      "prezența fracturilor la nivelul membrelor",
+      "temperatura corpului"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 99,
+    "Text": "Întoarcerea este interzisă:",
+    "Options": [
+      "pe trecerile la nivel cu calea ferată și la mai puțin de 50 m de acestea",
+      "în intersecțiile cu sens giratoriu",
+      "pe drumurile cu o singură bandă pe sens"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 100,
+    "Text": "Ce reprezintă panoul adițional instalat sub un indicator de „Trecere pentru pietoni”?",
+    "Options": [
+      "distanța până la trecerea pentru pietoni",
+      "faptul că trecerea este supravegheată video",
+      "lungimea sectorului de drum periculos"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "panou_aditional_distanta.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 101,
+    "Text": "Rolul principal al cutiei de viteze este de a:",
+    "Options": [
+      "asigura răcirea motorului în timpul mersului",
+      "permite mersul înapoi fără a inversa sensul de rotație a motorului",
+      "întrerupe fluxul de putere între motor și roți la schimbarea treptelor"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 102,
+    "Text": "Cum adaptați viteza la rularea pe piatră cubică umedă?",
+    "Options": [
+      "păstrați aceeași viteză ca pe asfalt uscat",
+      "reduceți viteza, deoarece aderența este foarte scăzută și riscul de derapaj este mare",
+      "măriți viteza pentru a depăși rapid zona periculoasă"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 103,
+    "Text": "O victimă care a pierdut mult sânge intră în stare de șoc. Cum o poziționați?",
+    "Options": [
+      "culcată pe spate, cu membrele inferioare ridicate la aproximativ 30 de grade",
+      "în poziția șezut",
+      "în picioare, sprijinită de un pom"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 104,
+    "Text": "Cine are obligația să respecte semnalele agenților care dirijează circulația la trecerile la nivel cu calea ferată?",
+    "Options": [
+      "doar conducătorii autovehiculelor",
+      "toți participanții la trafic",
+      "doar pietonii"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 105,
+    "Text": "Ce document este obligatoriu să înmânați polițistului rutier la cerere?",
+    "Options": [
+      "cartea de identitate a vehiculului (CIV)",
+      "permisul de conducere",
+      "contractul de asigurare auto CASCO"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 106,
+    "Text": "Semnificația indicatorului alăturat este:",
+    "Options": [
+      "Atenție, drum cu denivelări",
+      "Vamă",
+      "Drum îngustat pe partea dreaptă"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "drum_ingustat_dreapta.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 107,
+    "Text": "Aprinderea martorului luminos pentru temperatura lichidului de răcire vă obligă să:",
+    "Options": [
+      "opriți imediat motorul într-un loc sigur și verificați nivelul antigelului",
+      "continuați drumul până la cel mai apropiat service",
+      "accelerați pentru a crește fluxul de aer prin radiator"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "martor_temperatura_apa.png",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 108,
+    "Text": "Când sunteți orbit pe timp de noapte de farurile vehiculului din sens opus, trebuie să:",
+    "Options": [
+      "aprindeți faza lungă pentru a-l atenționa",
+      "priviți spre marginea din dreapta a drumului și să reduceți viteza",
+      "opriți brusc autovehiculul"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 109,
+    "Text": "Garoul se aplică pentru oprirea unei hemoragii masive doar dacă:",
+    "Options": [
+      "compresiunea directă pe rană nu dă rezultate sau nu este posibilă",
+      "rana este la nivelul capului",
+      "victima are dureri foarte mari"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 110,
+    "Text": "În care dintre situații este interzisă remorcarea unui autovehicul?",
+    "Options": [
+      "când autovehiculul remorcat are defecțiuni la sistemul de iluminare și semnalizare",
+      "când autovehiculul remorcat are sistemul de direcție defect",
+      "când afară plouă torențial"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 111,
+    "Text": "Oprirea voluntară a vehiculelor este interzisă la mai puțin de:",
+    "Options": [
+      "25 m de indicatoarele stațiilor mijloacelor de transport public",
+      "50 m de indicatoarele stațiilor mijloacelor de transport public",
+      "10 m de trecerile pentru pietoni"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 112,
+    "Text": "Indicatorul din imagine reprezintă:",
+    "Options": [
+      "Oprire obligatorie la Vamă",
+      "Sens interzis",
+      "Control radar"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "indicator_vama.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 113,
+    "Text": "Rularea cu anvelope a căror bandă de rulare este uzată sub limita legală (1,6 mm) atrage:",
+    "Options": [
+      "creșterea riscului de acvaplanare la viteze mici",
+      "reținerea certificatului de înmatriculare",
+      "reducerea distanței de frânare"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 114,
+    "Text": "Circulația în coloană, bară la bară, solicită din partea conducătorului auto:",
+    "Options": [
+      "atenție distributivă și păstrarea unei distanțe constante față de vehiculul din față",
+      "să claxoneze frecvent pentru fluidizarea traficului",
+      "să depășească pe banda de urgență"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 115,
+    "Text": "În cazul unui motociclist accidentat, casca de protecție:",
+    "Options": [
+      "se scoate imediat pentru a-i facilita respirația",
+      "nu se scoate decât dacă victima nu respiră sau vomită",
+      "se scoate de către victima însăși"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 116,
+    "Text": "Depășirea este interzisă:",
+    "Options": [
+      "pe poduri, sub poduri și în tuneluri",
+      "pe drumurile cu mai mult de două benzi pe sens",
+      "în zona de acțiune a indicatorului „Prioritate față de circulația din sens invers”"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 117,
+    "Text": "Care este limita maximă de viteză pentru un autovehicul care tractează o remorcă în afara localităților?",
+    "Options": [
+      "cu 10 km/h mai mică decât viteza maximă admisă pentru categoria din care face parte autovehiculul trăgător",
+      "70 km/h pe toate drumurile",
+      "90 km/h pe drumurile naționale"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 118,
+    "Text": "Indicatorul din imagine semnifică:",
+    "Options": [
+      "Atenție, trecere de pietoni",
+      "Copii",
+      "Zonă rezidențială"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "indicator_copii.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 119,
+    "Text": "Înfundarea filtrului de aer duce la:",
+    "Options": [
+      "creșterea consumului de carburant",
+      "îmbunătățirea arderii amestecului carburant",
+      "scăderea puterii motorului"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 120,
+    "Text": "Când depășiți un biciclist, cel mai important element preventiv este:",
+    "Options": [
+      "să folosiți semnalul sonor din timp",
+      "să păstrați o distanță laterală suficientă, anticipând o eventuală dezechilibrare a acestuia",
+      "să accelerați brusc la trecerea pe lângă el"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 121,
+    "Text": "Hemoragia venoasă se recunoaște prin faptul că:",
+    "Options": [
+      "sângele este roșu aprins și țâșnește în ritmul bătăilor inimii",
+      "sângele este roșu închis și curge continuu, lin",
+      "sângele se coagulează instantaneu"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 122,
+    "Text": "Folosirea pe drumurile publice a unui autovehicul cu ITP (Inspecția Tehnică Periodică) expirat se sancționează cu:",
+    "Options": [
+      "amendă contravențională",
+      "reținerea certificatului de înmatriculare și a plăcuțelor cu numărul de înmatriculare",
+      "anularea permisului de conducere"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 123,
+    "Text": "Când se poate efectua staționarea pe un drum național european (E)?",
+    "Options": [
+      "dacă staționați pe partea dreaptă, în sensul de mers",
+      "este interzisă oprirea și staționarea pe partea carosabilă a drumurilor naționale europene",
+      "dacă ați aprins luminile de poziție"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 124,
+    "Text": "Cum recunoașteți un drum cu sens unic?",
+    "Options": [
+      "după indicatorul „Sens unic” instalat la intrarea pe drum",
+      "după faptul că nu se intersectează cu niciun alt drum",
+      "după existența marcajului longitudinal continuu care separă benzile"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 125,
+    "Text": "Pe ce drumuri este interzisă învățarea conducerii unui autovehicul?",
+    "Options": [
+      "pe drumurile județene",
+      "pe drumurile naționale europene (E)",
+      "pe autostrăzi"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 126,
+    "Text": "Când motorul funcționează neregulat, cu rateuri, cauza poate fi:",
+    "Options": [
+      "defectarea termostatului",
+      "folosirea unor bujii defecte",
+      "uzura discului de ambreiaj"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 127,
+    "Text": "Ce trebuie să faceți atunci când vizibilitatea este redusă din cauza ceții?",
+    "Options": [
+      "să măriți viteza pentru a părăsi zona mai repede",
+      "să folosiți luminile de drum (faza lungă)",
+      "să reduceți viteza și să măriți distanța față de vehiculul precedent"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 128,
+    "Text": "Ce tip de hemoragie este cea în care sângele curge în jeturi sacadate, în ritmul bătăilor inimii?",
+    "Options": [
+      "venoasă",
+      "arterială",
+      "capilară"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 129,
+    "Text": "Indicatorul din imagine vă avertizează că urmează:",
+    "Options": [
+      "un drum cu denivelări",
+      "un sector de drum alunecos",
+      "o coborâre periculoasă"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "drum_alunecos.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 130,
+    "Text": "Cum se circulă corect pe drumurile publice cu o bicicletă, atunci când sunteți în grup?",
+    "Options": [
+      "pe un singur rând",
+      "pe două rânduri, pentru a ocupa o bandă întreagă",
+      "pe trotuar, la pas"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 131,
+    "Text": "La trecerea la nivel cu o cale ferată curentă, fără bariere sau semibariere, conducătorul auto este obligat:",
+    "Options": [
+      "să reducă viteza și să se asigure temeinic",
+      "să oprească autovehiculul în locul unde există vizibilitate maximă asupra căii ferate, fără a depăși indicatorul",
+      "să folosească semnalul sonor pentru a fi auzit de mecanicul de locomotivă"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 132,
+    "Text": "La motoarele cu ardere internă, sistemul de ungere are ca scop principal:",
+    "Options": [
+      "reducerea frecării dintre piesele în mișcare",
+      "evacuarea gazelor de ardere",
+      "răcirea lichidului din radiator"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 133,
+    "Text": "Cum vă asigurați la pătrunderea într-o intersecție cu sens giratoriu?",
+    "Options": [
+      "din stânga, acordând prioritate vehiculelor care circulă deja în interiorul sensului",
+      "din dreapta, conform regulii priorității de dreapta",
+      "din ambele sensuri"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 134,
+    "Text": "Indicatorul din imagine interzice:",
+    "Options": [
+      "virajul la dreapta",
+      "întoarcerea",
+      "depășirea"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "intoarcerea_interzisa.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 135,
+    "Text": "Conducerea pe timp de noapte este mai periculoasă deoarece:",
+    "Options": [
+      "câmpul vizual este redus",
+      "scade distanța de frânare",
+      "traficul este mai intens"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 136,
+    "Text": "Cum se transportă o victimă care a suferit o fractură de coloană vertebrală?",
+    "Options": [
+      "pe o targă tare (plan dur), menținând capul, gâtul și trunchiul în același ax",
+      "în poziție șezândă",
+      "pe scaunul din dreapta față al unui autoturism, cu centura pusă"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 137,
+    "Text": "Pe ce sectoare de drum este interzisă manevra de întoarcere?",
+    "Options": [
+      "pe drumurile cu o singură bandă pe sens",
+      "pe trecerile pentru pietoni",
+      "în locurile unde vizibilitatea este redusă sub 50 m"
+    ],
+    "CorrectOptionsIndex": [
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 138,
+    "Text": "Ce obligații aveți dacă ați accidentat un pieton care a traversat strada prin loc nepermis?",
+    "Options": [
+      "să vă continuați deplasarea dacă victima se ridică și pleacă",
+      "să anunțați imediat poliția și să nu modificați locul accidentului",
+      "să mutați vehiculul în afara carosabilului și să mergeți la cel mai apropiat post de poliție"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 139,
+    "Text": "Uzura neuniformă a anvelopelor din față se datorează în general:",
+    "Options": [
+      "rulării cu viteză excesivă pe autostradă",
+      "dereglării geometriei direcției (convergență sau unghi de cădere incorect)",
+      "folosirii frânei de motor prea des"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 140,
+    "Text": "Indicatorul semnifică:",
+    "Options": [
+      "Sens unic",
+      "Drum pentru autovehicule",
+      "Autostradă"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "drum_pentru_autovehicule.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 141,
+    "Text": "Ce conduită trebuie să adoptați la apropierea de o trecere pentru pietoni nesemaforizată, aflată în afara localității?",
+    "Options": [
+      "să reduceți viteza și să acordați prioritate pietonilor aflați pe sensul dumneavoastră de mers",
+      "să folosiți claxonul pentru a-i avertiza să nu traverseze",
+      "să opriți obligatoriu la marcajul transversal"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 142,
+    "Text": "Limita maximă de viteză pe drumurile județene pentru un autovehicul din categoria B este:",
+    "Options": [
+      "100 km/h",
+      "90 km/h",
+      "80 km/h"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 143,
+    "Text": "Conducătorul de vehicul este obligat să reducă viteza:",
+    "Options": [
+      "la trecerea prin intersecțiile cu circulație nedirijată",
+      "la schimbarea benzii de circulație",
+      "la întâlnirea indicatorului „Prioritate față de circulația din sens invers”"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 144,
+    "Text": "În cazul unor arsuri provocate de foc, prima intervenție constă în:",
+    "Options": [
+      "aplicarea de gheață direct pe rană",
+      "stingerea hainelor aprinse și spălarea imediată a zonei afectate cu apă curată și rece",
+      "îndepărtarea forțată a hainelor lipite de piele"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 145,
+    "Text": "Cum verificați corect nivelul uleiului din baia de ulei a motorului?",
+    "Options": [
+      "cu motorul pornit, la ralanti",
+      "imediat după ce ați oprit motorul",
+      "cu motorul oprit de ceva timp și autovehiculul așezat pe un teren orizontal"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 146,
+    "Text": "Ce semnifică indicatorul cu fond verde din imagine?",
+    "Options": [
+      "Drum expres",
+      "Autostradă",
+      "Direcția spre o localitate rurală"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "indicator_autostrada.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 147,
+    "Text": "Conducerea ecologică a autovehiculului presupune:",
+    "Options": [
+      "schimbarea treptelor de viteză la turații foarte ridicate",
+      "anticiparea situațiilor din trafic pentru a evita frânările și accelerările bruște",
+      "menținerea unei viteze constante prin folosirea sistemului de aer condiționat la putere maximă"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 148,
+    "Text": "Sunteți obligat să opriți autovehiculul la semnalele date de:",
+    "Options": [
+      "polițiștii de frontieră",
+      "polițiștii rutieri",
+      "personalul autorizat din zona lucrărilor pe drumurile publice"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 149,
+    "Text": "Purtarea centurii de siguranță este obligatorie:",
+    "Options": [
+      "doar în afara localităților",
+      "doar de către conducătorul auto și pasagerul din dreapta față",
+      "de către conducătorul auto și toți pasagerii care ocupă locuri prevăzute cu asemenea dispozitive"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 150,
+    "Text": "Apariția fenomenului de acvaplanare este favorizată de:",
+    "Options": [
+      "viteza de deplasare mare pe carosabilul acoperit cu apă",
+      "uzura accentuată a benzii de rulare a anvelopelor",
+      "funcționarea incorectă a sistemului de direcție"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 151,
+    "Text": "Indicatorul din imagine interzice:",
+    "Options": [
+      "Staționarea",
+      "Oprirea și staționarea",
+      "Accesul autovehiculelor"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "stationarea_interzisa.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 152,
+    "Text": "Este interzisă depășirea vehiculelor:",
+    "Options": [
+      "în intersecțiile dirijate prin semafoare",
+      "pe trecerile pentru pietoni",
+      "în curbe și în alte locuri cu vizibilitate redusă sub 50 m"
+    ],
+    "CorrectOptionsIndex": [
+      1,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 153,
+    "Text": "Pentru oprirea unei hemoragii la nivelul antebrațului, garoul se aplică:",
+    "Options": [
+      "deasupra rănii (între rană și inimă)",
+      "direct pe rană",
+      "sub rană"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 154,
+    "Text": "Patinarea ambreiajului se manifestă astfel:",
+    "Options": [
+      "la eliberarea pedalei, motorul se oprește instantaneu",
+      "turația motorului crește la accelerare, dar viteza autovehiculului nu crește proporțional",
+      "pedala de ambreiaj se apasă foarte greu"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 155,
+    "Text": "Ce reprezintă indicatorul alăturat?",
+    "Options": [
+      "Lucrări pe partea carosabilă",
+      "Drum cu denivelări",
+      "Presemnalizarea unei treceri de pietoni"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "lucrari.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 156,
+    "Text": "În ce locuri este interzisă staționarea voluntară a vehiculelor?",
+    "Options": [
+      "în toate locurile unde este interzisă oprirea",
+      "pe drumurile județene",
+      "în zona de acțiune a indicatorului „Staționarea interzisă”"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 157,
+    "Text": "Dacă la trecerea la nivel cu calea ferată sunt aprinse luminile roșii intermitente, sunteți obligat:",
+    "Options": [
+      "să treceți cu atenție dacă barierele nu sunt lăsate",
+      "să opriți autovehiculul",
+      "să respectați indicațiile unui eventual semafor alb aflat în apropiere"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 158,
+    "Text": "Respirația artificială (insuflările) se realizează:",
+    "Options": [
+      "aplicând compresiuni pe toracele victimei",
+      "pensând nasul victimei și insuflând aer prin gura acesteia",
+      "stropind fața victimei cu apă rece"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 159,
+    "Text": "Un conducător auto începător are obligația:",
+    "Options": [
+      "să poarte semnul distinctiv (lămâia) timp de 1 an de la obținerea permisului",
+      "să nu circule pe autostrăzi primele 6 luni",
+      "să circule cu o viteză maximă cu 20 km/h mai mică decât viteza legală admisă"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 160,
+    "Text": "Manevra de mers înapoi este permisă:",
+    "Options": [
+      "pe distanțe mai mari de 50 de metri, doar dacă este ghidat de o altă persoană",
+      "pe o distanță de cel mult 50 de metri",
+      "în intersecțiile nedirijate"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 161,
+    "Text": "Când semaforul arată culoarea roșie și cel pentru pietoni culoarea verde:",
+    "Options": [
+      "puteți vira la dreapta dacă acordați prioritate pietonilor",
+      "sunteți obligat să opriți și să așteptați culoarea verde",
+      "treceți doar dacă intersecția este liberă"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 162,
+    "Text": "Care componentă face parte din sistemul de direcție al autovehiculului?",
+    "Options": [
+      "caseta de direcție",
+      "planetara",
+      "diferențialul"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 163,
+    "Text": "Indicatorul vă obligă să:",
+    "Options": [
+      "cedați trecerea",
+      "respectați direcția obligatorie la stânga",
+      "acordați prioritate de dreapta"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "directie_obligatorie_stanga.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 164,
+    "Text": "Distanța de siguranță față de vehiculul precedent trebuie să fie:",
+    "Options": [
+      "suficientă pentru a putea evita coliziunea în caz de frânare bruscă a acestuia",
+      "de cel puțin 50 de metri, indiferent de viteză",
+      "egală cu distanța parcursă de vehicul într-o secundă"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 165,
+    "Text": "Ce semnificație are lumina galbenă a semaforului instalat la o intersecție, dacă apare după lumina verde?",
+    "Options": [
+      "permite pătrunderea în intersecție cu o viteză redusă",
+      "obligă conducătorii auto să oprească, dacă nu au depășit deja marcajul de oprire",
+      "anunță apariția iminentă a luminii verzi"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 166,
+    "Text": "Banda de urgență a autostrăzilor poate fi folosită:",
+    "Options": [
+      "pentru deplasarea autovehiculelor care rulează cu o viteză sub 50 km/h",
+      "doar în caz de forță majoră, pentru imobilizarea autovehiculului",
+      "pentru depășirea coloanelor de mașini staționate"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 167,
+    "Text": "Puteți opri autovehiculul în dreptul altui vehicul oprit pe partea carosabilă?",
+    "Options": [
+      "da, dacă sunteți pe un drum cu sens unic",
+      "nu, dacă prin aceasta stânjeniți circulația a două vehicule venind din sensuri opuse",
+      "da, dar numai pentru îmbarcarea sau debarcarea pasagerilor"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 168,
+    "Text": "Cum procedați dacă autovehiculul derapează cu spatele spre dreapta?",
+    "Options": [
+      "virați ușor volanul spre stânga și frânați",
+      "eliberați pedala de accelerație și virați ușor volanul spre dreapta",
+      "apăsați brusc ambreiajul și frâna"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 169,
+    "Text": "În care dintre situațiile următoare sunteți obligat să circulați cu o viteză care să nu depășească 30 km/h în localități?",
+    "Options": [
+      "la trecerea prin intersecțiile cu circulație dirijată",
+      "în zona de acțiune a indicatorului „Copii”, în intervalul orar 07:00 - 22:00",
+      "pe poduri și sub poduri"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 170,
+    "Text": "Cum trebuie aplicat un pansament pe o rană care sângerează puternic?",
+    "Options": [
+      "se aplică un strat gros de vată direct pe rană",
+      "se aplică comprese sterile peste care se trage feșe strânse (pansament compresiv)",
+      "se spală rana cu alcool și apoi se pansează liber"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 171,
+    "Text": "Care dintre lichidele de mai jos face parte din sistemul de frânare?",
+    "Options": [
+      "antigelul",
+      "lichidul de servo-direcție",
+      "lichidul de frână (ex. DOT 4)"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 172,
+    "Text": "În ce constă manevra de depășire?",
+    "Options": [
+      "trecerea unui vehicul înaintea altuia, aflat pe același sens, prin schimbarea benzii",
+      "ocolirea unui obstacol imobil",
+      "trecerea vehiculelor unele pe lângă altele, din sensuri opuse"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 173,
+    "Text": "Semnalul luminos de culoare albă din spatele autovehiculului indică faptul că:",
+    "Options": [
+      "autovehiculul intenționează să oprească",
+      "autovehiculul este în manevra de mers înapoi",
+      "șoferul acționează frâna de serviciu"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 174,
+    "Text": "Viteza maximă admisă pe drumurile expres pentru un autoturism este de:",
+    "Options": [
+      "100 km/h",
+      "120 km/h",
+      "130 km/h"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 175,
+    "Text": "Din punct de vedere al conduitei preventive, la trecerea pe lângă un grup de copii care se joacă pe trotuar, trebuie să:",
+    "Options": [
+      "măriți viteza pentru a vă îndepărta rapid",
+      "reduceți viteza, măriți atenția și anticipați posibilitatea ca unul dintre ei să alerge pe carosabil",
+      "claxonați prelung pe toată durata trecerii"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 176,
+    "Text": "Care dintre manevre este interzisă pe un drum cu sens unic?",
+    "Options": [
+      "oprirea pe partea stângă",
+      "întoarcerea",
+      "depășirea bicicletelor"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 177,
+    "Text": "Termenul „valabilitate ITP” reprezintă:",
+    "Options": [
+      "perioada în care polița RCA este valabilă",
+      "perioada de timp în care autovehiculul corespunde din punct de vedere tehnic normelor legale",
+      "data până la care este valabilă rovinieta"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 178,
+    "Text": "Când sunteți obligat să acordați prioritate pietonilor?",
+    "Options": [
+      "atunci când aceștia se află pe trotuar",
+      "când sunt angajați în traversarea drumului public prin locuri special amenajate, pe sensul dumneavoastră de mers",
+      "în orice intersecție, indiferent de marcaje"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 179,
+    "Text": "Dacă la o intersecție nedirijată vizibilitatea este sub 50 m, ce viteză maximă veți folosi?",
+    "Options": [
+      "50 km/h în localități și 90 km/h în afara acestora",
+      "maximum 30 km/h în localități și 50 km/h în afara acestora",
+      "nu există o limită specifică dacă circulați cu prudență"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 180,
+    "Text": "Ce trebuie să facă un conducător auto implicat într-un accident cu pagube materiale?",
+    "Options": [
+      "să scoată imediat autovehiculul în afara părții carosabile sau cât mai aproape de bordură și să completeze formularul de constatare amiabilă",
+      "să aștepte poliția la fața locului fără a muta mașinile",
+      "să părăsească locul faptei dacă nu se înțelege cu celălalt șofer"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 181,
+    "Text": "Cum recunoașteți pe un drum public prezența unei treceri pentru pietoni?",
+    "Options": [
+      "prin marcajul transversal (linii albe paralele) și indicatorul aferent",
+      "numai dacă este semaforizată",
+      "după existența unui refugiu pe centrul drumului"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 182,
+    "Text": "Cum se transportă o persoană accidentată care are o plagă abdominală deschisă?",
+    "Options": [
+      "în poziție laterală de siguranță",
+      "culcată pe spate, cu genunchii flectați (îndoiți)",
+      "în poziție așezată, cu picioarele atârnând"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 183,
+    "Text": "Funcționarea motorului la supraturație pe termen lung poate cauza:",
+    "Options": [
+      "curățarea completă a depunerilor de calamină din pistoane",
+      "uzura prematură a pieselor motorului și creșterea consumului de ulei",
+      "îmbunătățirea performanțelor sistemului de frânare"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 184,
+    "Text": "Oprirea autovehiculelor este interzisă:",
+    "Options": [
+      "pe drumurile județene",
+      "pe partea carosabilă a drumurilor naționale",
+      "la o distanță mai mică de 25 m de colțul intersecției"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 185,
+    "Text": "Dacă intenționați să virați la stânga într-o intersecție, cui trebuie să acordați prioritate?",
+    "Options": [
+      "vehiculelor care vin din spate",
+      "vehiculelor care circulă din sens opus și celor care vin din dreapta (dacă e intersecție nedirijată)",
+      "tuturor autovehiculelor din intersecție"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 186,
+    "Text": "Indicatorul din imagine semnifică:",
+    "Options": [
+      "Drum îngustat",
+      "Trecere de pietoni denivelată",
+      "Drum cu denivelări"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "drum_denivelari.png",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 187,
+    "Text": "La frânarea de urgență pe o suprafață alunecoasă (fără sistem ABS), cel mai bun mod de a păstra controlul direcției este:",
+    "Options": [
+      "să blocați roțile apăsând frâna cu toată puterea",
+      "să trageți frâna de mână concomitent cu cea de picior",
+      "să „pompați” pedala de frână (apăsări și eliberări succesive)"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 188,
+    "Text": "Sunteți obligat să opriți autovehiculul:",
+    "Options": [
+      "la semnalele conducătorilor de vehicule cu tracțiune animală",
+      "la semnalul orbului care traversează strada folosind un baston alb",
+      "la semnalul oricărui pieton care dorește să traverseze"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 189,
+    "Text": "Permisul de conducere se suspendă pentru:",
+    "Options": [
+      "nerespectarea semnificației culorii roșii a semaforului",
+      "lipsa centurii de siguranță",
+      "folosirea luminilor de ceață pe vreme senină"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 190,
+    "Text": "Arderea incompletă a combustibilului duce la:",
+    "Options": [
+      "scăderea nivelului lichidului de răcire",
+      "eliminarea de fum negru prin țeava de eșapament",
+      "aprinderea martorului pentru nivelul uleiului"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 191,
+    "Text": "Cine are prioritate de trecere într-un sens giratoriu?",
+    "Options": [
+      "vehiculele care intră în intersecție",
+      "vehiculele care circulă în interiorul intersecției",
+      "vehiculele de transport public de persoane"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 192,
+    "Text": "Când polițistul rutier dirijează circulația într-o intersecție, conducătorul auto este obligat:",
+    "Options": [
+      "să respecte doar semaforul electric",
+      "să respecte indicatoarele rutiere",
+      "să respecte exclusiv semnalele și indicațiile polițistului"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 193,
+    "Text": "Pentru transportul unui accidentat care are leziuni la nivelul bazinului se va folosi:",
+    "Options": [
+      "un tărgiu moale (pătură)",
+      "un plan dur (o ușă, o scândură lată)",
+      "poziția de decubit lateral (pe o parte)"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "prim_ajutor"
+  },
+  {
+    "Id": 194,
+    "Text": "Indicatorul semnifică:",
+    "Options": [
+      "Viteză recomandată",
+      "Viteză minimă obligatorie",
+      "Limitare de viteză"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "limitare_viteza.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 195,
+    "Text": "Care este atitudinea corectă atunci când, deși aveți prioritate, un alt conducător auto a pătruns deja în intersecție?",
+    "Options": [
+      "intrați în intersecție și îl forțați să oprească",
+      "folosiți avertizorul sonor prelungit și nu îi permiteți trecerea",
+      "reduceți viteza și îi permiteți degajarea intersecției, evitând un accident"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 196,
+    "Text": "Marcajul longitudinal continuu aplicat pe axul drumului vă interzice:",
+    "Options": [
+      "virajul la dreapta",
+      "încălcarea lui, implicit depășirea vehiculelor care ar presupune trecerea peste acest marcaj",
+      "oprirea pe partea dreaptă a drumului"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 197,
+    "Text": "Sistemul de iluminare și semnalizare al vehiculului are rolul de a:",
+    "Options": [
+      "asigura buna funcționare a acumulatorului",
+      "vedea și a fi văzut în trafic, precum și de a semnaliza intențiile conducătorului auto",
+      "crește puterea motorului pe timp de noapte"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 198,
+    "Text": "În care dintre următoarele situații este interzisă întoarcerea?",
+    "Options": [
+      "pe trecerile la nivel cu calea ferată",
+      "în locurile în care soliditatea drumului nu permite",
+      "pe drumurile cu două benzi pe sens"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 199,
+    "Text": "Puteți opri voluntar un autovehicul pe poduri?",
+    "Options": [
+      "da, dacă lățimea podului depășește 6 metri",
+      "da, dacă podul se află în afara localităților",
+      "nu, oprirea este interzisă pe poduri"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 200,
+    "Text": "Dacă observați că vehiculul din spatele dumneavoastră se apropie foarte mult intenționând să depășească, trebuie să:",
+    "Options": [
+      "accelerați pentru a nu fi depășit",
+      "păstrați banda și viteza, facilitând efectuarea depășirii",
+      "folosiți frâna pentru a-l atenționa"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "conduita_preventiva"
+  },
+  {
+    "Id": 201,
+    "Text": "Care dintre martorii luminoși, dacă se aprind pe bord în timpul mersului, impun oprirea imediată?",
+    "Options": [
+      "martorul pentru frâna de mână acționată / lipsă lichid frână (roșu)",
+      "martorul pentru presiunea uleiului (roșu)",
+      "martorul pentru lumini de întâlnire (verde)"
+    ],
+    "CorrectOptionsIndex": [
+      0,
+      1
+    ],
+    "Image": "",
+    "Category": "mecanica"
+  },
+  {
+    "Id": 202,
+    "Text": "Pentru care dintre abateri polițistul rutier reține permisul de conducere și eliberează dovadă înlocuitoare CU drept de circulație (15 zile)?",
+    "Options": [
+      "pentru conducerea sub influența alcoolului (contravenție)",
+      "pentru nerespectarea regulilor privind depășirea",
+      "pentru neoprirea la trecerea la nivel cu calea ferată"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 203,
+    "Text": "În imaginea de comparație, ce semnifică semnul marcat cu 1 și semnul marcat cu 2?",
+    "Options": [
+      "Limită de viteză 50 km/h, 2: Oprire obligatorie",
+      "Sfârșitul tuturor restricțiilor, 2: Staționarea interzisă pe întreaga lungime",
+      "Sfârșitul tuturor restricțiilor, 2: Depășirea interzisă"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "compara1.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 204,
+    "Text": "Ce semnificații au indicatorii obligatorii marcați cu 1, respectiv cu 2?",
+    "Options": [
+      "Virați la stânga, 2: Virați la dreapta",
+      "Treceți obligatoriu pe partea dreaptă a obstacolului, 2: Virați la stânga",
+      "Treceți obligatoriu pe partea dreapta a obstacolului, 2: Virați obligatoriu la dreapta"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "compara2.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 205,
+    "Text": "Ce indică marcajul rutier din intersectie?",
+    "Options": [
+      "Cedeaza trecerea la intrarea pe drumul principal de pe drumul secundar",
+      "Nu indica nimic",
+      "Oprirea completa la intrarea pe drumul principal de pe drumul secundar"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "marcaj1.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 206,
+    "Text": "Ce procedură trebuie urmată la marcajul din imagine?",
+    "Options": [
+      "Încetinire și trecere cu prudență",
+      "Oprire doar dacă vin alte vehicule",
+      "Oprire completă la linia de stop, apoi continuare când e sigur"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "marcaj2.jpg",
+    "Category": "indicatoare"
+  },
+  {
+    "Id": 207,
+    "Text": "În situația în care polițistul se află cu fața la un autovehicul care se apropie, având brațul stâng întins orizontal, conducatorul auto trebuie:",
+    "Options": [
+      "Să oprească, deoarece semnalul i se adresează",
+      "Să continue deplasarea, deoarece semnalul nu i se adresează",
+      "Reducerea vitezei"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "politist_brat_orizontal.png",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 208,
+    "Text": "Ce comandă dă polițistul prin gestul din imagine?",
+    "Options": [
+      "Oprire graduală a tuturor vehiculelor",
+      "Întoarcere sau schimbare de direcție",
+      "Accelerare și circulație în flux continuu"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "politist_brat_circular.png",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 209,
+    "Text": "În situația din imagine, care vehicul are prioritate de trecere?",
+    "Options": [
+      "Motocicleta care virează la stânga",
+      "Autoturismul roșu care merge înainte",
+      "Ambele vehicule pleacă simultan"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "prioritate1.png",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 210,
+    "Text": "La intersecția cu semafor din imagine, cine poate trece primul?",
+    "Options": [
+      "Autoturismul galben",
+      "Autobuzul roșu care virează la dreapta",
+      "Toți pot trece simultan cu mentiunea ca autoturismul galben este incadrat gresit"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "prioritate2.jpg",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 211,
+    "Text": "Ce regulă de prioritate se aplică în sensul giratoriu din imagine?",
+    "Options": [
+      "Prioritate pentru vehiculele care intră în sens",
+      "Prioritate pentru cel mai rapid vehicul",
+      "Prioritate pentru vehiculele deja angajate în sensul giratoriu"
+    ],
+    "CorrectOptionsIndex": [
+      2
+    ],
+    "Image": "prioritate3.jpg",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 212,
+    "Text": "În situația complexă din imagine, care este ordinea corectă de trecere?",
+    "Options": [
+      "Vehiculul 1 (albastru) urmat de tramvaiul rosu, apoi vehiculul 2 (galben)",
+      "Vehiculul 2 (galben), apoi vehiculul 1 (albastru)",
+      "Ambele vehicule trec simultan"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "prioritate4.jpg",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 213,
+    "Text": "La intersecția cu semafor din imagine, cine poate trece primul?",
+    "Options": [
+      "Se aplică regula priorității de la dreapta",
+      "Motocicleta are prioritate, apoi vehiculul albastru urmat de tramvaiul rosu",
+      "Vehiculul 2 are prioritate, apoi motocicleta"
+    ],
+    "CorrectOptionsIndex": [
+      1
+    ],
+    "Image": "prioritate5.jpg",
+    "Category": "legislatie"
+  },
+  {
+    "Id": 214,
+    "Text": "Ce indică situația din imagine?",
+    "Options": [
+      "Curbă la stânga cu panouri de delimitare",
+      "Zonă de construcții cu ocolire",
+      "Drum închis temporar"
+    ],
+    "CorrectOptionsIndex": [
+      0
+    ],
+    "Image": "curba_stanga_panouri.jpg",
+    "Category": "indicatoare"
+  }
+
+]

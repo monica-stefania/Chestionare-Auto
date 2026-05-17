@@ -28,17 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             checkBoxAnswer1 = new CheckBox();
             checkBoxAnswer3 = new CheckBox();
             checkBoxAnswer2 = new CheckBox();
             labelQuestion = new Label();
             pictureBoxQuestion = new PictureBox();
             labelGoodAnswersCount = new Label();
-            labelBadAnswerCount = new Label();
+            labelBadAnswersCount = new Label();
             labelTimeRemained = new Label();
             buttonNext = new Button();
             buttonHelp = new Button();
             buttonAbort = new Button();
+            timerQuiz = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBoxQuestion).BeginInit();
             SuspendLayout();
             // 
@@ -46,7 +48,7 @@
             // 
             checkBoxAnswer1.Anchor = AnchorStyles.None;
             checkBoxAnswer1.Font = new Font("Segoe UI", 12F);
-            checkBoxAnswer1.Location = new Point(29, 342);
+            checkBoxAnswer1.Location = new Point(90, 447);
             checkBoxAnswer1.Name = "checkBoxAnswer1";
             checkBoxAnswer1.Size = new Size(750, 60);
             checkBoxAnswer1.TabIndex = 0;
@@ -57,7 +59,7 @@
             // 
             checkBoxAnswer3.Anchor = AnchorStyles.None;
             checkBoxAnswer3.Font = new Font("Segoe UI", 12F);
-            checkBoxAnswer3.Location = new Point(29, 474);
+            checkBoxAnswer3.Location = new Point(90, 586);
             checkBoxAnswer3.Name = "checkBoxAnswer3";
             checkBoxAnswer3.Size = new Size(750, 60);
             checkBoxAnswer3.TabIndex = 1;
@@ -68,29 +70,33 @@
             // 
             checkBoxAnswer2.Anchor = AnchorStyles.None;
             checkBoxAnswer2.Font = new Font("Segoe UI", 12F);
-            checkBoxAnswer2.Location = new Point(29, 408);
+            checkBoxAnswer2.Location = new Point(90, 515);
             checkBoxAnswer2.Name = "checkBoxAnswer2";
             checkBoxAnswer2.Size = new Size(750, 60);
             checkBoxAnswer2.TabIndex = 2;
             checkBoxAnswer2.Text = "raspuns_2";
             checkBoxAnswer2.UseVisualStyleBackColor = true;
+            checkBoxAnswer2.CheckedChanged += checkBoxAnswer2_CheckedChanged;
             // 
             // labelQuestion
             // 
             labelQuestion.Anchor = AnchorStyles.None;
+            labelQuestion.AutoSize = true;
             labelQuestion.Font = new Font("Segoe UI", 14F);
-            labelQuestion.Location = new Point(29, 283);
+            labelQuestion.Location = new Point(73, 402);
+            labelQuestion.MaximumSize = new Size(1000, 0);
             labelQuestion.Name = "labelQuestion";
-            labelQuestion.Size = new Size(914, 42);
+            labelQuestion.Size = new Size(326, 32);
             labelQuestion.TabIndex = 3;
             labelQuestion.Text = "Aici va fi introdusa intrebarea";
             // 
             // pictureBoxQuestion
             // 
             pictureBoxQuestion.Anchor = AnchorStyles.None;
-            pictureBoxQuestion.Location = new Point(29, 14);
+            pictureBoxQuestion.Location = new Point(73, 84);
             pictureBoxQuestion.Name = "pictureBoxQuestion";
-            pictureBoxQuestion.Size = new Size(637, 251);
+            pictureBoxQuestion.Size = new Size(794, 306);
+            pictureBoxQuestion.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxQuestion.TabIndex = 4;
             pictureBoxQuestion.TabStop = false;
             // 
@@ -99,31 +105,31 @@
             labelGoodAnswersCount.Anchor = AnchorStyles.None;
             labelGoodAnswersCount.Font = new Font("Segoe UI", 13F);
             labelGoodAnswersCount.ForeColor = Color.FromArgb(0, 192, 0);
-            labelGoodAnswersCount.Location = new Point(695, 75);
+            labelGoodAnswersCount.Location = new Point(73, 34);
             labelGoodAnswersCount.Name = "labelGoodAnswersCount";
             labelGoodAnswersCount.Size = new Size(280, 35);
             labelGoodAnswersCount.TabIndex = 5;
             labelGoodAnswersCount.Text = "Raspunsuri corecte:";
             // 
-            // labelBadAnswerCount
+            // labelBadAnswersCount
             // 
-            labelBadAnswerCount.Anchor = AnchorStyles.None;
-            labelBadAnswerCount.Font = new Font("Segoe UI", 13F);
-            labelBadAnswerCount.ForeColor = Color.Red;
-            labelBadAnswerCount.Location = new Point(695, 122);
-            labelBadAnswerCount.Name = "labelBadAnswerCount";
-            labelBadAnswerCount.Size = new Size(280, 35);
-            labelBadAnswerCount.TabIndex = 6;
-            labelBadAnswerCount.Text = "Raspunsuri gresite:";
+            labelBadAnswersCount.Anchor = AnchorStyles.None;
+            labelBadAnswersCount.Font = new Font("Segoe UI", 13F);
+            labelBadAnswersCount.ForeColor = Color.Red;
+            labelBadAnswersCount.Location = new Point(415, 34);
+            labelBadAnswersCount.Name = "labelBadAnswersCount";
+            labelBadAnswersCount.Size = new Size(280, 35);
+            labelBadAnswersCount.TabIndex = 6;
+            labelBadAnswersCount.Text = "Raspunsuri gresite:";
             // 
             // labelTimeRemained
             // 
             labelTimeRemained.Anchor = AnchorStyles.None;
             labelTimeRemained.Font = new Font("Segoe UI", 13F);
             labelTimeRemained.ForeColor = Color.Black;
-            labelTimeRemained.Location = new Point(695, 168);
+            labelTimeRemained.Location = new Point(833, 34);
             labelTimeRemained.Name = "labelTimeRemained";
-            labelTimeRemained.Size = new Size(280, 35);
+            labelTimeRemained.Size = new Size(141, 35);
             labelTimeRemained.TabIndex = 7;
             labelTimeRemained.Text = "Timp ramas:";
             // 
@@ -131,18 +137,19 @@
             // 
             buttonNext.Anchor = AnchorStyles.None;
             buttonNext.Font = new Font("Segoe UI", 12F);
-            buttonNext.Location = new Point(798, 362);
+            buttonNext.Location = new Point(985, 502);
             buttonNext.Name = "buttonNext";
             buttonNext.Size = new Size(160, 40);
             buttonNext.TabIndex = 8;
             buttonNext.Text = "Next";
             buttonNext.UseVisualStyleBackColor = true;
+            buttonNext.Click += buttonNext_Click;
             // 
             // buttonHelp
             // 
             buttonHelp.Anchor = AnchorStyles.None;
             buttonHelp.Font = new Font("Segoe UI", 12F);
-            buttonHelp.Location = new Point(798, 417);
+            buttonHelp.Location = new Point(1008, 84);
             buttonHelp.Name = "buttonHelp";
             buttonHelp.Size = new Size(160, 40);
             buttonHelp.TabIndex = 9;
@@ -153,22 +160,29 @@
             // 
             buttonAbort.Anchor = AnchorStyles.None;
             buttonAbort.Font = new Font("Segoe UI", 12F);
-            buttonAbort.Location = new Point(798, 474);
+            buttonAbort.Location = new Point(985, 639);
             buttonAbort.Name = "buttonAbort";
             buttonAbort.Size = new Size(160, 40);
             buttonAbort.TabIndex = 10;
-            buttonAbort.Text = "Abort Sesion";
+            buttonAbort.Text = "Abort ";
             buttonAbort.UseVisualStyleBackColor = true;
+            buttonAbort.Click += buttonAbort_Click;
+            // 
+            // timerQuiz
+            // 
+            timerQuiz.Interval = 1000;
+            timerQuiz.Tick += timerQuiz_Tick;
             // 
             // QuizControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Azure;
             Controls.Add(buttonAbort);
             Controls.Add(buttonHelp);
             Controls.Add(buttonNext);
             Controls.Add(labelTimeRemained);
-            Controls.Add(labelBadAnswerCount);
+            Controls.Add(labelBadAnswersCount);
             Controls.Add(labelGoodAnswersCount);
             Controls.Add(pictureBoxQuestion);
             Controls.Add(labelQuestion);
@@ -176,9 +190,11 @@
             Controls.Add(checkBoxAnswer3);
             Controls.Add(checkBoxAnswer1);
             Name = "QuizControl";
-            Size = new Size(1000, 600);
+            Size = new Size(1200, 700);
+            Load += QuizControl_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxQuestion).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -189,10 +205,11 @@
         private Label labelQuestion;
         private PictureBox pictureBoxQuestion;
         private Label labelGoodAnswersCount;
-        private Label labelBadAnswerCount;
+        private Label labelBadAnswersCount;
         private Label labelTimeRemained;
         private Button buttonNext;
         private Button buttonHelp;
         private Button buttonAbort;
+        private System.Windows.Forms.Timer timerQuiz;
     }
 }

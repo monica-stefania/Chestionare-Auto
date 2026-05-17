@@ -38,61 +38,66 @@
             label4 = new Label();
             label5 = new Label();
             buttonSignUp = new Button();
-            label6 = new Label();
+            labelError = new Label();
             linkLabelLogIn = new LinkLabel();
             SuspendLayout();
             // 
             // textBoxUsername
             // 
             textBoxUsername.Anchor = AnchorStyles.None;
-            textBoxUsername.Location = new Point(385, 187);
+            textBoxUsername.Font = new Font("Segoe UI", 10F);
+            textBoxUsername.Location = new Point(385, 172);
             textBoxUsername.Name = "textBoxUsername";
-            textBoxUsername.Size = new Size(265, 27);
+            textBoxUsername.Size = new Size(265, 30);
             textBoxUsername.TabIndex = 0;
             // 
             // textBoxName
             // 
             textBoxName.Anchor = AnchorStyles.None;
-            textBoxName.Location = new Point(385, 266);
+            textBoxName.Font = new Font("Segoe UI", 10F);
+            textBoxName.Location = new Point(385, 251);
             textBoxName.Name = "textBoxName";
-            textBoxName.Size = new Size(265, 27);
+            textBoxName.Size = new Size(265, 30);
             textBoxName.TabIndex = 1;
             // 
             // textBoxEmail
             // 
             textBoxEmail.Anchor = AnchorStyles.None;
-            textBoxEmail.Location = new Point(385, 343);
+            textBoxEmail.Font = new Font("Segoe UI", 10F);
+            textBoxEmail.Location = new Point(385, 328);
             textBoxEmail.Name = "textBoxEmail";
-            textBoxEmail.Size = new Size(265, 27);
+            textBoxEmail.Size = new Size(265, 30);
             textBoxEmail.TabIndex = 2;
             // 
             // textBoxPassword
             // 
             textBoxPassword.Anchor = AnchorStyles.None;
-            textBoxPassword.Location = new Point(385, 410);
+            textBoxPassword.Font = new Font("Segoe UI", 10F);
+            textBoxPassword.Location = new Point(385, 395);
             textBoxPassword.Name = "textBoxPassword";
-            textBoxPassword.Size = new Size(265, 27);
+            textBoxPassword.Size = new Size(265, 30);
             textBoxPassword.TabIndex = 3;
             // 
             // label1
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label1.Location = new Point(444, 87);
+            label1.Font = new Font("Segoe UI", 23F, FontStyle.Bold);
+            label1.Location = new Point(444, 58);
             label1.Name = "label1";
-            label1.Size = new Size(147, 46);
+            label1.Size = new Size(178, 52);
             label1.TabIndex = 4;
-            label1.Text = "SIGNUP";
+            label1.Text = "SIGN UP";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 13F);
-            label2.Location = new Point(470, 154);
+            label2.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            label2.Location = new Point(470, 139);
             label2.Name = "label2";
-            label2.Size = new Size(111, 30);
+            label2.Size = new Size(117, 30);
             label2.TabIndex = 5;
             label2.Text = "Username";
             // 
@@ -100,21 +105,21 @@
             // 
             label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 13F);
-            label3.Location = new Point(484, 233);
+            label3.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            label3.Location = new Point(484, 218);
             label3.Name = "label3";
-            label3.Size = new Size(71, 30);
+            label3.Size = new Size(75, 30);
             label3.TabIndex = 6;
-            label3.Text = "Name";
+            label3.Text = "Nume";
             // 
             // label4
             // 
             label4.Anchor = AnchorStyles.None;
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 13F);
-            label4.Location = new Point(491, 310);
+            label4.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            label4.Location = new Point(491, 295);
             label4.Name = "label4";
-            label4.Size = new Size(64, 30);
+            label4.Size = new Size(69, 30);
             label4.TabIndex = 7;
             label4.Text = "Email";
             // 
@@ -122,43 +127,44 @@
             // 
             label5.Anchor = AnchorStyles.None;
             label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 13F);
-            label5.Location = new Point(470, 377);
+            label5.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            label5.Location = new Point(483, 362);
             label5.Name = "label5";
-            label5.Size = new Size(103, 30);
+            label5.Size = new Size(78, 30);
             label5.TabIndex = 8;
-            label5.Text = "Password";
+            label5.Text = "Parola";
             // 
             // buttonSignUp
             // 
             buttonSignUp.Anchor = AnchorStyles.None;
+            buttonSignUp.Cursor = Cursors.Hand;
             buttonSignUp.Font = new Font("Segoe UI", 13F);
-            buttonSignUp.Location = new Point(470, 443);
+            buttonSignUp.Location = new Point(470, 450);
             buttonSignUp.Name = "buttonSignUp";
             buttonSignUp.Size = new Size(103, 53);
             buttonSignUp.TabIndex = 9;
-            buttonSignUp.Text = "Signup";
+            buttonSignUp.Text = "Sign up";
             buttonSignUp.UseVisualStyleBackColor = true;
             buttonSignUp.Click += buttonSignUp_Click;
             // 
-            // label6
+            // labelError
             // 
-            label6.Anchor = AnchorStyles.None;
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 12F);
-            label6.ForeColor = Color.Red;
-            label6.Location = new Point(367, 499);
-            label6.Name = "label6";
-            label6.Size = new Size(294, 28);
-            label6.TabIndex = 10;
-            label6.Text = "Error: wrong sign up credentials!";
+            labelError.Anchor = AnchorStyles.None;
+            labelError.AutoSize = true;
+            labelError.Font = new Font("Segoe UI", 12F);
+            labelError.ForeColor = Color.Red;
+            labelError.Location = new Point(491, 517);
+            labelError.Name = "labelError";
+            labelError.Size = new Size(61, 28);
+            labelError.TabIndex = 10;
+            labelError.Text = "Error!";
             // 
             // linkLabelLogIn
             // 
             linkLabelLogIn.Anchor = AnchorStyles.None;
             linkLabelLogIn.AutoSize = true;
             linkLabelLogIn.Font = new Font("Segoe UI", 13F);
-            linkLabelLogIn.Location = new Point(333, 535);
+            linkLabelLogIn.Location = new Point(333, 545);
             linkLabelLogIn.Name = "linkLabelLogIn";
             linkLabelLogIn.Size = new Size(378, 30);
             linkLabelLogIn.TabIndex = 11;
@@ -170,8 +176,9 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.GradientActiveCaption;
             Controls.Add(linkLabelLogIn);
-            Controls.Add(label6);
+            Controls.Add(labelError);
             Controls.Add(buttonSignUp);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -200,7 +207,7 @@
         private Label label4;
         private Label label5;
         private Button buttonSignUp;
-        private Label label6;
+        private Label labelError;
         private LinkLabel linkLabelLogIn;
     }
 }
