@@ -1,49 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\",
+  "WorkspaceRootPath": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\model\\examenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|solutionrelative:model\\examenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|c:\\users\\macov\\proiectip\\chestionare-auto\\chestionareauto\\view\\dashboardadmincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\dashboardadmincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\commons\\ievaluationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|solutionrelative:commons\\ievaluationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\view\\dashboardadmincontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\dashboardadmincontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\model\\practicestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|solutionrelative:model\\practicestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\view\\dashboardadmincontrol.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\dashboardadmincontrol.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\model\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|solutionrelative:model\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\view\\dashboardusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\commons\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|solutionrelative:commons\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\commons\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D578F7-1E3D-4DF0-A388-3454D2E019FB}|Commons\\Commons.csproj|solutionrelative:commons\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\model\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|solutionrelative:model\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF56C23F-0874-48AF-B718-B8834E6B69B3}|Model\\Model.csproj|solutionrelative:model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\view\\dashboardusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\dashboardusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\view\\loginusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\view\\dashboardadmincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\dashboardadmincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\view\\dashboardadmincontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\dashboardadmincontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\view\\dashboardadmincontrol.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\dashboardadmincontrol.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\view\\loginusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\loginusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\view\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\view\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\view\\signupusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\view\\signupusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\signupusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\view\\dashboardusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\view\\dashboardusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\dashboardusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\view\\signupusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\view\\signupusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\signupusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\view\\loginusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|c:\\users\\utilizator\\documents\\an3\\sem2\\ip\\proiect_chestionar_auto\\chestionareauto\\view\\loginusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C14EFCD-9ECC-4876-BCD1-51A98FCE0C55}|View\\View.csproj|solutionrelative:view\\loginusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,77 +93,179 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DashboardAdminControl.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardAdminControl.Designer.cs",
-              "RelativeDocumentMoniker": "View\\DashboardAdminControl.Designer.cs",
-              "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardAdminControl.Designer.cs",
-              "RelativeToolTip": "View\\DashboardAdminControl.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "IEvaluationStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Commons\\IEvaluationStrategy.cs",
+              "RelativeDocumentMoniker": "Commons\\IEvaluationStrategy.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Commons\\IEvaluationStrategy.cs",
+              "RelativeToolTip": "Commons\\IEvaluationStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T09:47:41.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T11:24:07.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DashboardAdminControl.resx",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardAdminControl.resx",
-              "RelativeDocumentMoniker": "View\\DashboardAdminControl.resx",
-              "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardAdminControl.resx",
-              "RelativeToolTip": "View\\DashboardAdminControl.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-05-01T09:47:39.547Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "IQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Commons\\IQuestionRepository.cs",
+              "RelativeDocumentMoniker": "Commons\\IQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Commons\\IQuestionRepository.cs",
+              "RelativeToolTip": "Commons\\IQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T11:20:06.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\Program.cs",
-              "RelativeDocumentMoniker": "View\\Program.cs",
-              "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\Program.cs",
-              "RelativeToolTip": "View\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAEwA4AAAAJAAAA",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Commons\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Commons\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Commons\\IUserRepository.cs",
+              "RelativeToolTip": "Commons\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T09:37:24.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T11:16:40.683Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Model\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\UserRepository.cs",
+              "RelativeToolTip": "Model\\UserRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T11:16:33.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\QuestionRepository.cs",
+              "RelativeDocumentMoniker": "Model\\QuestionRepository.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\QuestionRepository.cs",
+              "RelativeToolTip": "Model\\QuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T11:16:26.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PracticeStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\PracticeStrategy.cs",
+              "RelativeDocumentMoniker": "Model\\PracticeStrategy.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\PracticeStrategy.cs",
+              "RelativeToolTip": "Model\\PracticeStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T11:16:24.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\Model.cs",
+              "RelativeDocumentMoniker": "Model\\Model.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\Model.cs",
+              "RelativeToolTip": "Model\\Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T11:16:19.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExamenStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\ExamenStrategy.cs",
+              "RelativeDocumentMoniker": "Model\\ExamenStrategy.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\ExamenStrategy.cs",
+              "RelativeToolTip": "Model\\ExamenStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T11:16:16.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\Form1.cs",
+              "RelativeDocumentMoniker": "View\\Form1.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\Form1.cs [Design]",
+              "RelativeToolTip": "View\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:30:52.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\Form1.cs",
+              "RelativeDocumentMoniker": "View\\Form1.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\Form1.cs",
+              "RelativeToolTip": "View\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:30:43.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardAdminControl.resx",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\DashboardAdminControl.resx",
+              "RelativeDocumentMoniker": "View\\DashboardAdminControl.resx",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\DashboardAdminControl.resx",
+              "RelativeToolTip": "View\\DashboardAdminControl.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-01T09:47:39.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\Program.cs",
+              "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:37:24.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ResultsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\ResultsForm.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\ResultsForm.cs",
               "RelativeDocumentMoniker": "View\\ResultsForm.cs",
               "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\ResultsForm.cs [Design]",
-              "RelativeToolTip": "View\\ResultsForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\ResultsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T09:33:53.302Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-01T09:33:53.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "DashboardAdminControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardAdminControl.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\DashboardAdminControl.cs",
               "RelativeDocumentMoniker": "View\\DashboardAdminControl.cs",
               "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardAdminControl.cs [Design]",
-              "RelativeToolTip": "View\\DashboardAdminControl.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardAdminControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T09:27:28.578Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-01T09:27:28.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "DashboardUserControl.cs",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\DashboardUserControl.cs",
               "RelativeDocumentMoniker": "View\\DashboardUserControl.cs",
-              "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardUserControl.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\DashboardUserControl.cs",
               "RelativeToolTip": "View\\DashboardUserControl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -133,23 +274,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "DashboardUserControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\DashboardUserControl.cs",
               "RelativeDocumentMoniker": "View\\DashboardUserControl.cs",
-              "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\DashboardUserControl.cs [Design]",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\DashboardUserControl.cs [Design]",
               "RelativeToolTip": "View\\DashboardUserControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T09:18:04.391Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-01T09:18:04.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "DashboardAdminControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\DashboardAdminControl.Designer.cs",
+              "RelativeDocumentMoniker": "View\\DashboardAdminControl.Designer.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\DashboardAdminControl.Designer.cs",
+              "RelativeToolTip": "View\\DashboardAdminControl.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:47:41.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "SignUpUserControl.cs",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\SignUpUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\SignUpUserControl.cs",
               "RelativeDocumentMoniker": "View\\SignUpUserControl.cs",
-              "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\SignUpUserControl.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\SignUpUserControl.cs",
               "RelativeToolTip": "View\\SignUpUserControl.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAWwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -158,23 +310,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "SignUpUserControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\SignUpUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\SignUpUserControl.cs",
               "RelativeDocumentMoniker": "View\\SignUpUserControl.cs",
               "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\SignUpUserControl.cs [Design]",
-              "RelativeToolTip": "View\\SignUpUserControl.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\SignUpUserControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T09:00:01.808Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-01T09:00:01.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "LoginUserControl.cs",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\LoginUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\LoginUserControl.cs",
               "RelativeDocumentMoniker": "View\\LoginUserControl.cs",
-              "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\LoginUserControl.cs",
+              "ToolTip": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\LoginUserControl.cs",
               "RelativeToolTip": "View\\LoginUserControl.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAewBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -183,15 +334,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "LoginUserControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\LoginUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\View\\LoginUserControl.cs",
               "RelativeDocumentMoniker": "View\\LoginUserControl.cs",
               "ToolTip": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\LoginUserControl.cs [Design]",
-              "RelativeToolTip": "View\\LoginUserControl.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\View\\LoginUserControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T08:41:25.96Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-01T08:41:25.96Z"
             }
           ]
         }

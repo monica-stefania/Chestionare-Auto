@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Commons/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Commons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commons.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Commons/1.0.0": {
+      "type": "project",
+      "path": "../Commons/Commons.csproj",
+      "msbuildProject": "../Commons/Commons.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Commons >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\macov\\.nuget\\packages\\": {}
+    "C:\\Users\\Utilizator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\Model\\Model.csproj",
-      "packagesPath": "C:\\Users\\macov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\Model\\obj\\",
+      "projectPath": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\Model.csproj",
+      "packagesPath": "C:\\Users\\Utilizator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\macov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Utilizator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +52,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Commons\\Commons.csproj": {
+              "projectPath": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Commons\\Commons.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -45,7 +68,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -66,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\macov\\.nuget\\packages\\": {}
+    "C:\\Users\\Utilizator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\Presenter\\Presenter.csproj",
+      "projectUniqueName": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Presenter\\Presenter.csproj",
       "projectName": "Presenter",
-      "projectPath": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\Presenter\\Presenter.csproj",
-      "packagesPath": "C:\\Users\\macov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\macov\\ProiectIP\\Chestionare-Auto\\ChestionareAuto\\Presenter\\obj\\",
+      "projectPath": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Presenter\\Presenter.csproj",
+      "packagesPath": "C:\\Users\\Utilizator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Utilizator\\Documents\\An3\\Sem2\\IP\\Proiect_Chestionar_Auto\\ChestionareAuto\\Presenter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\macov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Utilizator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -66,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
