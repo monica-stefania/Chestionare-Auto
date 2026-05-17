@@ -16,8 +16,6 @@ namespace View
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.Width = 900;
-            this.Width = 650;
             SwitchWindow(new LoginUserControl());
         }
 
@@ -25,6 +23,16 @@ namespace View
         {
             this.Controls.Clear();
             userControl.Dock = DockStyle.Fill;
+            if (userControl is LoginUserControl || userControl is SignUpUserControl)
+            {
+                this.Size = new Size(600, 800);
+            }
+            else
+            {
+                this.Size = new Size(1200, 800);
+                this.CenterToScreen();
+            }
+
             this.Controls.Add(userControl);
         }
     }

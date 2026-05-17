@@ -13,7 +13,6 @@ namespace Repositories
 {
     public class UserRepository : IRepository<User>
     {
-        // Adaugă sus: using System.IO;
 
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "users.json");
         private List<User> _users;

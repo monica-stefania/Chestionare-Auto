@@ -10,7 +10,7 @@ namespace Patterns
     public class ExamenStrategy : IQuizStrategy
     {
         private const int TIME_LIMIT_SEC = 1800; // 30 minute
-        private const int MAX_MISTAKES = 4;
+        private const int MAX_MISTAKES = 5;
 
         public bool ShowImmediateFeedback()
         {

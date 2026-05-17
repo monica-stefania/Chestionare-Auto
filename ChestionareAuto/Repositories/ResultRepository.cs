@@ -10,8 +10,6 @@ namespace Repositories
 {
     public class ResultRepository : IRepository<TestResult>
     {
-        // Adaugă sus: using System.IO;
-
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "results.json");
         private List<TestResult> _results;
 
@@ -28,6 +26,12 @@ namespace Repositories
             }
 
             string json = File.ReadAllText(_filePath);
+
+            if (string.IsNullOrWhiteSpace(json))
+            {
+                return new List<TestResult>();
+
+            }
             return JsonSerializer.Deserialize<List<TestResult>>(json) ?? new List<TestResult>();
         }
 
@@ -39,11 +43,20 @@ namespace Repositories
 
         public List<TestResult> GetAll()
         {
+            _results = LoadData();
             return _results;
         }
 
         public void Add(TestResult entity)
         {
+            if (_results.Count == 0)
+            {
+                entity.Id = 1;
+            }
+            else
+            {
+                entity.Id = _results.Max(r => r.Id) + 1;
+            }
             _results.Add(entity);
             SaveData();
         }

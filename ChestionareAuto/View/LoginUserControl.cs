@@ -20,16 +20,22 @@ namespace View
             InitializeComponent();
             textBoxPassword.PasswordChar = '*';
             _userRepository = new UserRepository();
+            labelError.Visible = false;
         }
-
+        private void WriteError(string message)
+        {
+            labelError.Text = message;
+            labelError.Visible = true;
+        }
         private void buttonLogin_Click(object sender, EventArgs e)
         {
+            labelError.Visible = false;
             string username = textBoxUsername.Text;
             string password = textBoxPassword.Text;
 
             if(username == "" || password == "")
             {
-                MessageBox.Show("Completati toate campurile!", "Atentie");
+                WriteError("Completati toate campurile!");
                 return;
             }
             try
@@ -50,10 +56,15 @@ namespace View
                         mainForm.SwitchWindow(new DashboardUserControl());
                     }
                 }
+                else
+                {
+                    WriteError("Utilizator sau parola gresite!");
+                    return;
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Eroare la accesarea fisierului JSON", "Eroare");
+                WriteError("Eroare la accesarea fisierului JSON");
 
             }
         }

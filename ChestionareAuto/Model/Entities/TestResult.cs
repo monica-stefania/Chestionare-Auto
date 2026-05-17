@@ -8,7 +8,7 @@ namespace Entities
 {
     public class TestResult
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public int UserId { get; set; }
         public DateTime Date { get; set; }
         public int Score { get; set; }
@@ -16,7 +16,16 @@ namespace Entities
         public StareTest State { get; set; }
         public QuizMemento DateSalvate { get; set; }
         public TestResult() { }
-
+        public TestResult(int id, int userId, DateTime date, int score, TipSesiune sessionType, StareTest state, QuizMemento dateSalvate = null)
+        {
+            Id = id;
+            UserId = userId;
+            Date = date;
+            Score = score;
+            SessionType = sessionType;
+            State = state;
+            DateSalvate = dateSalvate;
+        }
         public bool IsPassed()
         {
             return State == StareTest.Admis;

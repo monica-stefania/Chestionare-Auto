@@ -11,8 +11,6 @@ namespace Repositories
 {
     public class QuestionRepository : IRepository<Question>
     {
-        // Adaugă sus: using System.IO;
-
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "questions.json");
         private List<Question> _questions;
         public QuestionRepository()
@@ -76,7 +74,6 @@ namespace Repositories
         }
         public void Add(Question entity)
         {
-            // O mica logica sa ii dam un ID automat daca nu are
             if (!_questions.Any(q => q.Id == entity.Id))
             {
                 entity.Id = _questions.Any() ? _questions.Max(q => q.Id) + 1 : 1;
@@ -109,6 +106,40 @@ namespace Repositories
                 _questions.Remove(existingQuestion);
                 SaveData();
             }
+        }
+
+        //generare intrebari
+
+        public List<Question> GenereazaTestExamen()
+        {
+            var intrebariExamen = new List<Question>();
+
+            var legislatie = _questions.Where(q => q.Category == "legislatie").OrderBy(x => Guid.NewGuid()).Take(14).ToList();
+            var indicatoare = _questions.Where(q => q.Category == "indicatoare").OrderBy(x => Guid.NewGuid()).Take(6).ToList();
+            var conduita = _questions.Where(q => q.Category == "conduita_preventiva").OrderBy(x => Guid.NewGuid()).Take(3).ToList();
+            var mecanica = _questions.Where(q => q.Category == "mecanica").OrderBy(x => Guid.NewGuid()).Take(2).ToList();
+            var primAjutor = _questions.Where(q => q.Category == "prim_ajutor").OrderBy(x => Guid.NewGuid()).Take(1).ToList();
+
+            intrebariExamen.AddRange(legislatie);
+            intrebariExamen.AddRange(indicatoare);
+            intrebariExamen.AddRange(conduita);
+            intrebariExamen.AddRange(mecanica);
+            intrebariExamen.AddRange(primAjutor);
+
+            if (intrebariExamen.Count < 26)
+            {
+                int deCompletat = 26 - intrebariExamen.Count;
+                var idUriFolosite = intrebariExamen.Select(q => q.Id).ToList(); // Să nu le punem de 2 ori
+
+                var completare = _questions.Where(q => !idUriFolosite.Contains(q.Id))
+                                           .OrderBy(x => Guid.NewGuid())
+                                           .Take(deCompletat)
+                                           .ToList();
+
+                intrebariExamen.AddRange(completare);
+            }
+
+            return intrebariExamen.OrderBy(x => Guid.NewGuid()).ToList();
         }
     }
 }
