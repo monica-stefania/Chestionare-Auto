@@ -144,7 +144,7 @@ namespace View
             Question currentQuestion = _currentQuiz.GetCurrentQuestion();
             List<int> correctAnswers = currentQuestion.CorrectOptionsIndex;
 
-            bool showFeedback = _currentQuiz.Strategy.ShowImmediateFeedback(); 
+            bool showFeedback = _currentQuiz.Strategy.ShowImmediateFeedback();
 
             if (showFeedback && !_isEvaluated)
             {
@@ -165,17 +165,17 @@ namespace View
 
                 if (correctAnswers.Contains(0))
                     checkBoxAnswer1.ForeColor = Color.Green;
-                else if (checkBoxAnswer1.Checked) 
+                else if (checkBoxAnswer1.Checked)
                     checkBoxAnswer1.ForeColor = Color.Red;
 
-                if (correctAnswers.Contains(1)) 
+                if (correctAnswers.Contains(1))
                     checkBoxAnswer2.ForeColor = Color.Green;
                 else if (checkBoxAnswer2.Checked)
                     checkBoxAnswer2.ForeColor = Color.Red;
 
-                if (correctAnswers.Contains(2)) 
+                if (correctAnswers.Contains(2))
                     checkBoxAnswer3.ForeColor = Color.Green;
-                else if (checkBoxAnswer3.Checked) 
+                else if (checkBoxAnswer3.Checked)
                     checkBoxAnswer3.ForeColor = Color.Red;
 
                 _isEvaluated = true;
@@ -247,6 +247,11 @@ namespace View
                     timerQuiz.Start();
                 }
             }
+        }
+
+        private void buttonHelp_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "help", "ChestionareAuto.chm"));
         }
     }
 }

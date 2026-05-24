@@ -31,9 +31,13 @@
 
   <ItemGroup>
     <Folder Include="images\" />
+    <Folder Include="help\" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="help\ChestionareAuto.chm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="images\cedeaza_trecerea.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
