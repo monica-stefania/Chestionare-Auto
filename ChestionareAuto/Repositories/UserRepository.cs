@@ -37,15 +37,24 @@ namespace Repositories
     public class UserRepository : IRepository<User>
     {
 
+        private static UserRepository _instance;
+
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "users.json");
         private List<User> _users;
 
         /// <summary>
         /// Constructor care încarcă utilizatorii din fișierul JSON la inițializarea repository-ului.
         /// </summary>
-        public UserRepository()
+        private UserRepository()
         {
             _users = LoadData();
+        }
+
+        public static UserRepository Instance()
+        {
+            if (_instance == null)
+                _instance = new UserRepository();
+            return _instance;
         }
 
         /// <summary>

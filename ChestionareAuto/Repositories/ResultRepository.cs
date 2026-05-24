@@ -33,15 +33,24 @@ namespace Repositories
     /// </summary>
     public class ResultRepository : IRepository<TestResult>
     {
+        private static ResultRepository _instance;
+
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "results.json");
         private List<TestResult> _results;
 
         /// <summary>
         /// Constructor care încarcă rezultatele testelor din fișierul JSON la inițializarea repository-ului.
         /// </summary>
-        public ResultRepository()
+        private ResultRepository()
         {
             _results = LoadData();
+        }
+
+        public static ResultRepository Instance()
+        {
+            if (_instance == null)
+                _instance = new ResultRepository();
+            return _instance;
         }
 
         /// <summary>
