@@ -14,12 +14,21 @@ namespace Repositories
     public class UserRepository : IRepository<User>
     {
 
+        private static UserRepository _instance;
+
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "users.json");
         private List<User> _users;
 
-        public UserRepository()
+        private UserRepository()
         {
             _users = LoadData();
+        }
+
+        public static UserRepository Instance()
+        {
+            if (_instance == null)
+                _instance = new UserRepository();
+            return _instance;
         }
 
         public List<User> LoadData()

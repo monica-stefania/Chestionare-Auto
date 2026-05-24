@@ -19,7 +19,7 @@ namespace View
         {
             InitializeComponent();
             textBoxPassword.PasswordChar = '*';
-            _userRepository = new UserRepository();
+            _userRepository = UserRepository.Instance();
             labelError.Visible = false;
         }
         private void WriteError(string message)

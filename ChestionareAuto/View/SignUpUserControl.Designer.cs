@@ -191,6 +191,7 @@
             Controls.Add(textBoxUsername);
             Name = "SignUpUserControl";
             Size = new Size(1000, 600);
+            Load += SignUpUserControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }
