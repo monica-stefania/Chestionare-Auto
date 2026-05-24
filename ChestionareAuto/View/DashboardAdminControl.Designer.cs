@@ -28,156 +28,328 @@
         /// </summary>
         private void InitializeComponent()
         {
-            listView1 = new ListView();
-            listView2 = new ListView();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            label1 = new Label();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            tabControlAdmin = new TabControl();
+            tabPageQuestions = new TabPage();
+            panelEditQuestion = new Panel();
+            buttonCancelEdit = new Button();
+            buttonSaveQuestion = new Button();
+            checkBoxEditOpt3 = new CheckBox();
+            checkBoxEditOpt2 = new CheckBox();
+            checkBoxEditOpt1 = new CheckBox();
+            textBoxEditOpt3 = new TextBox();
+            textBoxEditOpt2 = new TextBox();
+            textBoxEditOpt1 = new TextBox();
+            textBoxEditQuestion = new TextBox();
+            buttonUpdateQuestion = new Button();
+            buttonDeleteQuestion = new Button();
+            buttonAddQuestion = new Button();
+            dataGridViewQuestions = new DataGridView();
+            tabPageUsers = new TabPage();
+            buttonChangeRoleUser = new Button();
+            buttonRemoveUser = new Button();
+            dataGridViewUsers = new DataGridView();
+            buttonLogOut = new Button();
+            buttonHelp = new Button();
+            tabControlAdmin.SuspendLayout();
+            tabPageQuestions.SuspendLayout();
+            panelEditQuestion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewQuestions).BeginInit();
+            tabPageUsers.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewUsers).BeginInit();
             SuspendLayout();
             // 
-            // listView1
+            // tabControlAdmin
             // 
-            listView1.Anchor = AnchorStyles.None;
-            listView1.Location = new Point(59, 105);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(373, 323);
-            listView1.TabIndex = 0;
-            listView1.UseCompatibleStateImageBehavior = false;
+            tabControlAdmin.Controls.Add(tabPageQuestions);
+            tabControlAdmin.Controls.Add(tabPageUsers);
+            tabControlAdmin.Font = new Font("Segoe UI", 10F);
+            tabControlAdmin.Location = new Point(16, 37);
+            tabControlAdmin.Name = "tabControlAdmin";
+            tabControlAdmin.SelectedIndex = 0;
+            tabControlAdmin.Size = new Size(1083, 587);
+            tabControlAdmin.TabIndex = 10;
             // 
-            // listView2
+            // tabPageQuestions
             // 
-            listView2.Anchor = AnchorStyles.None;
-            listView2.Location = new Point(552, 106);
-            listView2.Name = "listView2";
-            listView2.Size = new Size(396, 322);
-            listView2.TabIndex = 1;
-            listView2.UseCompatibleStateImageBehavior = false;
+            tabPageQuestions.Controls.Add(panelEditQuestion);
+            tabPageQuestions.Controls.Add(buttonUpdateQuestion);
+            tabPageQuestions.Controls.Add(buttonDeleteQuestion);
+            tabPageQuestions.Controls.Add(buttonAddQuestion);
+            tabPageQuestions.Controls.Add(dataGridViewQuestions);
+            tabPageQuestions.Location = new Point(4, 32);
+            tabPageQuestions.Name = "tabPageQuestions";
+            tabPageQuestions.Padding = new Padding(3);
+            tabPageQuestions.Size = new Size(1075, 551);
+            tabPageQuestions.TabIndex = 0;
+            tabPageQuestions.Text = "Gestionare Întrebări";
+            tabPageQuestions.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // panelEditQuestion
             // 
-            button1.Anchor = AnchorStyles.None;
-            button1.Font = new Font("Segoe UI", 12F);
-            button1.Location = new Point(59, 446);
-            button1.Name = "button1";
-            button1.Size = new Size(149, 47);
-            button1.TabIndex = 2;
-            button1.Text = "Reset Progress";
-            button1.UseVisualStyleBackColor = true;
+            panelEditQuestion.BorderStyle = BorderStyle.FixedSingle;
+            panelEditQuestion.Controls.Add(buttonCancelEdit);
+            panelEditQuestion.Controls.Add(buttonSaveQuestion);
+            panelEditQuestion.Controls.Add(checkBoxEditOpt3);
+            panelEditQuestion.Controls.Add(checkBoxEditOpt2);
+            panelEditQuestion.Controls.Add(checkBoxEditOpt1);
+            panelEditQuestion.Controls.Add(textBoxEditOpt3);
+            panelEditQuestion.Controls.Add(textBoxEditOpt2);
+            panelEditQuestion.Controls.Add(textBoxEditOpt1);
+            panelEditQuestion.Controls.Add(textBoxEditQuestion);
+            panelEditQuestion.Location = new Point(111, 6);
+            panelEditQuestion.Name = "panelEditQuestion";
+            panelEditQuestion.Size = new Size(600, 494);
+            panelEditQuestion.TabIndex = 12;
+            panelEditQuestion.Visible = false;
             // 
-            // button2
+            // buttonCancelEdit
             // 
-            button2.Anchor = AnchorStyles.None;
-            button2.Font = new Font("Segoe UI", 12F);
-            button2.Location = new Point(283, 446);
-            button2.Name = "button2";
-            button2.Size = new Size(149, 47);
-            button2.TabIndex = 3;
-            button2.Text = "Change Role";
-            button2.UseVisualStyleBackColor = true;
+            buttonCancelEdit.Location = new Point(365, 433);
+            buttonCancelEdit.Name = "buttonCancelEdit";
+            buttonCancelEdit.Size = new Size(94, 29);
+            buttonCancelEdit.TabIndex = 8;
+            buttonCancelEdit.Text = "Anulează";
+            buttonCancelEdit.UseVisualStyleBackColor = true;
+            buttonCancelEdit.Click += buttonCancelEdit_Click;
             // 
-            // button3
+            // buttonSaveQuestion
             // 
-            button3.Anchor = AnchorStyles.None;
-            button3.Font = new Font("Segoe UI", 12F);
-            button3.Location = new Point(59, 517);
-            button3.Name = "button3";
-            button3.Size = new Size(149, 47);
-            button3.TabIndex = 4;
-            button3.Text = "Remove User";
-            button3.UseVisualStyleBackColor = true;
+            buttonSaveQuestion.Location = new Point(112, 433);
+            buttonSaveQuestion.Name = "buttonSaveQuestion";
+            buttonSaveQuestion.Size = new Size(94, 29);
+            buttonSaveQuestion.TabIndex = 7;
+            buttonSaveQuestion.Text = "Salvează";
+            buttonSaveQuestion.UseVisualStyleBackColor = true;
+            buttonSaveQuestion.Click += buttonSaveQuestion_Click;
             // 
-            // button4
+            // checkBoxEditOpt3
             // 
-            button4.Anchor = AnchorStyles.None;
-            button4.Font = new Font("Segoe UI", 13F);
-            button4.Location = new Point(283, 517);
-            button4.Name = "button4";
-            button4.Size = new Size(149, 47);
-            button4.TabIndex = 5;
-            button4.Text = "Help";
-            button4.UseVisualStyleBackColor = true;
+            checkBoxEditOpt3.AutoSize = true;
+            checkBoxEditOpt3.Location = new Point(82, 344);
+            checkBoxEditOpt3.Name = "checkBoxEditOpt3";
+            checkBoxEditOpt3.Size = new Size(18, 17);
+            checkBoxEditOpt3.TabIndex = 6;
+            checkBoxEditOpt3.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // checkBoxEditOpt2
             // 
-            button5.Anchor = AnchorStyles.None;
-            button5.Font = new Font("Segoe UI", 12F);
-            button5.Location = new Point(552, 446);
-            button5.Name = "button5";
-            button5.Size = new Size(149, 47);
-            button5.TabIndex = 6;
-            button5.Text = "Remove Quiz";
-            button5.UseVisualStyleBackColor = true;
+            checkBoxEditOpt2.AutoSize = true;
+            checkBoxEditOpt2.Location = new Point(82, 281);
+            checkBoxEditOpt2.Name = "checkBoxEditOpt2";
+            checkBoxEditOpt2.Size = new Size(18, 17);
+            checkBoxEditOpt2.TabIndex = 5;
+            checkBoxEditOpt2.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // checkBoxEditOpt1
             // 
-            button6.Anchor = AnchorStyles.None;
-            button6.Font = new Font("Segoe UI", 13F);
-            button6.Location = new Point(799, 446);
-            button6.Name = "button6";
-            button6.Size = new Size(149, 47);
-            button6.TabIndex = 7;
-            button6.Text = "Create Quiz";
-            button6.UseVisualStyleBackColor = true;
+            checkBoxEditOpt1.AutoSize = true;
+            checkBoxEditOpt1.Location = new Point(82, 212);
+            checkBoxEditOpt1.Name = "checkBoxEditOpt1";
+            checkBoxEditOpt1.Size = new Size(18, 17);
+            checkBoxEditOpt1.TabIndex = 4;
+            checkBoxEditOpt1.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // textBoxEditOpt3
             // 
-            button7.Anchor = AnchorStyles.None;
-            button7.Font = new Font("Segoe UI", 13F);
-            button7.Location = new Point(799, 527);
-            button7.Name = "button7";
-            button7.Size = new Size(149, 47);
-            button7.TabIndex = 8;
-            button7.Text = "User Panel";
-            button7.UseVisualStyleBackColor = true;
+            textBoxEditOpt3.Location = new Point(133, 337);
+            textBoxEditOpt3.Name = "textBoxEditOpt3";
+            textBoxEditOpt3.Size = new Size(265, 30);
+            textBoxEditOpt3.TabIndex = 3;
             // 
-            // label1
+            // textBoxEditOpt2
             // 
-            label1.Anchor = AnchorStyles.None;
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 25F, FontStyle.Bold);
-            label1.Location = new Point(58, 32);
-            label1.Name = "label1";
-            label1.Size = new Size(276, 57);
-            label1.TabIndex = 9;
-            label1.Text = "Admin Panel";
+            textBoxEditOpt2.Location = new Point(133, 274);
+            textBoxEditOpt2.Name = "textBoxEditOpt2";
+            textBoxEditOpt2.Size = new Size(265, 30);
+            textBoxEditOpt2.TabIndex = 2;
+            // 
+            // textBoxEditOpt1
+            // 
+            textBoxEditOpt1.Location = new Point(133, 205);
+            textBoxEditOpt1.Name = "textBoxEditOpt1";
+            textBoxEditOpt1.Size = new Size(265, 30);
+            textBoxEditOpt1.TabIndex = 1;
+            // 
+            // textBoxEditQuestion
+            // 
+            textBoxEditQuestion.Location = new Point(34, 58);
+            textBoxEditQuestion.Name = "textBoxEditQuestion";
+            textBoxEditQuestion.Size = new Size(532, 30);
+            textBoxEditQuestion.TabIndex = 0;
+            // 
+            // buttonUpdateQuestion
+            // 
+            buttonUpdateQuestion.Font = new Font("Segoe UI", 11F);
+            buttonUpdateQuestion.Location = new Point(343, 489);
+            buttonUpdateQuestion.Name = "buttonUpdateQuestion";
+            buttonUpdateQuestion.Size = new Size(98, 37);
+            buttonUpdateQuestion.TabIndex = 4;
+            buttonUpdateQuestion.Text = "Modifică";
+            buttonUpdateQuestion.UseVisualStyleBackColor = true;
+            buttonUpdateQuestion.Click += buttonUpdateQuestion_Click;
+            // 
+            // buttonDeleteQuestion
+            // 
+            buttonDeleteQuestion.Font = new Font("Segoe UI", 11F);
+            buttonDeleteQuestion.Location = new Point(185, 489);
+            buttonDeleteQuestion.Name = "buttonDeleteQuestion";
+            buttonDeleteQuestion.Size = new Size(99, 37);
+            buttonDeleteQuestion.TabIndex = 3;
+            buttonDeleteQuestion.Text = "Șterge";
+            buttonDeleteQuestion.UseVisualStyleBackColor = true;
+            buttonDeleteQuestion.Click += buttonDeleteQuestion_Click;
+            // 
+            // buttonAddQuestion
+            // 
+            buttonAddQuestion.Font = new Font("Segoe UI", 11F);
+            buttonAddQuestion.Location = new Point(40, 489);
+            buttonAddQuestion.Name = "buttonAddQuestion";
+            buttonAddQuestion.Size = new Size(99, 37);
+            buttonAddQuestion.TabIndex = 2;
+            buttonAddQuestion.Text = "Adaugă";
+            buttonAddQuestion.UseVisualStyleBackColor = true;
+            buttonAddQuestion.Click += buttonAddQuestion_Click;
+            // 
+            // dataGridViewQuestions
+            // 
+            dataGridViewQuestions.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewQuestions.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dataGridViewQuestions.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = SystemColors.Window;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 10F);
+            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle3.Padding = new Padding(5);
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
+            dataGridViewQuestions.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewQuestions.Location = new Point(29, 19);
+            dataGridViewQuestions.Name = "dataGridViewQuestions";
+            dataGridViewQuestions.RowHeadersWidth = 51;
+            dataGridViewQuestions.Size = new Size(983, 441);
+            dataGridViewQuestions.TabIndex = 1;
+            dataGridViewQuestions.CellFormatting += dataGridViewQuestions_CellFormatting;
+            // 
+            // tabPageUsers
+            // 
+            tabPageUsers.Controls.Add(buttonChangeRoleUser);
+            tabPageUsers.Controls.Add(buttonRemoveUser);
+            tabPageUsers.Controls.Add(dataGridViewUsers);
+            tabPageUsers.Location = new Point(4, 32);
+            tabPageUsers.Name = "tabPageUsers";
+            tabPageUsers.Padding = new Padding(3);
+            tabPageUsers.Size = new Size(1075, 551);
+            tabPageUsers.TabIndex = 1;
+            tabPageUsers.Text = "Gestionare Utilizatori";
+            tabPageUsers.UseVisualStyleBackColor = true;
+            // 
+            // buttonChangeRoleUser
+            // 
+            buttonChangeRoleUser.Location = new Point(360, 496);
+            buttonChangeRoleUser.Name = "buttonChangeRoleUser";
+            buttonChangeRoleUser.Size = new Size(175, 34);
+            buttonChangeRoleUser.TabIndex = 2;
+            buttonChangeRoleUser.Text = "Schimbă Rolul";
+            buttonChangeRoleUser.UseVisualStyleBackColor = true;
+            buttonChangeRoleUser.Click += buttonChangeRoleUser_Click;
+            // 
+            // buttonRemoveUser
+            // 
+            buttonRemoveUser.Location = new Point(89, 496);
+            buttonRemoveUser.Name = "buttonRemoveUser";
+            buttonRemoveUser.Size = new Size(138, 34);
+            buttonRemoveUser.TabIndex = 1;
+            buttonRemoveUser.Text = "Șterge";
+            buttonRemoveUser.UseVisualStyleBackColor = true;
+            buttonRemoveUser.Click += buttonRemoveUser_Click;
+            // 
+            // dataGridViewUsers
+            // 
+            dataGridViewUsers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewUsers.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dataGridViewUsers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = SystemColors.Window;
+            dataGridViewCellStyle4.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle4.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle4.Padding = new Padding(5);
+            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            dataGridViewUsers.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewUsers.Location = new Point(33, 31);
+            dataGridViewUsers.Name = "dataGridViewUsers";
+            dataGridViewUsers.RowHeadersWidth = 51;
+            dataGridViewUsers.Size = new Size(983, 441);
+            dataGridViewUsers.TabIndex = 0;
+            // 
+            // buttonLogOut
+            // 
+            buttonLogOut.Font = new Font("Segoe UI", 11F);
+            buttonLogOut.Location = new Point(1081, 646);
+            buttonLogOut.Name = "buttonLogOut";
+            buttonLogOut.Size = new Size(104, 36);
+            buttonLogOut.TabIndex = 5;
+            buttonLogOut.Text = "Log Out";
+            buttonLogOut.UseVisualStyleBackColor = true;
+            buttonLogOut.Click += buttonLogOut_Click;
+            // 
+            // buttonHelp
+            // 
+            buttonHelp.Font = new Font("Segoe UI", 11F);
+            buttonHelp.Location = new Point(16, 646);
+            buttonHelp.Name = "buttonHelp";
+            buttonHelp.Size = new Size(104, 36);
+            buttonHelp.TabIndex = 11;
+            buttonHelp.Text = "Help";
+            buttonHelp.UseVisualStyleBackColor = true;
             // 
             // DashboardAdminControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.InactiveCaption;
-            Controls.Add(label1);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(listView2);
-            Controls.Add(listView1);
+            Controls.Add(buttonHelp);
+            Controls.Add(buttonLogOut);
+            Controls.Add(tabControlAdmin);
             Name = "DashboardAdminControl";
-            Size = new Size(1000, 600);
+            Size = new Size(1200, 700);
+            Load += DashboardAdminControl_Load;
+            tabControlAdmin.ResumeLayout(false);
+            tabPageQuestions.ResumeLayout(false);
+            panelEditQuestion.ResumeLayout(false);
+            panelEditQuestion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewQuestions).EndInit();
+            tabPageUsers.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridViewUsers).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private ListView listView1;
-        private ListView listView2;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Label label1;
+        private TabControl tabControlAdmin;
+        private TabPage tabPageQuestions;
+        private TabPage tabPageUsers;
+        private DataGridView dataGridViewQuestions;
+        private Button buttonChangeRoleUser;
+        private Button buttonRemoveUser;
+        private DataGridView dataGridViewUsers;
+        private Button buttonUpdateQuestion;
+        private Button buttonDeleteQuestion;
+        private Button buttonAddQuestion;
+        private Button buttonLogOut;
+        private Button buttonHelp;
+        private Panel panelEditQuestion;
+        private Button buttonCancelEdit;
+        private Button buttonSaveQuestion;
+        private CheckBox checkBoxEditOpt3;
+        private CheckBox checkBoxEditOpt2;
+        private CheckBox checkBoxEditOpt1;
+        private TextBox textBoxEditOpt3;
+        private TextBox textBoxEditOpt2;
+        private TextBox textBoxEditOpt1;
+        private TextBox textBoxEditQuestion;
     }
 }

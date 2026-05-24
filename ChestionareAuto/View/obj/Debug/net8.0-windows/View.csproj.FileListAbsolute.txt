@@ -101,3 +101,4 @@ C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bi
 C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\images\trecere_cale_ferata_cu_bariere.png
 C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\images\trecere_pietoni.png
 C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\images\viteza_minima_obligatorie.jpg
+C:\Users\lucam\Desktop\Chestionare Auto\Chestionare-Auto\ChestionareAuto\View\bin\Debug\net8.0-windows\help\ChestionareAuto.chm

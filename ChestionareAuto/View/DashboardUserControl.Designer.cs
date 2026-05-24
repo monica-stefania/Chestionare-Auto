@@ -46,9 +46,10 @@
             // 
             buttonStartExamen.Anchor = AnchorStyles.None;
             buttonStartExamen.Font = new Font("Segoe UI", 13F);
-            buttonStartExamen.Location = new Point(871, 221);
+            buttonStartExamen.Location = new Point(994, 213);
+            buttonStartExamen.Margin = new Padding(4, 4, 4, 4);
             buttonStartExamen.Name = "buttonStartExamen";
-            buttonStartExamen.Size = new Size(149, 51);
+            buttonStartExamen.Size = new Size(186, 64);
             buttonStartExamen.TabIndex = 0;
             buttonStartExamen.Text = "Start Examen";
             buttonStartExamen.UseVisualStyleBackColor = true;
@@ -58,9 +59,10 @@
             // 
             buttonHelp.Anchor = AnchorStyles.None;
             buttonHelp.Font = new Font("Segoe UI", 12F);
-            buttonHelp.Location = new Point(964, 527);
+            buttonHelp.Location = new Point(1032, 512);
+            buttonHelp.Margin = new Padding(4, 4, 4, 4);
             buttonHelp.Name = "buttonHelp";
-            buttonHelp.Size = new Size(91, 38);
+            buttonHelp.Size = new Size(114, 48);
             buttonHelp.TabIndex = 1;
             buttonHelp.Text = "Help";
             buttonHelp.UseVisualStyleBackColor = true;
@@ -70,9 +72,10 @@
             // 
             buttonLogOut.Anchor = AnchorStyles.None;
             buttonLogOut.Font = new Font("Segoe UI", 12F);
-            buttonLogOut.Location = new Point(964, 591);
+            buttonLogOut.Location = new Point(1032, 607);
+            buttonLogOut.Margin = new Padding(4, 4, 4, 4);
             buttonLogOut.Name = "buttonLogOut";
-            buttonLogOut.Size = new Size(93, 40);
+            buttonLogOut.Size = new Size(116, 50);
             buttonLogOut.TabIndex = 4;
             buttonLogOut.Text = "Log Out";
             buttonLogOut.UseVisualStyleBackColor = true;
@@ -84,7 +87,8 @@
             labelWelcome.AutoSize = true;
             labelWelcome.Font = new Font("Verdana", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelWelcome.ForeColor = Color.Navy;
-            labelWelcome.Location = new Point(345, 36);
+            labelWelcome.Location = new Point(533, 23);
+            labelWelcome.Margin = new Padding(4, 0, 4, 0);
             labelWelcome.Name = "labelWelcome";
             labelWelcome.Size = new Size(113, 28);
             labelWelcome.TabIndex = 6;
@@ -98,10 +102,11 @@
             dataGridViewHistory.BackgroundColor = Color.Azure;
             dataGridViewHistory.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewHistory.Columns.AddRange(new DataGridViewColumn[] { dataTest, tipTest, punctaj, stare, colReluare });
-            dataGridViewHistory.Location = new Point(43, 123);
+            dataGridViewHistory.Location = new Point(29, 79);
+            dataGridViewHistory.Margin = new Padding(4, 4, 4, 4);
             dataGridViewHistory.Name = "dataGridViewHistory";
             dataGridViewHistory.RowHeadersWidth = 51;
-            dataGridViewHistory.Size = new Size(809, 486);
+            dataGridViewHistory.Size = new Size(938, 599);
             dataGridViewHistory.TabIndex = 7;
             dataGridViewHistory.CellContentClick += dataGridViewHistory_CellContentClick;
             // 
@@ -146,9 +151,10 @@
             // 
             buttonStartInvatare.Anchor = AnchorStyles.None;
             buttonStartInvatare.Font = new Font("Segoe UI", 13F);
-            buttonStartInvatare.Location = new Point(871, 350);
+            buttonStartInvatare.Location = new Point(994, 356);
+            buttonStartInvatare.Margin = new Padding(4, 4, 4, 4);
             buttonStartInvatare.Name = "buttonStartInvatare";
-            buttonStartInvatare.Size = new Size(149, 51);
+            buttonStartInvatare.Size = new Size(186, 64);
             buttonStartInvatare.TabIndex = 8;
             buttonStartInvatare.Text = "Start Învățare";
             buttonStartInvatare.UseVisualStyleBackColor = true;
@@ -156,7 +162,7 @@
             // 
             // DashboardUserControl
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.InactiveCaption;
             Controls.Add(buttonStartInvatare);
@@ -165,8 +171,10 @@
             Controls.Add(buttonLogOut);
             Controls.Add(buttonHelp);
             Controls.Add(buttonStartExamen);
+            Font = new Font("Segoe UI", 11F);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "DashboardUserControl";
-            Size = new Size(1075, 643);
+            Size = new Size(1200, 700);
             Load += DashboardUserControl_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewHistory).EndInit();
             ResumeLayout(false);

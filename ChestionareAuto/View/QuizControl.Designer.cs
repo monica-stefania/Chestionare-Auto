@@ -155,6 +155,7 @@
             buttonHelp.TabIndex = 9;
             buttonHelp.Text = "Help";
             buttonHelp.UseVisualStyleBackColor = true;
+            buttonHelp.Click += buttonHelp_Click;
             // 
             // buttonAbort
             // 
