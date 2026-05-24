@@ -17,7 +17,7 @@ namespace View
     public partial class QuizControl : UserControl
     {
         private Quiz _currentQuiz;
-        private ResultRepository _resultRepository = new ResultRepository();
+        private ResultRepository _resultRepository = ResultRepository.Instance();
         private bool _isEvaluated = false;
         public QuizControl()
         {

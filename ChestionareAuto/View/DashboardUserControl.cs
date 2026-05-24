@@ -16,7 +16,7 @@ namespace View
 {
     public partial class DashboardUserControl : UserControl
     {
-        private ResultRepository _resultRepository = new ResultRepository();
+        private ResultRepository _resultRepository = ResultRepository.Instance();
         public DashboardUserControl()
         {
             InitializeComponent();

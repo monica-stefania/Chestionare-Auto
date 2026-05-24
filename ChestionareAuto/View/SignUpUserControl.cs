@@ -20,7 +20,7 @@ namespace View
         {
             InitializeComponent();
             textBoxPassword.PasswordChar = '*';
-            _userRepository = new UserRepository();
+            _userRepository = UserRepository.Instance();
 
             labelError.Visible = false;
         }
@@ -67,11 +67,11 @@ namespace View
                 var allUsers = _userRepository.GetAll();
                 if (allUsers.Any(u => u.Username == textBoxUsername.Text))
                 {
-                    WriteError("Acest utilizator este deja folosit! Conecteaza-te sau alege altul!");         
+                    WriteError("Acest utilizator este deja folosit! Conecteaza-te sau alege altul!");
                     return;
                 }
 
-                int newId = allUsers.Any() ? allUsers.Max(u => u.Id) : 1;
+                int newId = allUsers.Any() ? allUsers.Max(u => u.Id) + 1 : 1;
 
                 User newUser = new User(newId, textBoxName.Text, textBoxUsername.Text, textBoxEmail.Text, textBoxPassword.Text, UserRole.Utilizator);
                 _userRepository.Add(newUser);
@@ -94,6 +94,11 @@ namespace View
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SignUpUserControl_Load(object sender, EventArgs e)
         {
 
         }
