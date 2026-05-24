@@ -46,6 +46,7 @@
             Controls.Add(panel1);
             Name = "MainForm";
             Text = "Chestionar Auto";
+            Load += MainForm_Load;
             ResumeLayout(false);
         }
 

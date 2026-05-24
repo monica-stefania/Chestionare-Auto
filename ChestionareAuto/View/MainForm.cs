@@ -35,5 +35,10 @@ namespace View
 
             this.Controls.Add(userControl);
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
