@@ -78,7 +78,7 @@ namespace View
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-
+            Help.ShowHelp(this, Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "help", "ChestionareAuto.chm"));
         }
 
         private void buttonStartExamen_Click(object sender, EventArgs e)

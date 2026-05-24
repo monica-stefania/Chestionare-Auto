@@ -1,4 +1,24 @@
-﻿using System;
+﻿/**************************************************************************
+ * *
+ * File:        UserRepository.cs                                        *
+ * Copyright:   (c) 2026, Luca Monica, Macovei Paul, Talmaciu Theodor    *              
+ * Description: Această clasă gestionează operațiile CRUD pentru 
+ *              utilizatori și interacțiunea cu fișierul users.json      *
+ * Author:      Luca Monica, Macovei Paul, Talmaciu Theodor              *
+ * Proiect:     Chestionare Auto                                         *
+                                         
+ * *
+ * Acest software a fost dezvoltat de 3 studenți ca proiect educațional  *
+ * și a fost conceput pentru a fi utilizat în mod gratuit de către       *
+ * oricine dorește să învețe sau să se testeze pentru examenul auto.     *
+ 
+ * Sunteți liberi să utilizați și să modificați acest cod sursă în       *
+ * aplicațiile voastre, cu condiția să păstrați această notă de          *
+ * copyright și autorii originali.                                       *
+ *                                                                       *
+ **************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,17 +31,27 @@ using Entities;
 
 namespace Repositories
 {
+    /// <summary>
+    /// Repository pentru gestionarea utilizatorilor, implementând operațiile CRUD și interacțiunea cu fișierul users.json.
+    /// </summary>
     public class UserRepository : IRepository<User>
     {
 
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "users.json");
         private List<User> _users;
 
+        /// <summary>
+        /// Constructor care încarcă utilizatorii din fișierul JSON la inițializarea repository-ului.
+        /// </summary>
         public UserRepository()
         {
             _users = LoadData();
         }
 
+        /// <summary>
+        /// Încarcă utilizatorii din fișierul JSON și îi returnează ca o listă de obiecte User. Dacă fișierul nu există, returnează o listă goală.
+        /// </summary>
+        /// <returns></returns>
         public List<User> LoadData()
         {
             try
@@ -36,13 +66,19 @@ namespace Repositories
                     return new List<User>();
                 }
             }
+            catch (JsonException ex)
+            {
+                throw new Exception($"Fișierul de utilizatori este corupt. Detalii: {ex.Message}");
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error loading data from {_filePath}: {ex.Message}");
-                return new List<User>();
+                throw new Exception($"Eroare fatală la încărcarea utilizatorilor: {ex.Message}");
             }
         }
 
+        /// <summary>
+        /// Salvează lista curentă de utilizatori în fișierul JSON
+        /// </summary>
         public void SaveData()
         {
             try
@@ -52,10 +88,14 @@ namespace Repositories
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error saving data to {_filePath}: {ex.Message}");
+                throw new Exception($"Nu s-au putut salva datele utilizatorului. Verificați permisiunile. Detalii: {ex.Message}");
             }
         }
 
+        /// <summary>
+        /// Returnează toți utilizatorii înregistrați
+        /// </summary>
+        /// <returns></returns>
         public List<User> GetAll()
         {
             return _users;
@@ -71,12 +111,25 @@ namespace Repositories
             return _users.FirstOrDefault(u => u.Username.Equals(username, StringComparison.OrdinalIgnoreCase));
         }
 
+        /// <summary>
+        /// Adaugă un nou utilizator în lista curentă și salvează modificările în fișierul JSON
+        /// </summary>
+        /// <param name="entity"></param>
         public void Add(User entity)
         {
+            if(entity.Id == 0)
+            {
+                entity.Id = _users.Count > 0 ? _users.Max(u => u.Id) + 1 : 1;
+            }
+            
             _users.Add(entity);
             SaveData();
         }
 
+        /// <summary>
+        /// Sterge un utilizator existent din lista curentă și salvează modificările în fișierul JSON
+        /// </summary>
+        /// <param name="entity"></param>
         public void Delete(User entity)
         {
             var userExistent = _users.FirstOrDefault(u => u.Id == entity.Id);
@@ -87,6 +140,10 @@ namespace Repositories
             }
         }
 
+        /// <summary>
+        /// Actualizează un utilizator existent în lista curentă și salvează modificările în fișierul JSON
+        /// </summary>
+        /// <param name="entity"></param>
         public void Update(User entity)
         {
             var userExistent = _users.FirstOrDefault(u => u.Id == entity.Id);
