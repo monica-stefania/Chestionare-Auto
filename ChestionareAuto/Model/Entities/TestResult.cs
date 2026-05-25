@@ -26,16 +26,58 @@ using System.Threading.Tasks;
 using Patterns;
 namespace Entities
 {
+    /// <summary>
+    /// Reprezintă rezultatul unui test susținut de un utilizator.
+    /// Stochează scorul, starea, tipul sesiunii și, în cazul testelor nefinalizate,
+    /// starea salvată a chestionarului prin șablonul Memento.
+    /// </summary>
     public class TestResult
     {
+        /// <summary>
+        /// Identificatorul unic al rezultatului testului.
+        /// </summary>
         public int Id { get; set; }
+
+        /// <summary>
+        /// Identificatorul utilizatorului care a susținut testul.
+        /// </summary>
         public int UserId { get; set; }
+
+        /// <summary>
+        /// Data și ora la care a fost susținut sau salvat testul.
+        /// </summary>
         public DateTime Date { get; set; }
+
+        /// <summary>
+        /// Numărul de răspunsuri corecte obținute în test.
+        /// </summary>
         public int Score { get; set; }
+
+        /// <summary>
+        /// Tipul sesiunii.
+        /// </summary>
         public TipSesiune SessionType { get; set; }
+
+        /// <summary>
+        /// Starea finală a testului.
+        /// </summary>
         public StareTest State { get; set; }
+
+        /// <summary>
+        /// Starea salvată a chestionarului prin șablonul Memento.
+        /// Este utilizat doar în cazul în care "StareTest" este "Nefinalizat",
+        /// pentru a permite reluarea de unde s-a oprit.
+        /// </summary>
         public QuizMemento DateSalvate { get; set; }
+
+        /// <summary>
+        /// Constructor implicit.
+        /// </summary>
         public TestResult() { }
+
+        /// <summary>
+        /// Inițializează un nou rezultat de test cu toate proprietățile necesare.
+        /// </summary>
         public TestResult(int id, int userId, DateTime date, int score, TipSesiune sessionType, StareTest state, QuizMemento dateSalvate = null)
         {
             Id = id;
@@ -46,6 +88,11 @@ namespace Entities
             State = state;
             DateSalvate = dateSalvate;
         }
+
+        /// <summary>
+        /// Verifică dacă testul a fost promovat.
+        /// </summary>
+        /// <returns>True dacă testul a fost promovat, altfel False.</returns>
         public bool IsPassed()
         {
             return State == StareTest.Admis;

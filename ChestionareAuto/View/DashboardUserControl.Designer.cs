@@ -46,8 +46,8 @@
             // 
             buttonStartExamen.Anchor = AnchorStyles.None;
             buttonStartExamen.Font = new Font("Segoe UI", 13F);
-            buttonStartExamen.Location = new Point(994, 213);
-            buttonStartExamen.Margin = new Padding(4, 4, 4, 4);
+            buttonStartExamen.Location = new Point(994, 79);
+            buttonStartExamen.Margin = new Padding(4);
             buttonStartExamen.Name = "buttonStartExamen";
             buttonStartExamen.Size = new Size(186, 64);
             buttonStartExamen.TabIndex = 0;
@@ -59,8 +59,8 @@
             // 
             buttonHelp.Anchor = AnchorStyles.None;
             buttonHelp.Font = new Font("Segoe UI", 12F);
-            buttonHelp.Location = new Point(1032, 512);
-            buttonHelp.Margin = new Padding(4, 4, 4, 4);
+            buttonHelp.Location = new Point(1029, 560);
+            buttonHelp.Margin = new Padding(4);
             buttonHelp.Name = "buttonHelp";
             buttonHelp.Size = new Size(114, 48);
             buttonHelp.TabIndex = 1;
@@ -72,10 +72,10 @@
             // 
             buttonLogOut.Anchor = AnchorStyles.None;
             buttonLogOut.Font = new Font("Segoe UI", 12F);
-            buttonLogOut.Location = new Point(1032, 607);
-            buttonLogOut.Margin = new Padding(4, 4, 4, 4);
+            buttonLogOut.Location = new Point(1029, 628);
+            buttonLogOut.Margin = new Padding(4);
             buttonLogOut.Name = "buttonLogOut";
-            buttonLogOut.Size = new Size(116, 50);
+            buttonLogOut.Size = new Size(114, 50);
             buttonLogOut.TabIndex = 4;
             buttonLogOut.Text = "Log Out";
             buttonLogOut.UseVisualStyleBackColor = true;
@@ -84,13 +84,12 @@
             // labelWelcome
             // 
             labelWelcome.Anchor = AnchorStyles.None;
-            labelWelcome.AutoSize = true;
             labelWelcome.Font = new Font("Verdana", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelWelcome.ForeColor = Color.Navy;
-            labelWelcome.Location = new Point(533, 23);
+            labelWelcome.Location = new Point(29, 11);
             labelWelcome.Margin = new Padding(4, 0, 4, 0);
             labelWelcome.Name = "labelWelcome";
-            labelWelcome.Size = new Size(113, 28);
+            labelWelcome.Size = new Size(1100, 64);
             labelWelcome.TabIndex = 6;
             labelWelcome.Text = "welcome";
             // 
@@ -103,7 +102,7 @@
             dataGridViewHistory.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewHistory.Columns.AddRange(new DataGridViewColumn[] { dataTest, tipTest, punctaj, stare, colReluare });
             dataGridViewHistory.Location = new Point(29, 79);
-            dataGridViewHistory.Margin = new Padding(4, 4, 4, 4);
+            dataGridViewHistory.Margin = new Padding(4);
             dataGridViewHistory.Name = "dataGridViewHistory";
             dataGridViewHistory.RowHeadersWidth = 51;
             dataGridViewHistory.Size = new Size(938, 599);
@@ -151,8 +150,8 @@
             // 
             buttonStartInvatare.Anchor = AnchorStyles.None;
             buttonStartInvatare.Font = new Font("Segoe UI", 13F);
-            buttonStartInvatare.Location = new Point(994, 356);
-            buttonStartInvatare.Margin = new Padding(4, 4, 4, 4);
+            buttonStartInvatare.Location = new Point(994, 167);
+            buttonStartInvatare.Margin = new Padding(4);
             buttonStartInvatare.Name = "buttonStartInvatare";
             buttonStartInvatare.Size = new Size(186, 64);
             buttonStartInvatare.TabIndex = 8;
@@ -172,13 +171,12 @@
             Controls.Add(buttonHelp);
             Controls.Add(buttonStartExamen);
             Font = new Font("Segoe UI", 11F);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "DashboardUserControl";
             Size = new Size(1200, 700);
             Load += DashboardUserControl_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewHistory).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion

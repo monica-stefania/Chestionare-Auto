@@ -58,12 +58,6 @@ namespace Entities
         /// <summary>
         /// Constructor pentru inițializarea unei întrebări cu toate proprietățile necesare.
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="text"></param>
-        /// <param name="options"></param>
-        /// <param name="correctOptionsIndex"></param>
-        /// <param name="image"></param>
-        /// <param name="category"></param>
         public Question(int id, string text, List<string> options, List<int> correctOptionsIndex, string image, string category)
         {
             Id = id;

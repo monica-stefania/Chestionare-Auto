@@ -23,15 +23,46 @@ using System.Data;
 
 namespace Entities
 {
+    /// <summary>
+    /// Reprezintă un utilizator al aplicației Chestionare Auto.
+    /// Un utilizator poate avea rolul de Admin sau Utilizator normal.
+    /// </summary>
     public class User
     {
+        /// <summary>
+        /// Identificatorul unic al utilizatorului.
+        /// </summary>
         public int Id { get; set; }
+
+        /// <summary>
+        /// Numele complet al utilizatorului.
+        /// </summary>
         public string Name { get; set; }
+
+        /// <summary>
+        /// Numele de utilizator folosit la autentificare.
+        /// </summary>
         public string Username { get; set; }
+
+        /// <summary>
+        /// Adresa de email a utilizatorului.
+        /// </summary>
         public string Email { get; set; }
+
+        /// <summary>
+        /// Parola utilizatorului folosită la autentificare.
+        /// </summary>
         public string Password { get; set; }
+
+        /// <summary>
+        /// Rolul utilizatorului în aplicație: Admin sau Utilizator.
+        /// Adminul poate gestiona întrebările și utilizatorii.
+        /// </summary>
         public UserRole Role { get; set; }
 
+        /// <summary>
+        /// Inițializează un nou utilizator cu toate proprietățile necesare.
+        /// </summary>
         public User(int id, string name, string username, string email, string password, UserRole role)
         {
             Id = id;

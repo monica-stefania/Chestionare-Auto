@@ -85,7 +85,7 @@ namespace View
         {
             QuizManager.Instance.ActiveResultId = 0;
 
-            var questionRepository = new QuestionRepository();
+            var questionRepository = QuestionRepository.Instance();
             List<Question> questionList = questionRepository.GenereazaTestExamen();
 
             Quiz newQuiz = new Quiz(new ExamenStrategy(), questionList, TipSesiune.Examen);
@@ -102,7 +102,7 @@ namespace View
         {
             QuizManager.Instance.ActiveResultId = 0;
 
-            var questionRepository = new QuestionRepository();
+            var questionRepository = QuestionRepository.Instance();
             List<Question> questionList = questionRepository.GenereazaTestExamen();
 
             Quiz newQuiz = new Quiz(new PracticeStrategy(), questionList, TipSesiune.Invatare);

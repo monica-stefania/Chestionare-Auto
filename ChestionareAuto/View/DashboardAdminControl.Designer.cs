@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             tabControlAdmin = new TabControl();
             tabPageQuestions = new TabPage();
             panelEditQuestion = new Panel();
@@ -182,7 +182,7 @@
             // buttonUpdateQuestion
             // 
             buttonUpdateQuestion.Font = new Font("Segoe UI", 11F);
-            buttonUpdateQuestion.Location = new Point(343, 489);
+            buttonUpdateQuestion.Location = new Point(285, 489);
             buttonUpdateQuestion.Name = "buttonUpdateQuestion";
             buttonUpdateQuestion.Size = new Size(98, 37);
             buttonUpdateQuestion.TabIndex = 4;
@@ -193,7 +193,7 @@
             // buttonDeleteQuestion
             // 
             buttonDeleteQuestion.Font = new Font("Segoe UI", 11F);
-            buttonDeleteQuestion.Location = new Point(185, 489);
+            buttonDeleteQuestion.Location = new Point(158, 489);
             buttonDeleteQuestion.Name = "buttonDeleteQuestion";
             buttonDeleteQuestion.Size = new Size(99, 37);
             buttonDeleteQuestion.TabIndex = 3;
@@ -204,7 +204,7 @@
             // buttonAddQuestion
             // 
             buttonAddQuestion.Font = new Font("Segoe UI", 11F);
-            buttonAddQuestion.Location = new Point(40, 489);
+            buttonAddQuestion.Location = new Point(29, 489);
             buttonAddQuestion.Name = "buttonAddQuestion";
             buttonAddQuestion.Size = new Size(99, 37);
             buttonAddQuestion.TabIndex = 2;
@@ -217,15 +217,15 @@
             dataGridViewQuestions.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewQuestions.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dataGridViewQuestions.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = SystemColors.Window;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 10F);
-            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle3.Padding = new Padding(5);
-            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
-            dataGridViewQuestions.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Window;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 10F);
+            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle1.Padding = new Padding(5);
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridViewQuestions.DefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewQuestions.Location = new Point(29, 19);
             dataGridViewQuestions.Name = "dataGridViewQuestions";
             dataGridViewQuestions.RowHeadersWidth = 51;
@@ -248,7 +248,7 @@
             // 
             // buttonChangeRoleUser
             // 
-            buttonChangeRoleUser.Location = new Point(360, 496);
+            buttonChangeRoleUser.Location = new Point(207, 496);
             buttonChangeRoleUser.Name = "buttonChangeRoleUser";
             buttonChangeRoleUser.Size = new Size(175, 34);
             buttonChangeRoleUser.TabIndex = 2;
@@ -258,7 +258,7 @@
             // 
             // buttonRemoveUser
             // 
-            buttonRemoveUser.Location = new Point(89, 496);
+            buttonRemoveUser.Location = new Point(33, 496);
             buttonRemoveUser.Name = "buttonRemoveUser";
             buttonRemoveUser.Size = new Size(138, 34);
             buttonRemoveUser.TabIndex = 1;
@@ -271,15 +271,15 @@
             dataGridViewUsers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewUsers.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dataGridViewUsers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = SystemColors.Window;
-            dataGridViewCellStyle4.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle4.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle4.Padding = new Padding(5);
-            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dataGridViewUsers.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Window;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle2.Padding = new Padding(5);
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dataGridViewUsers.DefaultCellStyle = dataGridViewCellStyle2;
             dataGridViewUsers.Location = new Point(33, 31);
             dataGridViewUsers.Name = "dataGridViewUsers";
             dataGridViewUsers.RowHeadersWidth = 51;

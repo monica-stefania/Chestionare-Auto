@@ -31,11 +31,20 @@ namespace Repositories
 {
     public class QuestionRepository : IRepository<Question>
     {
+        private static QuestionRepository _instance;
+
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "questions.json");
         private List<Question> _questions;
-        public QuestionRepository()
+        private QuestionRepository()
         {
             _questions = LoadData();
+        }
+
+        public static QuestionRepository Instance()
+        {
+            if (_instance == null)
+                _instance = new QuestionRepository();
+            return _instance;
         }
 
         public List<Question> LoadData()

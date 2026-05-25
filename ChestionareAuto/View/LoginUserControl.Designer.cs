@@ -42,7 +42,7 @@
             // 
             textBoxUsername.Anchor = AnchorStyles.None;
             textBoxUsername.Font = new Font("Segoe UI", 11F);
-            textBoxUsername.Location = new Point(404, 224);
+            textBoxUsername.Location = new Point(389, 192);
             textBoxUsername.Name = "textBoxUsername";
             textBoxUsername.Size = new Size(221, 32);
             textBoxUsername.TabIndex = 0;
@@ -51,7 +51,7 @@
             // 
             textBoxPassword.Anchor = AnchorStyles.None;
             textBoxPassword.Font = new Font("Segoe UI", 11F);
-            textBoxPassword.Location = new Point(404, 313);
+            textBoxPassword.Location = new Point(389, 265);
             textBoxPassword.Name = "textBoxPassword";
             textBoxPassword.Size = new Size(221, 32);
             textBoxPassword.TabIndex = 1;
@@ -61,7 +61,7 @@
             buttonLogin.Anchor = AnchorStyles.None;
             buttonLogin.Cursor = Cursors.Hand;
             buttonLogin.Font = new Font("Segoe UI", 15F);
-            buttonLogin.Location = new Point(446, 379);
+            buttonLogin.Location = new Point(435, 303);
             buttonLogin.Name = "buttonLogin";
             buttonLogin.Size = new Size(130, 44);
             buttonLogin.TabIndex = 2;
@@ -73,7 +73,7 @@
             // 
             label1.Anchor = AnchorStyles.None;
             label1.Font = new Font("Segoe UI", 23F, FontStyle.Bold);
-            label1.Location = new Point(446, 76);
+            label1.Location = new Point(426, 76);
             label1.Name = "label1";
             label1.Size = new Size(148, 53);
             label1.TabIndex = 6;
@@ -84,28 +84,30 @@
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            label2.Location = new Point(453, 173);
+            label2.Location = new Point(433, 154);
             label2.Name = "label2";
-            label2.Size = new Size(123, 35);
+            label2.Size = new Size(133, 35);
             label2.TabIndex = 7;
-            label2.Text = "Usename";
+            label2.Text = "Username";
+            label2.Click += label2_Click;
             // 
             // label3
             // 
             label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            label3.Location = new Point(465, 275);
+            label3.Location = new Point(456, 227);
             label3.Name = "label3";
             label3.Size = new Size(87, 35);
             label3.TabIndex = 8;
             label3.Text = "Parola";
+            label3.Click += label3_Click;
             // 
             // linkLabelSignUp
             // 
             linkLabelSignUp.Anchor = AnchorStyles.None;
             linkLabelSignUp.Font = new Font("Segoe UI", 13F);
-            linkLabelSignUp.Location = new Point(404, 499);
+            linkLabelSignUp.Location = new Point(389, 379);
             linkLabelSignUp.Name = "linkLabelSignUp";
             linkLabelSignUp.Size = new Size(221, 43);
             linkLabelSignUp.TabIndex = 9;
@@ -117,13 +119,13 @@
             // labelError
             // 
             labelError.Anchor = AnchorStyles.None;
-            labelError.AutoSize = true;
             labelError.ForeColor = Color.Red;
-            labelError.Location = new Point(487, 454);
+            labelError.Location = new Point(304, 350);
             labelError.Name = "labelError";
-            labelError.Size = new Size(41, 20);
+            labelError.Size = new Size(400, 20);
             labelError.TabIndex = 10;
             labelError.Text = "Error";
+            labelError.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginUserControl
             // 
@@ -140,6 +142,7 @@
             Controls.Add(textBoxUsername);
             Name = "LoginUserControl";
             Size = new Size(1000, 600);
+            Load += LoginUserControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }
