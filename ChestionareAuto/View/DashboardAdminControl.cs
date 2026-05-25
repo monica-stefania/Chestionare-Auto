@@ -30,6 +30,10 @@ namespace View
             InitializeComponent();
         }
 
+        /// <summary>
+        /// La încărcarea controlului populează grid-urile cu
+        /// lista de întrebări și lista de utilizatori.
+        /// </summary>
         private void DashboardAdminControl_Load(object sender, EventArgs e)
         {
             try
@@ -43,6 +47,10 @@ namespace View
             }
         }
 
+
+        /// <summary>
+        /// Încarcă și afișează toate întrebările în grid-ul de întrebări.
+        /// </summary>
         private void LoadQuestions()
         {
             try
@@ -85,6 +93,10 @@ namespace View
                 MessageBox.Show($"Eroare la încărcarea întrebărilor: {ex.Message}");
             }
         }
+
+        /// <summary>
+        /// Încarcă și afișează toți utilizatorii în grid-ul de utilizatori.
+        /// </summary>
         private void LoadUsers()
         {
             try
@@ -103,6 +115,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Delogează administratorul, resetează QuizManager și navighează la Login.
+        /// </summary>
         private void buttonLogOut_Click(object sender, EventArgs e)
         {
             try
@@ -120,6 +135,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Șterge întrebarea selectată din grid după confirmarea utilizatorului.
+        /// </summary>
         private void buttonDeleteQuestion_Click(object sender, EventArgs e)
         {
             try
@@ -149,6 +167,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Șterge utilizatorul selectat din grid după confirmare.
+        /// </summary>
         private void buttonRemoveUser_Click(object sender, EventArgs e)
         {
             try
@@ -185,6 +206,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Schimbă rolul utilizatorului selectat: din Admin în Utilizator și invers.
+        /// </summary>
         private void buttonChangeRoleUser_Click(object sender, EventArgs e)
         {
             try
@@ -222,6 +246,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Formatează celulele din grid-ul de întrebări pentru afișare.
+        /// </summary>
         private void dataGridViewQuestions_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
             try
@@ -256,6 +283,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Deschide panoul de editare pentru adăugarea unei întrebări noi.
+        /// </summary>
         private void buttonAddQuestion_Click(object sender, EventArgs e)
         {
             _currentEditingQuestionId = 0;
@@ -273,6 +303,9 @@ namespace View
             panelEditQuestion.BringToFront();
         }
 
+        /// <summary>
+        /// Deschide panoul de editare pentru modificarea întrebării selectate.
+        /// </summary>
         private void buttonUpdateQuestion_Click(object sender, EventArgs e)
         {
             try
@@ -310,6 +343,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Salvează întrebarea curentă din panoul de editare.
+        /// </summary>
         private void buttonSaveQuestion_Click(object sender, EventArgs e)
         {
             try
@@ -375,6 +411,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Anulează operația de adăugare sau editare și închide panoul de editare.
+        /// </summary>
         private void buttonCancelEdit_Click(object sender, EventArgs e)
         {
             panelEditQuestion.Visible = false; 

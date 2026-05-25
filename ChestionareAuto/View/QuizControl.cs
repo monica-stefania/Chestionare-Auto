@@ -31,6 +31,9 @@ namespace View
             InitializeComponent();
         }
 
+        /// <summary>
+        /// La încărcarea controlului preia chestionarul activ din QuizManager,
+        /// </summary>
         private void QuizControl_Load(object sender, EventArgs e)
         {
             try
@@ -61,6 +64,10 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Afișează întrebarea curentă: textul, cele 3 opțiuni de răspuns,
+        /// imaginea asociată (dacă există) și resetează starea checkbox-urilor.
+        /// </summary>
         private void CurrentQuestion()
         {
             try
@@ -114,7 +121,9 @@ namespace View
             }
         }
 
-
+        /// <summary>
+        /// Gestionează tick-ul timer-ului (se execută la fiecare secundă).
+        /// </summary>
         private void timerQuiz_Tick(object sender, EventArgs e)
         {
             try
@@ -143,6 +152,11 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Finalizează sesiunea curentă, salvează sau actualizează rezultatul în repository
+        /// și navighează înapoi la dashboard-ul utilizatorului.
+        /// </summary>
+        /// <param name="state">Starea finală a testului (Admis, Respins sau Nefinalizat).</param>
         private void ExitFromQuiz(StareTest state)
         {
             try
@@ -184,6 +198,10 @@ namespace View
                 MessageBox.Show($"Eroare la salvarea rezultatului: {ex.Message}");
             }
         }
+
+        /// <summary>
+        /// Gestionează apăsarea butonului "Următoarea întrebare" / "Verifică".
+        /// </summary>
         private void buttonNext_Click(object sender, EventArgs e)
         {
             try
@@ -275,6 +293,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Gestionează apăsarea butonului "Abandonează".
+        /// </summary>
         private void buttonAbort_Click(object sender, EventArgs e)
         {
             try
@@ -291,10 +312,12 @@ namespace View
 
                 if (dialog == DialogResult.Yes)
                 {
+                    // Salvăm starea prin Memento și ieșim
                     ExitFromQuiz(StareTest.Nefinalizat);
                 }
                 else
                 {
+                    // Utilizatorul a anulat — repornești timer-ul dacă era activ
                     if (_currentQuiz.Strategy.HasTimeLimit())
                     {
                         timerQuiz.Start();
@@ -307,6 +330,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Deschide fișierul de help al aplicației.
+        /// </summary>
         private void buttonHelp_Click(object sender, EventArgs e)
         {
             Help.ShowHelp(this, Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "help", "ChestionareAuto.chm"));
