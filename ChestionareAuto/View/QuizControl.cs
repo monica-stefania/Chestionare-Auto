@@ -1,6 +1,7 @@
 ﻿using Entities;
 using Patterns;
 using Repositories;
+using Logic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

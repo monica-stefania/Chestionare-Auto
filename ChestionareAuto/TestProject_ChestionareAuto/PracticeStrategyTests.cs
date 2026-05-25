@@ -1,5 +1,4 @@
 ﻿using Entities;
-using Model;
 using Patterns;
 using System;
 using System.Collections.Generic;

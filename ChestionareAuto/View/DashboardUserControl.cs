@@ -1,5 +1,5 @@
 ﻿using Entities;
-using Model;
+using Logic;
 using Patterns;
 using Repositories;
 using System;
