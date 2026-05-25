@@ -12,9 +12,16 @@ using Repositories;
 
 namespace View
 {
+    /// <summary>
+    /// Control de interfață pentru ecranul de logare.
+    /// </summary>
     public partial class LoginUserControl : UserControl
     {
         private UserRepository _userRepository;
+
+        /// <summary>
+        /// Inițializează controlul.
+        /// </summary>
         public LoginUserControl()
         {
             InitializeComponent();
@@ -71,21 +78,18 @@ namespace View
 
         private void linkLabelSignUp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            var mainForm = (MainForm)(this.ParentForm);
-            mainForm.SwitchWindow(new SignUpUserControl());
+            try
+            {
+                var mainForm = (MainForm)(this.ParentForm);
+                mainForm.SwitchWindow(new SignUpUserControl());
+            }
+            catch (Exception ex)
+            {
+                WriteError("Eroare la navigare la pagina de înregistrare.");
+            }
         }
 
         private void LoginUserControl_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
         {
 
         }

@@ -32,7 +32,8 @@ using Entities;
 namespace Repositories
 {
     /// <summary>
-    /// Repository pentru gestionarea utilizatorilor, implementând operațiile CRUD și interacțiunea cu fișierul users.json.
+    /// Repository Singleton pentru gestionarea utilizatorilor aplicației.
+    /// Implementează operațiile CRUD și persistența datelor în fișierul users.json.
     /// </summary>
     public class UserRepository : IRepository<User>
     {
@@ -42,14 +43,14 @@ namespace Repositories
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "users.json");
         private List<User> _users;
 
-        /// <summary>
-        /// Constructor care încarcă utilizatorii din fișierul JSON la inițializarea repository-ului.
-        /// </summary>
         private UserRepository()
         {
             _users = LoadData();
         }
 
+        /// <summary>
+        /// Lazy initialization a instanței singleton. 
+        /// </summary>
         public static UserRepository Instance()
         {
             if (_instance == null)
@@ -60,7 +61,6 @@ namespace Repositories
         /// <summary>
         /// Încarcă utilizatorii din fișierul JSON și îi returnează ca o listă de obiecte User. Dacă fișierul nu există, returnează o listă goală.
         /// </summary>
-        /// <returns></returns>
         public List<User> LoadData()
         {
             try
@@ -77,11 +77,13 @@ namespace Repositories
             }
             catch (JsonException ex)
             {
-                throw new Exception($"Fișierul de utilizatori este corupt. Detalii: {ex.Message}");
+                Console.WriteLine($"Fișierul de utilizatori este malformat: {ex.Message}");
+                return new List<User>();
             }
             catch (Exception ex)
             {
-                throw new Exception($"Eroare fatală la încărcarea utilizatorilor: {ex.Message}");
+                Console.WriteLine($"Eroare la încărcarea utilizatorilor: {ex.Message}");
+                return new List<User>();
             }
         }
 
@@ -97,74 +99,101 @@ namespace Repositories
             }
             catch (Exception ex)
             {
-                throw new Exception($"Nu s-au putut salva datele utilizatorului. Verificați permisiunile. Detalii: {ex.Message}");
+                Console.WriteLine($"Nu s-au putut salva datele utilizatorului: {ex.Message}");
             }
         }
 
         /// <summary>
         /// Returnează toți utilizatorii înregistrați
         /// </summary>
-        /// <returns></returns>
         public List<User> GetAll()
         {
             return _users;
         }
 
+        /// <summary>
+        /// Caută un utilizator după identificatorul său unic.
+        /// </summary>
+        /// <param name="id">Id-ul utilizatorului căutat.</param>
         public User GetUserById(int id)
         {
             return _users.FirstOrDefault(u => u.Id == id);
         }
 
+        /// <summary>
+        /// Caută un utilizator după numele de utilizator.
+        /// </summary>
         public User GetUserByUsername(string username)
         {
             return _users.FirstOrDefault(u => u.Username.Equals(username, StringComparison.OrdinalIgnoreCase));
         }
 
         /// <summary>
-        /// Adaugă un nou utilizator în lista curentă și salvează modificările în fișierul JSON
+        /// Adaugă un nou utilizator în lista curentă și salvează modificările în fișierul JSON.
         /// </summary>
-        /// <param name="entity"></param>
+        /// <param name="entity">Utilizatorul de adăugat.</param>
         public void Add(User entity)
         {
-            if(entity.Id == 0)
+            try
             {
-                entity.Id = _users.Count > 0 ? _users.Max(u => u.Id) + 1 : 1;
+                if (entity.Id == 0)
+                {
+                    entity.Id = _users.Count > 0 ? _users.Max(u => u.Id) + 1 : 1;
+                }
+
+                _users.Add(entity);
+                SaveData();
             }
-            
-            _users.Add(entity);
-            SaveData();
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Nu s-a putut adăuga utilizatorul: {ex.Message}");
+            }
         }
 
         /// <summary>
-        /// Sterge un utilizator existent din lista curentă și salvează modificările în fișierul JSON
+        /// Sterge un utilizator existent din lista curentă și salvează modificările în fișierul JSON.
         /// </summary>
-        /// <param name="entity"></param>
+        /// <param name="entity">Utilizatorul de șters.</param>
         public void Delete(User entity)
         {
-            var userExistent = _users.FirstOrDefault(u => u.Id == entity.Id);
-            if (userExistent != null)
+            try
             {
-                _users.Remove(userExistent);
-                SaveData();
+                var userExistent = _users.FirstOrDefault(u => u.Id == entity.Id);
+                if (userExistent != null)
+                {
+                    _users.Remove(userExistent);
+                    SaveData();
+                }
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine($"Nu s-a putut șterge utilizatorul: {ex.Message}");
             }
         }
 
         /// <summary>
-        /// Actualizează un utilizator existent în lista curentă și salvează modificările în fișierul JSON
+        /// Actualizează un utilizator existent în lista curentă și salvează modificările în fișierul JSON.
         /// </summary>
-        /// <param name="entity"></param>
+        /// <param name="entity">Utilizatorul căruia trebuie să i se actualizeze informațiile.</param>
         public void Update(User entity)
         {
-            var userExistent = _users.FirstOrDefault(u => u.Id == entity.Id);
-            if (userExistent != null)
+            try
             {
-                userExistent.Name = entity.Name;
-                userExistent.Username = entity.Username;
-                userExistent.Email = entity.Email;
-                userExistent.Password = entity.Password;
-                userExistent.Role = entity.Role;
+                var userExistent = _users.FirstOrDefault(u => u.Id == entity.Id);
+                if (userExistent != null)
+                {
+                    userExistent.Name = entity.Name;
+                    userExistent.Username = entity.Username;
+                    userExistent.Email = entity.Email;
+                    userExistent.Password = entity.Password;
+                    userExistent.Role = entity.Role;
 
-                SaveData();
+                    SaveData();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Nu s-a putut da update la datele utilizatorului: {ex.Message}");
             }
         }
     }

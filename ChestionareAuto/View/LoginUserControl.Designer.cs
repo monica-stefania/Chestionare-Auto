@@ -89,7 +89,6 @@
             label2.Size = new Size(133, 35);
             label2.TabIndex = 7;
             label2.Text = "Username";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -101,7 +100,6 @@
             label3.Size = new Size(87, 35);
             label3.TabIndex = 8;
             label3.Text = "Parola";
-            label3.Click += label3_Click;
             // 
             // linkLabelSignUp
             // 

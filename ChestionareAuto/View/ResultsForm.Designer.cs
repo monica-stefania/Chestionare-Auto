@@ -41,7 +41,7 @@
             button1.Name = "button1";
             button1.Size = new Size(175, 78);
             button1.TabIndex = 0;
-            button1.Text = "Finish";
+            button1.Text = "Mai încearcă!";
             button1.UseVisualStyleBackColor = true;
             // 
             // label1
