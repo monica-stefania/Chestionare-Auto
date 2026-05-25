@@ -16,5 +16,10 @@ namespace View
         {
             InitializeComponent();
         }
+
+        private void ResultsForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

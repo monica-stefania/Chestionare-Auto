@@ -37,7 +37,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button1.Location = new Point(297, 317);
+            button1.Location = new Point(409, 498);
             button1.Name = "button1";
             button1.Size = new Size(175, 78);
             button1.TabIndex = 0;
@@ -70,7 +70,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label3.Location = new Point(297, 41);
+            label3.Location = new Point(416, 41);
             label3.Name = "label3";
             label3.Size = new Size(168, 46);
             label3.TabIndex = 3;
@@ -80,13 +80,14 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(982, 620);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button1);
             Name = "ResultsForm";
             Text = "ResultsForm";
+            Load += ResultsForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -27,15 +27,38 @@ using Entities;
 
 namespace Patterns
 {
+    /// <summary>
+    /// Implementează șablonul de proiectare Singleton pentru gestionarea stării globale a aplicației.
+    /// </summary>
     public class QuizManager
     {
         private static QuizManager _instance;
+
+        /// <summary>
+        /// Utilizatorul autentificat în prezent în aplicație.
+        /// Este setat la login și resetat la null la delogare.
+        /// </summary>
         public User CurrentUser { get; set; }
+
+        /// <summary>
+        /// Chestionarul activ în curs de desfășurare.
+        /// Este setat la pornirea unui test nou sau la reluarea unuia salvat.
+        /// </summary>
         public Quiz ActiveQuiz { get; set; }
+
+        /// <summary>
+        /// Id-ul rezultatului activ din repository.
+        /// Valoarea 0 înseamnă că este un test nou (va fi adăugat).
+        /// O valoare diferită de 0 înseamnă că este un test reluat.
+        /// </summary>
         public int ActiveResultId { get; set; } = 0;
         private QuizManager()
         {
         }
+
+        /// <summary>
+        /// Lazy initialization a instanței singleton. 
+        /// </summary>
         public static QuizManager Instance
         {
             get

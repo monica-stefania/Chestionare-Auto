@@ -15,7 +15,7 @@ namespace View
 {
     public partial class DashboardAdminControl : UserControl
     {
-        private QuestionRepository _questionRepository = new QuestionRepository();
+        private QuestionRepository _questionRepository = QuestionRepository.Instance();
         private UserRepository _userRepository = UserRepository.Instance();
         private int _currentEditingQuestionId = 0;
         public DashboardAdminControl()

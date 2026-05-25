@@ -137,7 +137,7 @@
             // 
             buttonNext.Anchor = AnchorStyles.None;
             buttonNext.Font = new Font("Segoe UI", 12F);
-            buttonNext.Location = new Point(985, 502);
+            buttonNext.Location = new Point(1008, 402);
             buttonNext.Name = "buttonNext";
             buttonNext.Size = new Size(160, 40);
             buttonNext.TabIndex = 8;
@@ -149,7 +149,7 @@
             // 
             buttonHelp.Anchor = AnchorStyles.None;
             buttonHelp.Font = new Font("Segoe UI", 12F);
-            buttonHelp.Location = new Point(1008, 84);
+            buttonHelp.Location = new Point(1008, 586);
             buttonHelp.Name = "buttonHelp";
             buttonHelp.Size = new Size(160, 40);
             buttonHelp.TabIndex = 9;
@@ -161,7 +161,7 @@
             // 
             buttonAbort.Anchor = AnchorStyles.None;
             buttonAbort.Font = new Font("Segoe UI", 12F);
-            buttonAbort.Location = new Point(985, 639);
+            buttonAbort.Location = new Point(1008, 643);
             buttonAbort.Name = "buttonAbort";
             buttonAbort.Size = new Size(160, 40);
             buttonAbort.TabIndex = 10;
