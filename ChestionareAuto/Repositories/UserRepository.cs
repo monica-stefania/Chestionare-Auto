@@ -2,12 +2,12 @@
  * *
  * File:        UserRepository.cs                                        *
  * Copyright:   (c) 2026, Luca Monica, Macovei Paul, Talmaciu Theodor    *              
- * Description: Această clasă gestionează operațiile CRUD pentru 
- *              utilizatori și interacțiunea cu fișierul users.json      *
- * Author:      Luca Monica, Macovei Paul, Talmaciu Theodor              *
+ * Description: Această clasă este un Repository Singleton pentru        *
+ *              gestionarea userilor aplicației.                         *
+ * Author:      Talmaciu Theodor                                         *
  * Proiect:     Chestionare Auto                                         *
                                          
- * *
+ *                                                                       *
  * Acest software a fost dezvoltat de 3 studenți ca proiect educațional  *
  * și a fost conceput pentru a fi utilizat în mod gratuit de către       *
  * oricine dorește să învețe sau să se testeze pentru examenul auto.     *
