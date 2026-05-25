@@ -29,17 +29,27 @@ namespace View
             _userRepository = UserRepository.Instance();
             labelError.Visible = false;
         }
+
+        /// <summary>
+        /// Afișează un mesaj de eroare în eticheta dedicată și o face vizibilă.
+        /// </summary>
+        /// <param name="message">Mesajul de eroare de afișat.</param>
         private void WriteError(string message)
         {
             labelError.Text = message;
             labelError.Visible = true;
         }
+
+        /// <summary>
+        /// Gestionează evenimentul de click pe butonul "Login".
+        /// </summary>
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             labelError.Visible = false;
             string username = textBoxUsername.Text;
             string password = textBoxPassword.Text;
-
+            
+            // Validare câmpuri goale
             if (username == "" || password == "")
             {
                 WriteError("Completati toate campurile!");
@@ -51,9 +61,11 @@ namespace View
                 var findUser = allUsers.FirstOrDefault(u => u.Username == username && u.Password == password);
                 if (findUser != null)
                 {
+                    // Setăm utilizatorul curent în Singleton-ul QuizManager
                     QuizManager.Instance.CurrentUser = findUser;
                     var mainForm = (MainForm)this.ParentForm;
 
+                    // Navigăm la dashboard-ul corespunzător rolului
                     if (findUser.Role == Entities.UserRole.Admin)
                     {
                         mainForm.SwitchWindow(new DashboardAdminControl());
@@ -76,6 +88,10 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Gestionează click-ul pe link-ul "Creează un cont".
+        /// Navighează la ecranul de înregistrare.
+        /// </summary>
         private void linkLabelSignUp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             try

@@ -32,15 +32,24 @@ namespace View
             labelError.Visible = false;
         }
 
+        /// <summary>
+        /// Afișează un mesaj (eroare sau confirmare) în eticheta dedicată.
+        /// </summary>
+        /// <param name="message">Mesajul de afișat.</param>
         private void WriteError(string message)
         {
             labelError.Text = message;
             labelError.Visible = true;
         }
+
+        /// <summary>
+        /// Gestionează click-ul pe butonul "Înregistrare".
+        /// </summary>
         private void buttonSignUp_Click(object sender, EventArgs e)
         {
             labelError.Visible = false;
 
+            // Validare câmpuri goale
             if (string.IsNullOrWhiteSpace(textBoxName.Text) ||
                string.IsNullOrWhiteSpace(textBoxUsername.Text) ||
                string.IsNullOrWhiteSpace(textBoxEmail.Text) ||
@@ -50,12 +59,14 @@ namespace View
                 return;
             }
 
+            // Validare username: minim 3 caractere, fără spații
             if (textBoxUsername.Text.Length < 3 || textBoxUsername.Text.Contains(" "))
             {
                 WriteError("Numele de utilizator trebuie să aibă minim 3 caractere și să nu conțină spații!");
                 return;
             }
 
+            // Validare format email
             string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxEmail.Text, emailPattern))
             {
@@ -63,6 +74,7 @@ namespace View
                 return;
             }
 
+            // Validare lungime minimă parolă
             if (textBoxPassword.Text.Length < 6)
             {
                 WriteError("Parola trebuie să aibă cel puțin 6 caractere pentru siguranța contului tău!");
@@ -72,19 +84,23 @@ namespace View
             try
             {
                 var allUsers = _userRepository.GetAll();
+                // Verificare unicitate username
                 if (allUsers.Any(u => u.Username == textBoxUsername.Text))
                 {
                     WriteError("Acest utilizator este deja folosit! Conecteaza-te sau alege altul!");
                     return;
                 }
 
+                // Generare Id unic
                 int newId = allUsers.Any() ? allUsers.Max(u => u.Id) + 1 : 1;
 
+                // Creare și salvare utilizator nou cu rol implicit Utilizator
                 User newUser = new User(newId, textBoxName.Text, textBoxUsername.Text, textBoxEmail.Text, textBoxPassword.Text, UserRole.Utilizator);
                 _userRepository.Add(newUser);
 
                 WriteError("Cont creat cu succes! Acum te poți conecta.");
 
+                // Navigăm înapoi la Login
                 var mainForm = (MainForm)this.ParentForm;
                 mainForm.SwitchWindow(new LoginUserControl());
             }
@@ -94,6 +110,10 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Gestionează click-ul pe link-ul "Ai deja un cont? Conectează-te".
+        /// Navighează la ecranul de autentificare.
+        /// </summary>
         private void linkLabelLogIn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             try
@@ -107,5 +127,9 @@ namespace View
             }
         }
 
+        private void SignUpUserControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

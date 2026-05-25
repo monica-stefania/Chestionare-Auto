@@ -29,12 +29,20 @@ namespace View
             InitializeComponent();
         }
 
+        /// <summary>
+        /// La încărcarea controlului afișează mesajul de bun venit
+        /// și încarcă istoricul testelor utilizatorului curent.
+        /// </summary>
         private void DashboardUserControl_Load(object sender, EventArgs e)
         {
             labelWelcome.Text = $"Bine ai venit, {QuizManager.Instance.CurrentUser.Name}!\nEști pregătit pentru un nou chestionar?";
             LoadHistory();
         }
 
+        /// <summary>
+        /// Încarcă și afișează istoricul testelor utilizatorului curent în grid,
+        /// ordonate descrescător după dată.
+        /// </summary>
         private void LoadHistory()
         {
             try
@@ -43,7 +51,7 @@ namespace View
 
                 var allResults = _resultRepository.GetAll();
                 var userResults = allResults.Where(r => r.UserId == QuizManager.Instance.CurrentUser.Id).OrderByDescending(r => r.Date).ToList();
-                
+
                 foreach (var res in userResults)
                 {
                     string stareText = res.State.ToString();
@@ -83,6 +91,10 @@ namespace View
                 MessageBox.Show($"Eroare la încărcarea istoricului: {ex.Message}");
             }
         }
+
+        /// <summary>
+        /// Delogează utilizatorul curent, resetează QuizManager și navighează la Login.
+        /// </summary>
         private void buttonLogOut_Click(object sender, EventArgs e)
         {
             try
@@ -100,11 +112,17 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Deschide fișierul de help al aplicației (.chm).
+        /// </summary>
         private void buttonHelp_Click(object sender, EventArgs e)
         {
             Help.ShowHelp(this, Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "help", "ChestionareAuto.chm"));
         }
 
+        /// <summary>
+        /// Pornește un test nou de tip Examen.
+        /// </summary>
         private void buttonStartExamen_Click(object sender, EventArgs e)
         {
             try
@@ -135,6 +153,9 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Pornește o sesiune nouă de tip Învățare.
+        /// </summary>
         private void buttonStartInvatare_Click(object sender, EventArgs e)
         {
             try
@@ -165,6 +186,10 @@ namespace View
             }
         }
 
+
+        /// <summary>
+        /// Gestionează click-ul pe celulele din grid-ul de istoric.
+        /// </summary>
         private void dataGridViewHistory_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             try
@@ -175,8 +200,10 @@ namespace View
 
                     TestResult result = (TestResult)dataGridViewHistory.Rows[e.RowIndex].Tag;
 
+                    // dacă se apasă pe butonul de "Reluare"
                     if (result != null && result.State == StareTest.Nefinalizat && result.DateSalvate != null)
                     {
+                        // Restaurăm starea salvată prin Memento
                         QuizManager.Instance.ActiveResultId = result.Id;
                         Quiz quizRestore = new Quiz(result.DateSalvate);
                         QuizManager.Instance.ActiveQuiz = quizRestore;
@@ -185,7 +212,7 @@ namespace View
                         if (mainForm != null)
                         {
                             mainForm.SwitchWindow(new QuizControl());
-                        }                      
+                        }
                     }
                 }
             }
