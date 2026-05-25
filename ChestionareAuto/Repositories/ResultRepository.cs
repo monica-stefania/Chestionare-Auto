@@ -29,7 +29,8 @@ using Entities;
 namespace Repositories
 {
     /// <summary>
-    /// Repository pentru gestionarea rezultatelor testelor, implementând operațiile CRUD și interacțiunea cu fișierul results.json.
+    /// Repository Singleton pentru gestionarea rezultatelor testelor. 
+    /// Implementând operațiile CRUD și interacțiunea cu fișierul results.json.
     /// </summary>
     public class ResultRepository : IRepository<TestResult>
     {
@@ -38,14 +39,14 @@ namespace Repositories
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "results.json");
         private List<TestResult> _results;
 
-        /// <summary>
-        /// Constructor care încarcă rezultatele testelor din fișierul JSON la inițializarea repository-ului.
-        /// </summary>
         private ResultRepository()
         {
             _results = LoadData();
         }
 
+        /// <summary>
+        /// Lazy initialization a instanței singleton. 
+        /// </summary>
         public static ResultRepository Instance()
         {
             if (_instance == null)
@@ -56,7 +57,6 @@ namespace Repositories
         /// <summary>
         /// Incarcă rezultatele testelor din fișierul JSON. Dacă fișierul nu există sau este gol, returnează o listă goală.
         /// </summary>
-        /// <returns></returns>
         public List<TestResult> LoadData()
         {
             try
@@ -77,11 +77,13 @@ namespace Repositories
             }
             catch (JsonException ex)
             {
-                throw new Exception($"Fișierul cu rezultate este malformat. Detalii: {ex.Message}");
+                Console.WriteLine($"Fișierul cu rezultate este malformat: {ex.Message}");
+                return new List<TestResult>();
             }
             catch (Exception ex)
             {
-                throw new Exception($"Eroare fatală la citirea rezultatelor: {ex.Message}");
+                Console.WriteLine($"Eroare la citirea rezultatelor: {ex.Message}");
+                return new List<TestResult>();
             }
         }
 
@@ -103,14 +105,13 @@ namespace Repositories
             }
             catch (Exception ex)
             {
-                throw new Exception($"Nu s-au putut salva rezultatele. Verificați permisiunile de scriere. Detalii: {ex.Message}");
+                Console.WriteLine($"Nu s-au putut salva rezultatele: {ex.Message}");
             }
         }
 
         /// <summary>
         /// Returnează toate rezultatele testelor din repository, încărcându-le din fișierul JSON pentru a asigura că sunt actualizate.
         /// </summary>
-        /// <returns></returns>
         public List<TestResult> GetAll()
         {
             _results = LoadData();
@@ -120,52 +121,73 @@ namespace Repositories
         /// <summary>
         /// Adaugă un nou rezultat de test în repository, atribuindu-i un ID unic și salvându-l în fișierul JSON.
         /// </summary>
-        /// <param name="entity"></param>
+        /// <param name="entity">Rezultatul de test care trebuie adăugat.</param>
         public void Add(TestResult entity)
         {
-            if (_results.Count == 0)
+            try
             {
-                entity.Id = 1;
+                if (_results.Count == 0)
+                {
+                    entity.Id = 1;
+                }
+                else
+                {
+                    entity.Id = _results.Max(r => r.Id) + 1;
+                }
+                _results.Add(entity);
+                SaveData();
             }
-            else
+            catch (Exception ex)
             {
-                entity.Id = _results.Max(r => r.Id) + 1;
+                Console.WriteLine($"Nu s-a putut adăuga rezultatul testului: {ex.Message}");
             }
-            _results.Add(entity);
-            SaveData();
         }
 
         /// <summary>
         /// Actualizeaza un rezultat de test
         /// </summary>
-        /// <param name="entity"></param>
+        /// <param name="entity">Rezultatul testului căruia trebuie să i se actualizeze datele.</param>
         public void Update(TestResult entity)
         {
-            var existingResult = _results.FirstOrDefault(r => r.Id == entity.Id);
-            if (existingResult != null)
+            try
             {
-                existingResult.UserId = entity.UserId;
-                existingResult.Date = entity.Date;
-                existingResult.Score = entity.Score;
-                existingResult.SessionType = entity.SessionType;
-                existingResult.State = entity.State;
-                existingResult.DateSalvate = entity.DateSalvate; // Asta e "cutia" Memento care se actualizeaza!
+                var existingResult = _results.FirstOrDefault(r => r.Id == entity.Id);
+                if (existingResult != null)
+                {
+                    existingResult.UserId = entity.UserId;
+                    existingResult.Date = entity.Date;
+                    existingResult.Score = entity.Score;
+                    existingResult.SessionType = entity.SessionType;
+                    existingResult.State = entity.State;
+                    existingResult.DateSalvate = entity.DateSalvate; // Asta e "cutia" Memento care se actualizeaza!
 
-                SaveData();
+                    SaveData();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Nu s-a putut actualiza rezultatul testului: {ex.Message}");
             }
         }
 
         /// <summary>
         /// Sterge un rezultat de test
         /// </summary>
-        /// <param name="entity"></param>
+        /// <param name="entity">Rezultatul testului care trebuie șters.</param>
         public void Delete(TestResult entity)
         {
-            var existingResult = _results.FirstOrDefault(r => r.Id == entity.Id);
-            if (existingResult != null)
+            try
             {
-                _results.Remove(existingResult);
-                SaveData();
+                var existingResult = _results.FirstOrDefault(r => r.Id == entity.Id);
+                if (existingResult != null)
+                {
+                    _results.Remove(existingResult);
+                    SaveData();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Nu s-a putut șterge rezultatul testului: {ex.Message}");
             }
         }
     }

@@ -13,9 +13,16 @@ using static System.Windows.Forms.DataFormats;
 
 namespace View
 {
+    /// <summary>
+    /// Control de interfață pentru ecranul de înregistrare a unui cont nou.
+    /// </summary>
     public partial class SignUpUserControl : UserControl
     {
         private UserRepository _userRepository;
+
+        /// <summary>
+        /// Inițializează controlul.
+        /// </summary>
         public SignUpUserControl()
         {
             InitializeComponent();
@@ -89,23 +96,16 @@ namespace View
 
         private void linkLabelLogIn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            var mainForm = (MainForm)this.ParentForm;
-            mainForm.SwitchWindow(new LoginUserControl());
+            try
+            {
+                var mainForm = (MainForm)this.ParentForm;
+                mainForm.SwitchWindow(new LoginUserControl());
+            }
+            catch (Exception ex)
+            {
+                WriteError("Eroare la navigare la pagina de logare.");
+            }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SignUpUserControl_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelError_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

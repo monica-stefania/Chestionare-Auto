@@ -76,7 +76,6 @@
             checkBoxAnswer2.TabIndex = 2;
             checkBoxAnswer2.Text = "raspuns_2";
             checkBoxAnswer2.UseVisualStyleBackColor = true;
-            checkBoxAnswer2.CheckedChanged += checkBoxAnswer2_CheckedChanged;
             // 
             // labelQuestion
             // 

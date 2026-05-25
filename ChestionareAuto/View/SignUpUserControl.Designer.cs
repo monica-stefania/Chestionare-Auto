@@ -88,7 +88,6 @@
             label1.Size = new Size(178, 52);
             label1.TabIndex = 4;
             label1.Text = "SIGN UP";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -158,7 +157,6 @@
             labelError.TabIndex = 10;
             labelError.Text = "Error!";
             labelError.TextAlign = ContentAlignment.MiddleCenter;
-            labelError.Click += labelError_Click;
             // 
             // linkLabelLogIn
             // 
@@ -192,7 +190,6 @@
             Controls.Add(textBoxUsername);
             Name = "SignUpUserControl";
             Size = new Size(1000, 600);
-            Load += SignUpUserControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }
