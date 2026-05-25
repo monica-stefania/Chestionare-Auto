@@ -23,9 +23,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Patterns;
 using Entities;
 
-namespace Patterns
+namespace Logic
 {
     /// <summary>
     /// Implementează șablonul de proiectare Singleton pentru gestionarea stării globale a aplicației.

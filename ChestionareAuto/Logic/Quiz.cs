@@ -24,9 +24,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entities;
-using Model;
+using Patterns;
 
-namespace Patterns
+namespace Logic
 {
     /// <summary>
     /// Reprezintă un chestionar activ, gestionând starea curentă a sesiunii.
