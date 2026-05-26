@@ -161,6 +161,8 @@ namespace Logic
             else
                 _strategy = new PracticeStrategy();
         }
+
+        /// Proprietăți pentru a accesa starea curentă a chestionarului.
         public int Score => _score;
         public int Mistakes => _mistakes;
         public int CurrentIndex => _currentIndex;

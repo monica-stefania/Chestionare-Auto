@@ -43,6 +43,10 @@ namespace Repositories
         private readonly string _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "users.json");
         private List<User> _users;
 
+        /// <summary>
+        /// Constructor privat pentru a preveni instanțierea directă a clasei. 
+        /// Încarcă utilizatorii din fișierul JSON la inițializare.
+        /// </summary>
         private UserRepository()
         {
             _users = LoadData();

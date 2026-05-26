@@ -53,6 +53,10 @@ namespace Logic
         /// O valoare diferită de 0 înseamnă că este un test reluat.
         /// </summary>
         public int ActiveResultId { get; set; } = 0;
+
+        /// <summary>
+        /// Connstructor privat pentru a preveni instanțierea directă a clasei.
+        /// </summary>
         private QuizManager()
         {
         }

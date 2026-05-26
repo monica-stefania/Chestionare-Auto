@@ -26,6 +26,11 @@ using System.Threading.Tasks;
 
 namespace Repositories
 {
+    /// <summary>
+    /// Interfața generică pentru repository-urile din aplicație, care definesc operațiile de bază pentru 
+    /// gestionarea datelor entităților precum întrebări, utilizatori și rezultate.
+    /// </summary>
+    /// <typeparam name="T">Tipul entității gestionate de repository.</typeparam>
     public interface IRepository<T>
     {
         List<T> LoadData();

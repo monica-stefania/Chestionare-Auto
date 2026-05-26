@@ -27,6 +27,9 @@ using System.Threading.Tasks;
 
 namespace Patterns
 {
+    /// <summary>
+    /// Interfața pentru clasele ExamenStrategy și PracticeStrategy, care definesc regulile și comportamentul diferitelor tipuri de sesiuni de chestionare.
+    /// </summary>
     public interface IQuizStrategy
     {
         bool ShowImmediateFeedback();

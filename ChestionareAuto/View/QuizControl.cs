@@ -39,6 +39,7 @@ namespace View
         {
             try
             {
+                // Preluăm chestionarul activ din QuizManager
                 _currentQuiz = QuizManager.Instance.ActiveQuiz;
 
                 if (_currentQuiz == null)
@@ -57,6 +58,7 @@ namespace View
                     labelTimeRemained.Visible = false;
                     timerQuiz.Stop();
                 }
+                // Afișăm prima întrebare
                 CurrentQuestion();
             }
             catch (Exception ex)
@@ -73,6 +75,7 @@ namespace View
         {
             try
             {
+                // Preluăm întrebarea curentă din chestionar
                 Question question = _currentQuiz.GetCurrentQuestion();
 
                 if (question != null)
@@ -129,6 +132,7 @@ namespace View
         {
             try
             {
+                // Scădem timpul rămas și actualizăm label-ul corespunzător
                 if (_currentQuiz.TimeRemained.TotalSeconds > 0)
                 {
                     _currentQuiz.TimeRemained = _currentQuiz.TimeRemained.Subtract(TimeSpan.FromSeconds(1));
@@ -207,11 +211,13 @@ namespace View
         {
             try
             {
+                // Preluăm întrebarea curentă și răspunsurile corecte
                 Question currentQuestion = _currentQuiz.GetCurrentQuestion();
                 List<int> correctAnswers = currentQuestion.CorrectOptionsIndex;
 
                 bool showFeedback = _currentQuiz.Strategy.ShowImmediateFeedback();
 
+                // În modul învățare, după prima apăsare a butonului, evaluăm răspunsurile și colorăm opțiunile
                 if (showFeedback && !_isEvaluated)
                 {
                     // în modul învățare, după ce apăsăm pentru prima oară butonul next,
@@ -251,9 +257,9 @@ namespace View
                     return; // A doua apăsare va avansa la întrebarea următoare
                 }
 
+                // În modul examen, evaluăm răspunsurile și avansăm imediat fără a oferi feedback vizual
                 if (!showFeedback)
                 {
-                    //în modul examen nu trebuie arătat răspunsurile corecte/greșite
                     List<int> examAnswers = new List<int>();
                     if (checkBoxAnswer1.Checked) examAnswers.Add(0);
                     if (checkBoxAnswer2.Checked) examAnswers.Add(1);
@@ -301,6 +307,7 @@ namespace View
         {
             try
             {
+                // Dacă testul are limită de timp, oprim timer-ul pentru a preveni scăderea timpului în timpul dialogului
                 if (_currentQuiz.Strategy.HasTimeLimit())
                 {
                     timerQuiz.Stop();
