@@ -56,11 +56,13 @@ namespace View
         {
             try
             {
+                //preiau toate întrebările din repository 
                 var questions = _questionRepository.GetAll();
 
                 dataGridViewQuestions.DataSource = null;
                 dataGridViewQuestions.DataSource = questions;
 
+                // Adaugă coloanele pentru Options și CorrectOptionsIndex dacă nu există deja
                 if (!dataGridViewQuestions.Columns.Contains("Options"))
                 {
                     DataGridViewTextBoxColumn c1 = new DataGridViewTextBoxColumn();
@@ -79,6 +81,7 @@ namespace View
                     dataGridViewQuestions.Columns.Add(c2);
                 }
 
+                // Ascunde coloanele Image și Category pentru o vizualizare mai curată în dashboard
                 if (dataGridViewQuestions.Columns["Image"] != null)
                 {
                     dataGridViewQuestions.Columns["Image"].Visible = false;
@@ -107,6 +110,7 @@ namespace View
                 dataGridViewUsers.DataSource = null;
                 dataGridViewUsers.DataSource = users;
 
+                // Ascunde coloana Password pentru a nu expune parolele în dashboard
                 if (dataGridViewUsers.Columns["Password"] != null)
                     dataGridViewUsers.Columns["Password"].Visible = false;
             }
@@ -254,10 +258,14 @@ namespace View
         {
             try
             {
-                if (e.ColumnIndex < 0 || e.ColumnIndex >= dataGridViewQuestions.Columns.Count) return;
+                // Verificăm dacă indexul coloanei este valid pentru a preveni erorile de indexare
+                if (e.ColumnIndex < 0 || e.ColumnIndex >= dataGridViewQuestions.Columns.Count)
+                    return;
 
+                // Obținem numele proprietății legate de coloana curentă
                 string propertyName = dataGridViewQuestions.Columns[e.ColumnIndex].DataPropertyName;
 
+                // Formatare specială pentru coloana "Options" care conține lista de opțiuni
                 if (propertyName == "Options" && e.Value is List<string> optiuni)
                 {
                     if (optiuni.Count >= 3)
@@ -267,6 +275,7 @@ namespace View
                     }
                 }
 
+                // Formatare specială pentru coloana "CorrectOptionsIndex" care conține indexurile opțiunilor corecte
                 if (propertyName == "CorrectOptionsIndex" && e.Value is List<int> corecte)
                 {
                     List<string> litereCorecte = new List<string>();
@@ -295,6 +304,7 @@ namespace View
             textBoxEditOpt1.Clear();
             textBoxEditOpt2.Clear();
             textBoxEditOpt3.Clear();
+
             checkBoxEditOpt1.Checked = false;
             checkBoxEditOpt2.Checked = false;
             checkBoxEditOpt3.Checked = false;
@@ -311,6 +321,7 @@ namespace View
         {
             try
             {
+                // Verificăm dacă există o întrebare selectată în grid
                 if (dataGridViewQuestions.SelectedRows.Count > 0)
                 {
                     Question selectedQuestion = (Question)dataGridViewQuestions.SelectedRows[0].DataBoundItem;
@@ -318,6 +329,7 @@ namespace View
                     _currentEditingQuestionId = selectedQuestion.Id;
 
                     textBoxEditQuestion.Text = selectedQuestion.Text;
+
                     if (selectedQuestion.Options.Count >= 3)
                     {
                         textBoxEditOpt1.Text = selectedQuestion.Options[0];

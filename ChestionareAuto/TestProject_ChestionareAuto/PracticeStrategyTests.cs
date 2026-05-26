@@ -38,7 +38,6 @@ namespace TestProject_ChestionareAuto
         [TestMethod]
         public void Test_GetTimeLimit()
         {
-            // 30 minute = 1800 secunde
             Assert.AreEqual(0, _strategy.GetTimeLimit());
         }
 

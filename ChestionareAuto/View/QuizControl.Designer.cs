@@ -135,6 +135,7 @@
             // buttonNext
             // 
             buttonNext.Anchor = AnchorStyles.None;
+            buttonNext.Cursor = Cursors.Hand;
             buttonNext.Font = new Font("Segoe UI", 12F);
             buttonNext.Location = new Point(1008, 402);
             buttonNext.Name = "buttonNext";
@@ -147,6 +148,7 @@
             // buttonHelp
             // 
             buttonHelp.Anchor = AnchorStyles.None;
+            buttonHelp.Cursor = Cursors.Hand;
             buttonHelp.Font = new Font("Segoe UI", 12F);
             buttonHelp.Location = new Point(1008, 586);
             buttonHelp.Name = "buttonHelp";
@@ -159,6 +161,7 @@
             // buttonAbort
             // 
             buttonAbort.Anchor = AnchorStyles.None;
+            buttonAbort.Cursor = Cursors.Hand;
             buttonAbort.Font = new Font("Segoe UI", 12F);
             buttonAbort.Location = new Point(1008, 643);
             buttonAbort.Name = "buttonAbort";

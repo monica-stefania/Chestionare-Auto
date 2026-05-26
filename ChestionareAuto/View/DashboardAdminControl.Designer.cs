@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             tabControlAdmin = new TabControl();
             tabPageQuestions = new TabPage();
             panelEditQuestion = new Panel();
@@ -106,6 +106,7 @@
             // 
             // buttonCancelEdit
             // 
+            buttonCancelEdit.Cursor = Cursors.Hand;
             buttonCancelEdit.Location = new Point(365, 433);
             buttonCancelEdit.Name = "buttonCancelEdit";
             buttonCancelEdit.Size = new Size(94, 29);
@@ -116,6 +117,7 @@
             // 
             // buttonSaveQuestion
             // 
+            buttonSaveQuestion.Cursor = Cursors.Hand;
             buttonSaveQuestion.Location = new Point(112, 433);
             buttonSaveQuestion.Name = "buttonSaveQuestion";
             buttonSaveQuestion.Size = new Size(94, 29);
@@ -155,6 +157,7 @@
             // 
             textBoxEditOpt3.Location = new Point(133, 337);
             textBoxEditOpt3.Name = "textBoxEditOpt3";
+            textBoxEditOpt3.PlaceholderText = "Varianta3";
             textBoxEditOpt3.Size = new Size(265, 30);
             textBoxEditOpt3.TabIndex = 3;
             // 
@@ -162,6 +165,7 @@
             // 
             textBoxEditOpt2.Location = new Point(133, 274);
             textBoxEditOpt2.Name = "textBoxEditOpt2";
+            textBoxEditOpt2.PlaceholderText = "Varianta2";
             textBoxEditOpt2.Size = new Size(265, 30);
             textBoxEditOpt2.TabIndex = 2;
             // 
@@ -169,6 +173,7 @@
             // 
             textBoxEditOpt1.Location = new Point(133, 205);
             textBoxEditOpt1.Name = "textBoxEditOpt1";
+            textBoxEditOpt1.PlaceholderText = "Varianta1";
             textBoxEditOpt1.Size = new Size(265, 30);
             textBoxEditOpt1.TabIndex = 1;
             // 
@@ -176,11 +181,13 @@
             // 
             textBoxEditQuestion.Location = new Point(34, 58);
             textBoxEditQuestion.Name = "textBoxEditQuestion";
+            textBoxEditQuestion.PlaceholderText = "Text întrebare aici";
             textBoxEditQuestion.Size = new Size(532, 30);
             textBoxEditQuestion.TabIndex = 0;
             // 
             // buttonUpdateQuestion
             // 
+            buttonUpdateQuestion.Cursor = Cursors.Hand;
             buttonUpdateQuestion.Font = new Font("Segoe UI", 11F);
             buttonUpdateQuestion.Location = new Point(285, 489);
             buttonUpdateQuestion.Name = "buttonUpdateQuestion";
@@ -192,6 +199,7 @@
             // 
             // buttonDeleteQuestion
             // 
+            buttonDeleteQuestion.Cursor = Cursors.Hand;
             buttonDeleteQuestion.Font = new Font("Segoe UI", 11F);
             buttonDeleteQuestion.Location = new Point(158, 489);
             buttonDeleteQuestion.Name = "buttonDeleteQuestion";
@@ -203,6 +211,7 @@
             // 
             // buttonAddQuestion
             // 
+            buttonAddQuestion.Cursor = Cursors.Hand;
             buttonAddQuestion.Font = new Font("Segoe UI", 11F);
             buttonAddQuestion.Location = new Point(29, 489);
             buttonAddQuestion.Name = "buttonAddQuestion";
@@ -217,15 +226,15 @@
             dataGridViewQuestions.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewQuestions.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dataGridViewQuestions.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = SystemColors.Window;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 10F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle1.Padding = new Padding(5);
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dataGridViewQuestions.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = SystemColors.Window;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 10F);
+            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle3.Padding = new Padding(5);
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
+            dataGridViewQuestions.DefaultCellStyle = dataGridViewCellStyle3;
             dataGridViewQuestions.Location = new Point(29, 19);
             dataGridViewQuestions.Name = "dataGridViewQuestions";
             dataGridViewQuestions.RowHeadersWidth = 51;
@@ -248,6 +257,7 @@
             // 
             // buttonChangeRoleUser
             // 
+            buttonChangeRoleUser.Cursor = Cursors.Hand;
             buttonChangeRoleUser.Location = new Point(207, 496);
             buttonChangeRoleUser.Name = "buttonChangeRoleUser";
             buttonChangeRoleUser.Size = new Size(175, 34);
@@ -258,6 +268,7 @@
             // 
             // buttonRemoveUser
             // 
+            buttonRemoveUser.Cursor = Cursors.Hand;
             buttonRemoveUser.Location = new Point(33, 496);
             buttonRemoveUser.Name = "buttonRemoveUser";
             buttonRemoveUser.Size = new Size(138, 34);
@@ -271,15 +282,15 @@
             dataGridViewUsers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewUsers.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dataGridViewUsers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = SystemColors.Window;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle2.Padding = new Padding(5);
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dataGridViewUsers.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = SystemColors.Window;
+            dataGridViewCellStyle4.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle4.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle4.Padding = new Padding(5);
+            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            dataGridViewUsers.DefaultCellStyle = dataGridViewCellStyle4;
             dataGridViewUsers.Location = new Point(33, 31);
             dataGridViewUsers.Name = "dataGridViewUsers";
             dataGridViewUsers.RowHeadersWidth = 51;
@@ -288,6 +299,7 @@
             // 
             // buttonLogOut
             // 
+            buttonLogOut.Cursor = Cursors.Hand;
             buttonLogOut.Font = new Font("Segoe UI", 11F);
             buttonLogOut.Location = new Point(1081, 646);
             buttonLogOut.Name = "buttonLogOut";

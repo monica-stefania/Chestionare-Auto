@@ -45,6 +45,7 @@
             // buttonStartExamen
             // 
             buttonStartExamen.Anchor = AnchorStyles.None;
+            buttonStartExamen.Cursor = Cursors.Hand;
             buttonStartExamen.Font = new Font("Segoe UI", 13F);
             buttonStartExamen.Location = new Point(994, 79);
             buttonStartExamen.Margin = new Padding(4);
@@ -58,6 +59,7 @@
             // buttonHelp
             // 
             buttonHelp.Anchor = AnchorStyles.None;
+            buttonHelp.Cursor = Cursors.Hand;
             buttonHelp.Font = new Font("Segoe UI", 12F);
             buttonHelp.Location = new Point(1029, 560);
             buttonHelp.Margin = new Padding(4);
@@ -71,6 +73,7 @@
             // buttonLogOut
             // 
             buttonLogOut.Anchor = AnchorStyles.None;
+            buttonLogOut.Cursor = Cursors.Hand;
             buttonLogOut.Font = new Font("Segoe UI", 12F);
             buttonLogOut.Location = new Point(1029, 628);
             buttonLogOut.Margin = new Padding(4);
@@ -149,6 +152,7 @@
             // buttonStartInvatare
             // 
             buttonStartInvatare.Anchor = AnchorStyles.None;
+            buttonStartInvatare.Cursor = Cursors.Hand;
             buttonStartInvatare.Font = new Font("Segoe UI", 13F);
             buttonStartInvatare.Location = new Point(994, 167);
             buttonStartInvatare.Margin = new Padding(4);

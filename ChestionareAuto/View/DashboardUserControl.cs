@@ -49,6 +49,7 @@ namespace View
             {
                 dataGridViewHistory.Rows.Clear();
 
+                //preiau toate rezultatele și le filtrez pentru utilizatorul curent, apoi le ordonez descrescător după dată
                 var allResults = _resultRepository.GetAll();
                 var userResults = allResults.Where(r => r.UserId == QuizManager.Instance.CurrentUser.Id).OrderByDescending(r => r.Date).ToList();
 
@@ -127,6 +128,7 @@ namespace View
         {
             try
             {
+                // Resetăm ActiveResultId pentru a nu încărca un test anterior în cazul în care utilizatorul a apăsat "Reluare"
                 QuizManager.Instance.ActiveResultId = 0;
 
                 var questionRepository = QuestionRepository.Instance();
@@ -138,6 +140,7 @@ namespace View
                     return;
                 }
 
+                // Creez un quiz nou cu strategia de Examen și tipul de sesiune Examen
                 Quiz newQuiz = new Quiz(new ExamenStrategy(), questionList, TipSesiune.Examen);
                 QuizManager.Instance.ActiveQuiz = newQuiz;
 
@@ -159,6 +162,8 @@ namespace View
         private void buttonStartInvatare_Click(object sender, EventArgs e)
         {
             try
+            // Resetăm ActiveResultId pentru a nu încărca un test anterior în cazul în care utilizatorul a apăsat "Reluare"
+            // înainte de a începe o sesiune nouă
             {
                 QuizManager.Instance.ActiveResultId = 0;
 
@@ -171,6 +176,7 @@ namespace View
                     return;
                 }
 
+                // Creez un quiz nou cu strategia de Practice și tipul de sesiune Invatare
                 Quiz newQuiz = new Quiz(new PracticeStrategy(), questionList, TipSesiune.Invatare);
                 QuizManager.Instance.ActiveQuiz = newQuiz;
 
@@ -194,13 +200,17 @@ namespace View
         {
             try
             {
+                // Verificăm dacă s-a dat click pe butonul de "Reluare" din coloana corespunzătoare
                 if (e.RowIndex >= 0 && dataGridViewHistory.Columns[e.ColumnIndex].Name == "colReluare")
                 {
-                    if (dataGridViewHistory.Rows[e.RowIndex].IsNewRow) return;
+                    // Verificăm dacă rândul nu este unul nou (pentru a evita erorile)
+                    if (dataGridViewHistory.Rows[e.RowIndex].IsNewRow) 
+                        return;
 
+                    // Preluăm rezultatul asociat rândului
                     TestResult result = (TestResult)dataGridViewHistory.Rows[e.RowIndex].Tag;
 
-                    // dacă se apasă pe butonul de "Reluare"
+                    // Verificăm dacă rezultatul este nefinalizat și are o stare salvată
                     if (result != null && result.State == StareTest.Nefinalizat && result.DateSalvate != null)
                     {
                         // Restaurăm starea salvată prin Memento

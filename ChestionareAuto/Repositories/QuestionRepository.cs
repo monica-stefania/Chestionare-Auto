@@ -213,7 +213,7 @@ namespace Repositories
         {
             var intrebariExamen = new List<Question>();
 
-            // preluăm întrebări din fiecare 
+            // preluăm întrebări din fiecare categorie
             var legislatie = _questions.Where(q => q.Category == "legislatie").OrderBy(x => Guid.NewGuid()).Take(14).ToList();
             var indicatoare = _questions.Where(q => q.Category == "indicatoare").OrderBy(x => Guid.NewGuid()).Take(6).ToList();
             var conduita = _questions.Where(q => q.Category == "conduita_preventiva").OrderBy(x => Guid.NewGuid()).Take(3).ToList();
@@ -240,7 +240,7 @@ namespace Repositories
                 intrebariExamen.AddRange(completare);
             }
 
-            // Amestecăm ordinea finală 
+            // Amestecăm ordinea finală pentru a nu avea întrebările grupate pe categorii
             return intrebariExamen.OrderBy(x => Guid.NewGuid()).ToList();
         }
     }
