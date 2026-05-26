@@ -153,7 +153,7 @@
             labelError.ForeColor = Color.Red;
             labelError.Location = new Point(301, 459);
             labelError.Name = "labelError";
-            labelError.Size = new Size(400, 20);
+            labelError.Size = new Size(400, 34);
             labelError.TabIndex = 10;
             labelError.Text = "Error!";
             labelError.TextAlign = ContentAlignment.MiddleCenter;

@@ -49,6 +49,14 @@ namespace View
         {
             labelError.Visible = false;
 
+            // Validare nume: doar litere, spații și cratime
+            string namePattern = @"^[a-zA-ZăâîșțĂÂÎȘȚ\s\-]+$";
+            if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxName.Text, namePattern))
+            {
+                WriteError("Numele poate conține doar litere, spații și cratime!");
+                return;
+            }
+
             // Validare câmpuri goale
             if (string.IsNullOrWhiteSpace(textBoxName.Text) ||
                string.IsNullOrWhiteSpace(textBoxUsername.Text) ||
